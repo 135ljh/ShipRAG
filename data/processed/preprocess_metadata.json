@@ -1,0 +1,22 @@
+{
+  "source_pdf": "中级船体装配工工艺学_11934890.pdf",
+  "page_count": 192,
+  "processed_at": "2026-05-17T13:35:14",
+  "toolchain": {
+    "pdf": "PyMuPDF",
+    "ocr": "rapidocr_onnxruntime",
+    "render_zoom": 1.2
+  },
+  "outputs": {
+    "pages_jsonl": "ship_textbook_pages.cleaned.jsonl",
+    "chunks_jsonl": "ship_textbook_chunks.jsonl",
+    "markdown": "ship_textbook.cleaned.md"
+  },
+  "statistics": {
+    "pages_with_text": 192,
+    "total_clean_chars": 122270,
+    "chunks": 230,
+    "avg_page_confidence": 0.808,
+    "elapsed_seconds": 94.74
+  }
+}

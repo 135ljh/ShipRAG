@@ -1,0 +1,20 @@
+name: shiprag-pangu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - pytorch-cuda=12.1
+  - pip:
+      - transformers>=4.53.2
+      - accelerate
+      - sentencepiece
+      - safetensors
+      - huggingface_hub[hf_xet]
+      - jsonschema
+      - tqdm
+      - requests
+

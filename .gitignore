@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+logs/
+models/
+
+.env
+pangu/.env
+
+*.tmp
+*.bak
+~$*.docx
+
