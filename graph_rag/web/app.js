@@ -52,7 +52,7 @@ $("askBtn").addEventListener("click", async () => {
     $("answerBox").textContent = data.answer;
     $("entitiesBox").innerHTML = data.linked_entities.map((e) => item(e.name, e.type, e.definition)).join("");
     $("graphBox").innerHTML = data.evidence.graph.map((g) => item(`${g.head} --${g.relation_zh || g.relation_type}--> ${g.tail}`, g.path, g.evidence)).join("");
-    $("docsBox").innerHTML = data.evidence.documents.map((d) => item(d.chunk_id, `page ${d.page_start} · score ${Number(d.score).toFixed(4)}`, d.text)).join("");
+    $("docsBox").innerHTML = data.evidence.documents.map((d) => item(d.chunk_id, `page ${d.page_start} | score ${Number(d.score).toFixed(4)}`, d.text)).join("");
   } catch (err) {
     $("answerStatus").textContent = "失败";
     $("answerBox").textContent = String(err);
@@ -69,6 +69,5 @@ $("graphBtn").addEventListener("click", async () => {
 
 $("vectorBtn").addEventListener("click", async () => {
   const data = await postJson("/vector/search", { query: $("vectorQueryInput").value, top_k: 8 });
-  $("vectorSearchBox").innerHTML = data.documents.map((d) => item(d.chunk_id, `page ${d.page_start} · score ${Number(d.score).toFixed(4)}`, d.text)).join("");
+  $("vectorSearchBox").innerHTML = data.documents.map((d) => item(d.chunk_id, `page ${d.page_start} | score ${Number(d.score).toFixed(4)}`, d.text)).join("");
 });
-

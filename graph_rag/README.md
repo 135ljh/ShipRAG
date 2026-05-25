@@ -14,12 +14,14 @@ Copy-Item graph_rag\.env.example .env
 
 ```env
 NEO4J_PASSWORD=你的 Neo4j 密码
-OPENAI_API_KEY=你的 OpenAI API Key
+OPENAI_API_KEY=你的云雾 API Key
+OPENAI_BASE_URL=https://yunwu.ai/v1
+OPENAI_CHAT_MODEL=gpt-5.4-mini
 ```
 
 真实 `.env` 已在 `.gitignore` 中排除，不会提交到远程仓库。
 
-如果暂时没有可用 OpenAI Embedding，可先用本地哈希向量跑通流程：
+当前默认使用本地哈希向量跑通 Qdrant 检索，问答生成走云雾 OpenAI 兼容接口：
 
 ```env
 EMBEDDING_PROVIDER=hash
@@ -69,7 +71,7 @@ http://127.0.0.1:8090/
 ```powershell
 curl -X POST http://127.0.0.1:8090/ask `
   -H "Content-Type: application/json" `
-  -d "{\"question\":\"激光经纬仪在船体装配中有什么用途？\",\"top_k\":8,\"graph_hops\":2}"
+  -d "{\"question\":\"激光经纬仪在船体装配中有什么用途？\",\"top_k\":6,\"graph_hops\":1}"
 ```
 
 ## 5. 图谱检索
