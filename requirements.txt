@@ -35,6 +35,7 @@ neo4j==6.2.0
 networkx==3.4.2
 numpy==2.2.6
 openpyxl==3.1.5
+openai==2.38.0
 packaging==26.0
 pandas==2.3.3
 pansi==2024.11.0
@@ -50,6 +51,7 @@ python-docx==1.2.0
 python-dotenv==1.2.2
 pytz==2026.2
 PyYAML==6.0.3
+qdrant-client==1.18.0
 regex==2026.5.9
 requests==2.34.2
 rich==15.0.0
