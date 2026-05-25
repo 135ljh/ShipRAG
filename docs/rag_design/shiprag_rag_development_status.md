@@ -27,6 +27,7 @@ graph_rag/
 | 上下文构建 | `graph_rag/rag/context_builder.py` | 已完成 |
 | 答案生成 | `graph_rag/rag/answer_generator.py` | 已完成，等待 API Key |
 | FastAPI API | `graph_rag/main.py` | 已完成 |
+| 前端问答工作台 | `graph_rag/web/` | 已完成 |
 
 ## 已测试
 
@@ -50,15 +51,47 @@ POST /graph/search
 
 已能根据“激光经纬仪”检索到 Neo4j 中的实体和邻域关系。
 
+Qdrant 向量库：
+
+```text
+collection: shiprag_chunks
+chunk 数：230
+```
+
+当前已使用本地哈希 embedding 将 `ship_textbook_chunks.jsonl` 写入 Qdrant，便于在 OpenAI Key 不可用时先跑通检索闭环。
+
+混合问答：
+
+```text
+POST /ask
+```
+
+已能完成：
+
+1. 实体链接。
+2. Neo4j 图谱检索。
+3. Qdrant 文档检索。
+4. 图谱事实和文档证据融合。
+5. 答案生成 fallback。
+
+前端页面：
+
+```text
+GET /
+```
+
+已实现管理后台风格的问答工作台，包含问答、图谱检索、向量检索三个视图。
+
 ## 待用户提供
 
-完整 RAG 问答还需要：
+完整 LLM 生成还需要可用的 OpenAI 兼容接口：
 
 ```text
 OPENAI_API_KEY
+OPENAI_BASE_URL
 ```
 
-填入项目根目录 `.env` 后即可继续执行 Qdrant 入库和 `/ask` 问答测试。
+当前提供的 key 在官方 `https://api.openai.com/v1` 上返回 `invalid_api_key`。如果该 key 来自中转服务，需要同时提供对应的 `OPENAI_BASE_URL`。在此之前，系统使用本地哈希 embedding 和答案 fallback 保持链路可运行。
 
 ## 下一步运行顺序
 
@@ -97,11 +130,8 @@ curl -X POST http://localhost:8080/ask `
 
 ## 当前限制
 
-由于 OpenAI API Key 尚未提供，以下功能代码已实现但还未做端到端实测：
+由于当前 OpenAI Key 无法通过官方接口认证，以下能力处于 fallback 或待切换状态：
 
-1. OpenAI Embedding 生成。
-2. Qdrant 全量 chunk 入库。
-3. Qdrant 向量检索。
-4. Graph + Vector 混合问答。
-5. LLM 答案生成。
-
+1. OpenAI Embedding 生成暂未启用，当前使用本地哈希 embedding。
+2. LLM 答案生成暂未启用，当前返回基于证据的 fallback 摘要。
+3. 若提供可用的 `OPENAI_BASE_URL` 和 key，可直接切换回 OpenAI embedding 和 chat。

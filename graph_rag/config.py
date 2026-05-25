@@ -26,10 +26,10 @@ class Settings:
     openai_base_url: str = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
     openai_chat_model: str = os.getenv("OPENAI_CHAT_MODEL", "gpt-4.1-mini")
     openai_embedding_model: str = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
+    embedding_provider: str = os.getenv("EMBEDDING_PROVIDER", "openai")
     embedding_dim: int = int(os.getenv("OPENAI_EMBEDDING_DIM", "1536"))
 
     chunks_path: Path = ROOT / os.getenv("SHIPRAG_CHUNKS_PATH", "data/processed/ship_textbook_chunks.jsonl")
 
 
 settings = Settings()
-

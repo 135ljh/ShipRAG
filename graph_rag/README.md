@@ -19,6 +19,13 @@ OPENAI_API_KEY=你的 OpenAI API Key
 
 真实 `.env` 已在 `.gitignore` 中排除，不会提交到远程仓库。
 
+如果暂时没有可用 OpenAI Embedding，可先用本地哈希向量跑通流程：
+
+```env
+EMBEDDING_PROVIDER=hash
+OPENAI_EMBEDDING_DIM=384
+```
+
 ## 2. 写入 Qdrant
 
 确保 Qdrant 已启动：
@@ -42,19 +49,25 @@ python -m graph_rag.ingest.qdrant_ingest --limit 5
 ## 3. 启动 API
 
 ```powershell
-uvicorn graph_rag.main:app --host 0.0.0.0 --port 8080
+uvicorn graph_rag.main:app --host 127.0.0.1 --port 8090
 ```
 
 健康检查：
 
 ```powershell
-curl http://localhost:8080/health
+curl http://127.0.0.1:8090/health
+```
+
+前端工作台：
+
+```text
+http://127.0.0.1:8090/
 ```
 
 ## 4. 问答
 
 ```powershell
-curl -X POST http://localhost:8080/ask `
+curl -X POST http://127.0.0.1:8090/ask `
   -H "Content-Type: application/json" `
   -d "{\"question\":\"激光经纬仪在船体装配中有什么用途？\",\"top_k\":8,\"graph_hops\":2}"
 ```
@@ -62,7 +75,7 @@ curl -X POST http://localhost:8080/ask `
 ## 5. 图谱检索
 
 ```powershell
-curl -X POST http://localhost:8080/graph/search `
+curl -X POST http://127.0.0.1:8090/graph/search `
   -H "Content-Type: application/json" `
   -d "{\"entity\":\"激光经纬仪\",\"hops\":2,\"limit\":50}"
 ```
@@ -70,8 +83,7 @@ curl -X POST http://localhost:8080/graph/search `
 ## 6. 向量检索
 
 ```powershell
-curl -X POST http://localhost:8080/vector/search `
+curl -X POST http://127.0.0.1:8090/vector/search `
   -H "Content-Type: application/json" `
   -d "{\"query\":\"船体装配中激光经纬仪如何测量垂直度？\",\"top_k\":8}"
 ```
-

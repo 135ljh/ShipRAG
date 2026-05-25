@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 from fastapi import FastAPI
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
 from graph_rag.db.neo4j_client import Neo4jClient
 from graph_rag.db.qdrant_client import ShipQdrantClient
@@ -16,11 +18,17 @@ from graph_rag.schemas.response import AskResponse
 
 
 app = FastAPI(title="ShipRAG Graph RAG API")
+app.mount("/static", StaticFiles(directory="graph_rag/web"), name="static")
 
 
 @app.get("/health")
 def health() -> dict:
     return {"status": "ok"}
+
+
+@app.get("/")
+def index() -> FileResponse:
+    return FileResponse("graph_rag/web/index.html")
 
 
 def build_services():

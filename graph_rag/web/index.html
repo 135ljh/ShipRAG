@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShipRAG 问答工作台</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">SR</div>
+        <div>
+          <div class="brand-title">ShipRAG</div>
+          <div class="brand-subtitle">Graph RAG Console</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <button class="nav-item active" data-panel="ask">问答</button>
+        <button class="nav-item" data-panel="graph">图谱检索</button>
+        <button class="nav-item" data-panel="vector">向量检索</button>
+      </nav>
+      <div class="sidebar-foot">
+        <div class="section-label">STATUS</div>
+        <div class="status-line"><span class="status-dot"></span> Neo4j 已连接</div>
+        <div class="status-line"><span class="status-dot"></span> Qdrant 已启动</div>
+      </div>
+    </aside>
+
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <h1>船体装配知识问答</h1>
+          <p>融合 Neo4j 图谱事实与 Qdrant 教材证据，生成可追溯答案。</p>
+        </div>
+        <button id="healthBtn" class="secondary-btn">检查服务</button>
+      </header>
+
+      <section id="panel-ask" class="panel active-panel">
+        <div class="workspace">
+          <section class="query-area">
+            <div class="section-label">QUESTION</div>
+            <textarea id="questionInput" rows="5">激光经纬仪在船体装配中有什么用途？</textarea>
+            <div class="controls">
+              <label>Top K <input id="topKInput" type="number" min="1" max="20" value="6" /></label>
+              <label>Graph Hops <input id="hopsInput" type="number" min="1" max="2" value="1" /></label>
+              <button id="askBtn" class="primary-btn">生成答案</button>
+            </div>
+          </section>
+
+          <section class="answer-area">
+            <div class="section-header">
+              <div>
+                <div class="section-label">ANSWER</div>
+                <h2>回答</h2>
+              </div>
+              <span id="answerStatus" class="badge info">等待提问</span>
+            </div>
+            <pre id="answerBox" class="answer-box">提交问题后，系统会返回结论、依据和引用。</pre>
+          </section>
+        </div>
+
+        <div class="evidence-grid">
+          <section class="evidence-panel">
+            <div class="section-label">LINKED ENTITIES</div>
+            <div id="entitiesBox" class="list-box"></div>
+          </section>
+          <section class="evidence-panel">
+            <div class="section-label">GRAPH EVIDENCE</div>
+            <div id="graphBox" class="list-box"></div>
+          </section>
+          <section class="evidence-panel">
+            <div class="section-label">DOCUMENT EVIDENCE</div>
+            <div id="docsBox" class="list-box"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="panel-graph" class="panel">
+        <section class="query-area compact">
+          <div class="section-label">GRAPH SEARCH</div>
+          <input id="graphEntityInput" value="激光经纬仪" />
+          <button id="graphBtn" class="primary-btn">检索图谱</button>
+        </section>
+        <div id="graphSearchBox" class="result-table"></div>
+      </section>
+
+      <section id="panel-vector" class="panel">
+        <section class="query-area compact">
+          <div class="section-label">VECTOR SEARCH</div>
+          <input id="vectorQueryInput" value="船体装配中激光经纬仪如何测量垂直度？" />
+          <button id="vectorBtn" class="primary-btn">检索文档</button>
+        </section>
+        <div id="vectorSearchBox" class="result-table"></div>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
+
