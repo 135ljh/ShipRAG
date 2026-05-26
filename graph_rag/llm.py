@@ -28,7 +28,7 @@ class OpenAIService:
 请只基于给定的知识图谱事实和教材原文证据回答用户问题。
 不要使用外部知识。
 如果证据不足，请回答“根据当前知识库无法确定”。
-回答必须包含“结论”“依据”“引用”。
+回答必须包含“结论”“依据”“引用”，总字数尽量控制在 300 字以内。
 
 用户问题：
 {question}
@@ -46,6 +46,7 @@ class OpenAIService:
                 {"role": "user", "content": prompt},
             ],
             temperature=0.1,
+            max_tokens=650,
         )
         return response.choices[0].message.content or ""
 

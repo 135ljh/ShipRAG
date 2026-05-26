@@ -47,7 +47,9 @@ $("askBtn").addEventListener("click", async () => {
       top_k: Number($("topKInput").value),
       graph_hops: Number($("hopsInput").value)
     });
-    $("answerStatus").textContent = "已生成";
+    const elapsed = data.metadata?.elapsed_ms ? `${Math.round(data.metadata.elapsed_ms)}ms` : "";
+    const cache = data.metadata?.cache_hit ? "缓存" : "";
+    $("answerStatus").textContent = ["已生成", cache, elapsed].filter(Boolean).join(" · ");
     $("answerStatus").className = "badge success";
     $("answerBox").textContent = data.answer;
     $("entitiesBox").innerHTML = data.linked_entities.map((e) => item(e.name, e.type, e.definition)).join("");

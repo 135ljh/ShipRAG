@@ -25,7 +25,6 @@ class HybridRetriever:
         documents = self.vector_retriever.retrieve(vector_query or question, top_k=top_k)
         return {
             "linked_entities": entities,
-            "graph": graph_facts[:80],
+            "graph": graph_facts[:40],
             "documents": documents,
         }
-
