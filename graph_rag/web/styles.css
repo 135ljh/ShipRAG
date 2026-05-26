@@ -146,11 +146,17 @@ textarea:focus, input:focus { outline: 2px solid var(--primary); outline-offset:
   padding: 18px 20px;
   margin-top: 24px;
 }
-.trace-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+.trace-list { margin-top: 12px; }
+.trace-summary {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.trace-flow {
+  display: flex;
   gap: 10px;
-  margin-top: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
 }
 .trace-item {
   display: grid;
@@ -161,6 +167,17 @@ textarea:focus, input:focus { outline: 2px solid var(--primary); outline-offset:
   border-radius: 8px;
   padding: 10px;
   background: #fff;
+  min-width: 230px;
+  position: relative;
+}
+.trace-item:not(:last-child)::after {
+  content: ">";
+  position: absolute;
+  right: -9px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--primary);
+  font-weight: 700;
 }
 .trace-index {
   width: 26px;
@@ -176,6 +193,14 @@ textarea:focus, input:focus { outline: 2px solid var(--primary); outline-offset:
 .trace-title { font-size: 13px; font-weight: 700; color: var(--text); }
 .trace-title span { margin-left: 6px; color: var(--success); font-size: 11px; font-weight: 600; }
 .trace-meta { margin-top: 4px; color: var(--text-muted); font-size: 12px; line-height: 1.45; }
+.trace-empty {
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  color: var(--text-muted);
+  background: #fff;
+  font-size: 13px;
+}
 
 .evidence-grid { display: grid; grid-template-columns: 1fr 1.3fr 1.3fr; gap: 24px; margin-top: 24px; }
 .list-box { display: grid; gap: 10px; margin-top: 12px; max-height: 420px; overflow: auto; }

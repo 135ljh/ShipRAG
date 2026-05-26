@@ -45,6 +45,7 @@ class MultiAgentOrchestrator:
         cached = self.cache.get(cache_key)
         if cached:
             payload = deepcopy(cached)
+            original_trace = payload["metadata"].get("agent_trace", [])
             payload["metadata"]["cache_hit"] = True
             payload["metadata"]["elapsed_ms"] = self._elapsed(start)
             payload["metadata"]["agent_trace"] = [
@@ -55,7 +56,7 @@ class MultiAgentOrchestrator:
                     "detail": "return cached answer",
                     "elapsed_ms": payload["metadata"]["elapsed_ms"],
                 }
-            ]
+            ] + original_trace
             return payload
 
         route = trace.run("RouterAgent", "问题路由", "判断问题类型", lambda: self.router.route(question))

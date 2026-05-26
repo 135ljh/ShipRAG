@@ -26,6 +26,16 @@ function traceItem(step, index) {
   </div>`;
 }
 
+function renderTrace(metadata) {
+  const trace = metadata?.agent_trace || [];
+  if (!trace.length) {
+    $("agentTraceBox").innerHTML = `<div class="trace-empty">本次响应没有返回智能体轨迹，请刷新页面后重试。</div>`;
+    return;
+  }
+  const route = metadata?.retrieval_mode ? `<div class="trace-summary">处理模式：${escapeHtml(metadata.retrieval_mode)}</div>` : "";
+  $("agentTraceBox").innerHTML = route + `<div class="trace-flow">${trace.map(traceItem).join("")}</div>`;
+}
+
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -63,10 +73,10 @@ $("askBtn").addEventListener("click", async () => {
     $("answerStatus").textContent = ["已生成", cache, elapsed].filter(Boolean).join(" | ");
     $("answerStatus").className = "badge success";
     $("answerBox").textContent = data.answer;
+    renderTrace(data.metadata);
     $("entitiesBox").innerHTML = data.linked_entities.map((e) => item(e.name, e.type, e.definition)).join("");
     $("graphBox").innerHTML = data.evidence.graph.map((g) => item(`${g.head} --${g.relation_zh || g.relation_type}--> ${g.tail}`, g.path, g.evidence)).join("");
     $("docsBox").innerHTML = data.evidence.documents.map((d) => item(d.chunk_id, `page ${d.page_start} | score ${Number(d.score).toFixed(4)}`, d.text)).join("");
-    $("agentTraceBox").innerHTML = (data.metadata?.agent_trace || []).map(traceItem).join("");
   } catch (err) {
     $("answerStatus").textContent = "失败";
     $("answerStatus").className = "badge info";

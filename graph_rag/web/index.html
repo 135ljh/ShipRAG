@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShipRAG 多智能体问答工作台</title>
-    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="stylesheet" href="/static/styles.css?v=multi-agent-trace-2" />
   </head>
   <body>
     <aside class="sidebar">
@@ -63,7 +63,9 @@
 
         <div class="trace-panel">
           <div class="section-label">AGENT TRACE</div>
-          <div id="agentTraceBox" class="trace-list"></div>
+          <div id="agentTraceBox" class="trace-list">
+            <div class="trace-empty">生成答案后，这里会显示 RouterAgent、EntityAgent、GraphAgent 等智能体执行链路。</div>
+          </div>
         </div>
 
         <div class="evidence-grid">
@@ -101,6 +103,6 @@
       </section>
     </main>
 
-    <script src="/static/app.js"></script>
+    <script src="/static/app.js?v=multi-agent-trace-2"></script>
   </body>
 </html>
