@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import math
+import re
 
 from openai import OpenAI
 
@@ -29,6 +30,7 @@ class OpenAIService:
 不要使用外部知识。
 如果证据不足，请回答“根据当前知识库无法确定”。
 回答必须包含“结论”“依据”“引用”，总字数尽量控制在 300 字以内。
+不要使用 Markdown 粗体、标题符号或星号标记。
 
 用户问题：
 {question}
@@ -48,7 +50,14 @@ class OpenAIService:
             temperature=0.1,
             max_tokens=650,
         )
-        return response.choices[0].message.content or ""
+        return clean_answer(response.choices[0].message.content or "")
+
+
+def clean_answer(text: str) -> str:
+    text = text.replace("**", "")
+    text = re.sub(r"^\s*#+\s*", "", text, flags=re.MULTILINE)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
 
 
 def hash_embed(text: str, dim: int = 384) -> list[float]:

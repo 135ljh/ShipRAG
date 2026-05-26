@@ -14,6 +14,7 @@ from graph_rag.llm import OpenAIService
 from graph_rag.rag.answer_generator import AnswerGenerator
 from graph_rag.rag.book_profile import BookProfileQA
 from graph_rag.rag.context_builder import ContextBuilder
+from graph_rag.rag.domain_qa import DomainQA
 from graph_rag.rag.entity_linker import EntityLinker
 from graph_rag.retrievers.graph_retriever import GraphRetriever
 from graph_rag.retrievers.hybrid_retriever import HybridRetriever
@@ -37,6 +38,7 @@ def build_services() -> dict:
         "generator": generator,
         "vector": vector,
         "book_profile": BookProfileQA(),
+        "domain_qa": DomainQA(),
         "answer_cache": {},
     }
 
@@ -81,6 +83,12 @@ def ask(request: AskRequest) -> AskResponse:
         profile_answer["metadata"]["elapsed_ms"] = round((perf_counter() - start) * 1000, 2)
         services["answer_cache"][cache_key] = deepcopy(profile_answer)
         return AskResponse(**profile_answer)
+
+    domain_answer = services["domain_qa"].answer(request.question)
+    if domain_answer:
+        domain_answer["metadata"]["elapsed_ms"] = round((perf_counter() - start) * 1000, 2)
+        services["answer_cache"][cache_key] = deepcopy(domain_answer)
+        return AskResponse(**domain_answer)
 
     evidence = services["hybrid"].retrieve(request.question, top_k=request.top_k, graph_hops=request.graph_hops)
     answer = services["generator"].generate(request.question, evidence)
