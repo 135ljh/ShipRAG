@@ -16,6 +16,16 @@ function item(title, meta = "", body = "") {
   </div>`;
 }
 
+function traceItem(step, index) {
+  return `<div class="trace-item">
+    <div class="trace-index">${index + 1}</div>
+    <div>
+      <div class="trace-title">${escapeHtml(step.agent)} <span>${escapeHtml(step.status)}</span></div>
+      <div class="trace-meta">${escapeHtml(step.role)} | ${escapeHtml(step.detail)} | ${Number(step.elapsed_ms || 0).toFixed(2)}ms</div>
+    </div>
+  </div>`;
+}
+
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -40,7 +50,8 @@ $("healthBtn").addEventListener("click", async () => {
 $("askBtn").addEventListener("click", async () => {
   $("answerStatus").textContent = "检索中";
   $("answerStatus").className = "badge info";
-  $("answerBox").textContent = "正在检索 Neo4j 和 Qdrant...";
+  $("answerBox").textContent = "正在调度多智能体，检索 Neo4j 与 Qdrant...";
+  $("agentTraceBox").innerHTML = "";
   try {
     const data = await postJson("/ask", {
       question: $("questionInput").value,
@@ -49,14 +60,16 @@ $("askBtn").addEventListener("click", async () => {
     });
     const elapsed = data.metadata?.elapsed_ms ? `${Math.round(data.metadata.elapsed_ms)}ms` : "";
     const cache = data.metadata?.cache_hit ? "缓存" : "";
-    $("answerStatus").textContent = ["已生成", cache, elapsed].filter(Boolean).join(" · ");
+    $("answerStatus").textContent = ["已生成", cache, elapsed].filter(Boolean).join(" | ");
     $("answerStatus").className = "badge success";
     $("answerBox").textContent = data.answer;
     $("entitiesBox").innerHTML = data.linked_entities.map((e) => item(e.name, e.type, e.definition)).join("");
     $("graphBox").innerHTML = data.evidence.graph.map((g) => item(`${g.head} --${g.relation_zh || g.relation_type}--> ${g.tail}`, g.path, g.evidence)).join("");
     $("docsBox").innerHTML = data.evidence.documents.map((d) => item(d.chunk_id, `page ${d.page_start} | score ${Number(d.score).toFixed(4)}`, d.text)).join("");
+    $("agentTraceBox").innerHTML = (data.metadata?.agent_trace || []).map(traceItem).join("");
   } catch (err) {
     $("answerStatus").textContent = "失败";
+    $("answerStatus").className = "badge info";
     $("answerBox").textContent = String(err);
   }
 });

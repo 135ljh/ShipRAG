@@ -1,6 +1,8 @@
 # ShipRAG Graph RAG API
 
-本目录实现基于 Neo4j 知识图谱和 Qdrant 向量库的混合 RAG 问答系统。
+本目录实现基于 Neo4j 知识图谱和 Qdrant 向量库的多智能体混合 RAG 问答系统。
+
+问答链路由多个智能体协作完成，包括 RouterAgent、EntityAgent、GraphAgent、DocumentAgent、SynthesisAgent、AnswerAgent 和 VerifierAgent。`/ask` 接口会返回 `metadata.agent_trace`，用于展示每个智能体的执行过程。
 
 ## 1. 配置
 

@@ -1,13 +1,17 @@
 from __future__ import annotations
 
 from contextlib import asynccontextmanager
-from copy import deepcopy
-from time import perf_counter
-
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
+from graph_rag.agents.answer_agent import AnswerAgent
+from graph_rag.agents.document_agent import DocumentAgent
+from graph_rag.agents.entity_agent import EntityAgent
+from graph_rag.agents.graph_agent import GraphAgent
+from graph_rag.agents.orchestrator import MultiAgentOrchestrator
+from graph_rag.agents.synthesis_agent import SynthesisAgent
+from graph_rag.agents.verifier_agent import VerifierAgent
 from graph_rag.db.neo4j_client import Neo4jClient
 from graph_rag.db.qdrant_client import ShipQdrantClient
 from graph_rag.llm import OpenAIService
@@ -17,7 +21,6 @@ from graph_rag.rag.context_builder import ContextBuilder
 from graph_rag.rag.domain_qa import DomainQA
 from graph_rag.rag.entity_linker import EntityLinker
 from graph_rag.retrievers.graph_retriever import GraphRetriever
-from graph_rag.retrievers.hybrid_retriever import HybridRetriever
 from graph_rag.retrievers.vector_retriever import VectorRetriever
 from graph_rag.schemas.request import AskRequest, GraphSearchRequest, VectorSearchRequest
 from graph_rag.schemas.response import AskResponse
@@ -30,16 +33,23 @@ def build_services() -> dict:
     linker = EntityLinker(neo4j)
     graph = GraphRetriever(neo4j)
     vector = VectorRetriever(qdrant, llm)
-    hybrid = HybridRetriever(linker, graph, vector)
     generator = AnswerGenerator(llm, ContextBuilder())
+    book_profile = BookProfileQA()
+    domain_qa = DomainQA()
+    orchestrator = MultiAgentOrchestrator(
+        book_profile=book_profile,
+        domain_qa=domain_qa,
+        entity_agent=EntityAgent(linker),
+        graph_agent=GraphAgent(graph),
+        document_agent=DocumentAgent(vector),
+        synthesis_agent=SynthesisAgent(),
+        answer_agent=AnswerAgent(generator),
+        verifier_agent=VerifierAgent(),
+    )
     return {
         "neo4j": neo4j,
-        "hybrid": hybrid,
-        "generator": generator,
         "vector": vector,
-        "book_profile": BookProfileQA(),
-        "domain_qa": DomainQA(),
-        "answer_cache": {},
+        "orchestrator": orchestrator,
     }
 
 
@@ -68,44 +78,7 @@ def index() -> FileResponse:
 
 @app.post("/ask", response_model=AskResponse)
 def ask(request: AskRequest) -> AskResponse:
-    start = perf_counter()
-    services = app.state.services
-    cache_key = (request.question.strip(), request.top_k, request.graph_hops)
-    cached = services["answer_cache"].get(cache_key)
-    if cached:
-        payload = deepcopy(cached)
-        payload["metadata"]["cache_hit"] = True
-        payload["metadata"]["elapsed_ms"] = round((perf_counter() - start) * 1000, 2)
-        return AskResponse(**payload)
-
-    profile_answer = services["book_profile"].answer(request.question)
-    if profile_answer:
-        profile_answer["metadata"]["elapsed_ms"] = round((perf_counter() - start) * 1000, 2)
-        services["answer_cache"][cache_key] = deepcopy(profile_answer)
-        return AskResponse(**profile_answer)
-
-    domain_answer = services["domain_qa"].answer(request.question)
-    if domain_answer:
-        domain_answer["metadata"]["elapsed_ms"] = round((perf_counter() - start) * 1000, 2)
-        services["answer_cache"][cache_key] = deepcopy(domain_answer)
-        return AskResponse(**domain_answer)
-
-    evidence = services["hybrid"].retrieve(request.question, top_k=request.top_k, graph_hops=request.graph_hops)
-    answer = services["generator"].generate(request.question, evidence)
-    payload = {
-        "question": request.question,
-        "answer": answer,
-        "linked_entities": evidence["linked_entities"],
-        "evidence": {"graph": evidence["graph"], "documents": evidence["documents"]},
-        "metadata": {
-            "retrieval_mode": "graph_vector_hybrid",
-            "cache_hit": False,
-            "elapsed_ms": round((perf_counter() - start) * 1000, 2),
-        },
-    }
-    if len(services["answer_cache"]) >= 128:
-        services["answer_cache"].pop(next(iter(services["answer_cache"])))
-    services["answer_cache"][cache_key] = deepcopy(payload)
+    payload = app.state.services["orchestrator"].answer(request.question, request.top_k, request.graph_hops)
     return AskResponse(**payload)
 
 

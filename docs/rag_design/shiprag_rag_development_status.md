@@ -73,6 +73,7 @@ POST /ask
 5. 调用云雾 OpenAI 兼容接口生成答案。
 6. 对“这本书讲什么”“这本书有多少章”“目录是什么”等基础元信息问题进行快速回答。
 7. 对重复问题进行内存缓存，减少重复调用大模型的等待时间。
+8. 使用多智能体编排完成问题路由、实体链接、图谱检索、文档检索、证据融合、答案生成和答案校验。
 
 示例问题：
 
@@ -89,6 +90,14 @@ POST /ask
 ```
 
 系统直接使用教材内容简介和目录信息回答“全书共分 7 章”，无需调用大模型。
+
+多智能体执行轨迹示例：
+
+```text
+RouterAgent -> EntityAgent -> GraphAgent -> DocumentAgent -> SynthesisAgent -> AnswerAgent -> VerifierAgent
+```
+
+`/ask` 接口会在 `metadata.agent_trace` 中返回各智能体的执行状态、职责说明和耗时，前端工作台也已增加 AGENT TRACE 区域用于展示协作流程。
 
 前端页面：
 
