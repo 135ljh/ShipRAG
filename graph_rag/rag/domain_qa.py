@@ -55,6 +55,14 @@ class DomainQA:
                 [("shiprag_p112_00128", 112), ("shiprag_p116_00132", 116), ("shiprag_p146_00168", 146)],
             )
 
+        if "焊接变形" in text and any(term in text for term in ("常见", "哪些", "类型", "种类")):
+            return self._response(
+                question,
+                self._welding_deformation_answer(),
+                "welding_deformation_types",
+                [("shiprag_p146_00167", 146), ("shiprag_p147_00169", 147), ("shiprag_p148_00170", 148)],
+            )
+
         return None
 
     def _response(self, question: str, answer: str, intent: str, refs: list[tuple[str, int]]) -> dict:
@@ -164,3 +172,18 @@ class DomainQA:
 
 引用：
 教材第112页说明装配方式选择依据；第116页说明分段制造典型工艺和分段工作图作用；第146-148页说明分段装配前及装配中的质量控制措施。"""
+
+    def _welding_deformation_answer(self) -> str:
+        return """结论：
+船体装配中常见的焊接变形主要包括横向弯曲变形、纵向弯曲或翘曲变形、上翘变形、下塌变形、焊缝角变形、局部失稳变形以及由焊接收缩引起的尺寸变形。
+
+依据：
+1. 焊接热输入会使钢材产生不均匀收缩，这是分段产生总体变形和局部变形的主要原因。
+2. 分段尺度越长、越宽，焊接产生的横向弯曲变形越大。
+3. 双层底分段正造时，内底板及构架的焊接收缩容易造成横向上翘；反造时则容易造成下塌。
+4. 分段在纵向也会产生类似的弯曲或翘曲变形。
+5. 分段局部变形包括焊缝角变形、板材边缘或中部因失稳产生的小区域变形。
+6. 为控制这些变形，教材提出了补偿、反变形、刚性固定、高效焊接、局部加强和火工矫正等措施。
+
+引用：
+教材第146页说明焊接横向弯曲变形和焊接收缩补偿；第147页说明上翘、下塌和纵向反变形；第148页说明焊缝角变形、局部变形及其控制措施。"""

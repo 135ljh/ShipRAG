@@ -15,6 +15,7 @@ class RouterAgent:
                 "测量工具",
                 "结构编码",
                 "分段装配前",
+                "焊接变形",
             )
         ):
             return "domain_qa"
