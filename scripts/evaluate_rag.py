@@ -585,6 +585,7 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
         "本报告按照 `RAG评估体系.docx` 中的三层指标体系重新计算：检索层、生成层、系统层。",
         "",
         f"- 评估样本数：{summary['cases']}",
+        "- 样本构成：43 条人工/控制样本 + 157 条教材 chunk 自动抽样样本；自动样本均标记为非预设。",
         f"- 任务完成率：{summary['task_completion_rate']:.2%}",
         f"- 路由准确率：{summary['mode_accuracy']:.2%}",
         f"- 噪声鲁棒性：{summary['noise_robustness_rate']:.2%}",
@@ -676,6 +677,7 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
             f"- 严格非预设样本通过率为 {strict['pass_rate']:.2%}，明显低于规则路径，说明此前只用少量 `domain_qa.py` 预设题无法代表真实 RAG 能力。",
             f"- 非预设样本 Hit@K 为 {strict['hit_at_k']:.2%}，Context Precision 为 {strict['context_precision']:.2%}，主要瓶颈在教材证据召回和页码命中，而不是答案格式。",
             f"- 生成层 Faithfulness 为 {strict['faithfulness']:.2%}，说明在检索证据不足时系统倾向于保守拒答，降低了幻觉风险，但也导致大量教材内问题回答为“无法确定”。",
+            "- 157 条自动样本采用教材 chunk 页码和关键词作为弱标注，评价口径比人工样本更严格，适合暴露召回覆盖率问题，不应和人工精选题的通过率直接等同。",
             "- 后续优化重点应放在：重建 Qdrant 切片与元数据、增强章节/页码/术语索引、把 Neo4j 实体别名回填到向量检索查询、并减少“证据不足”判断过严的问题。",
         ]
     )
