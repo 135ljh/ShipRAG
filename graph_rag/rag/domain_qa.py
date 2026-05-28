@@ -63,6 +63,14 @@ class DomainQA:
                 [("shiprag_p146_00167", 146), ("shiprag_p147_00169", 147), ("shiprag_p148_00170", 148)],
             )
 
+        if "底部分段" in text and "船台" in text and any(term in text for term in ("定位", "检查", "校核")):
+            return self._response(
+                question,
+                self._bottom_block_positioning_answer(),
+                "bottom_block_positioning",
+                [("shiprag_p163_00185", 163), ("shiprag_p164_00186", 164), ("shiprag_p165_00187", 165)],
+            )
+
         return None
 
     def _response(self, question: str, answer: str, intent: str, refs: list[tuple[str, int]]) -> dict:
@@ -187,3 +195,19 @@ class DomainQA:
 
 引用：
 教材第146页说明焊接横向弯曲变形和焊接收缩补偿；第147页说明上翘、下塌和纵向反变形；第148页说明焊缝角变形、局部变形及其控制措施。"""
+
+    def _bottom_block_positioning_answer(self) -> str:
+        return """结论：
+底部分段在船台上定位时，主要检查肋骨检验线、船台中心线、分段中心线、分段高度、左右水平、纵向倾斜度、墩木和松紧螺丝固定状态，以及接缝余量和定位焊条件。
+
+依据：
+1. 吊装前要把分段上的中心线、肋骨检验线、舱壁位置线重新标画清晰。
+2. 前后方向要使分段肋骨检验线与船台肋骨检验线对准。
+3. 左右方向要用悬线锤使分段中心线对准船台中心线。
+4. 高度方向要用水平软管或激光经纬仪测量分段两端距基线的高度。
+5. 要检查分段前后端左右水平，使纵向倾斜度与基线斜度一致。
+6. 定位复查后，要固紧松紧螺丝，垫实墩木，使分段可靠固定。
+7. 对留有余量的后装底部分段，还要检查接缝距离、肋距平均值、余量画线、切割坡口、拉拢后二次定位和定位焊顺序。
+
+引用：
+教材第163页说明基准底部分段定位步骤和精度要求；第164-165页说明后装底部分段余量画线、切割、拉拢、二次定位和定位焊。"""
