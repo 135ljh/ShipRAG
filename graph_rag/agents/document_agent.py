@@ -8,7 +8,7 @@ class DocumentAgent:
         self.retriever = retriever
 
     def run(self, question: str, entities: list[dict], graph_facts: list[dict], top_k: int) -> list[dict]:
-        entity_terms = " ".join(item["name"] for item in entities)
-        graph_terms = " ".join(f"{item['head']} {item['tail']}" for item in graph_facts[:10])
+        entity_terms = " ".join(item["name"] for item in entities[:6])
+        graph_terms = " ".join(f"{item['head']} {item['tail']}" for item in graph_facts[:4])
         query = f"{question} {entity_terms} {graph_terms}".strip()
         return self.retriever.retrieve(query or question, top_k=top_k)

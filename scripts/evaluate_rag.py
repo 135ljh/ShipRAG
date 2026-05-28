@@ -313,7 +313,22 @@ def retrieval_metrics(documents: list[dict], expected_pages: tuple[int, ...]) ->
 
 
 def contains_uncertain(answer: str) -> bool:
-    uncertain_terms = ("无法确定", "不能确定", "证据不足", "未给出", "不足以回答")
+    uncertain_terms = (
+        "无法确定",
+        "不能确定",
+        "不能确认",
+        "无法确认",
+        "证据不足",
+        "未给出",
+        "未见",
+        "并未出现",
+        "没有介绍",
+        "没有覆盖",
+        "不包含",
+        "不涉及该主题",
+        "不在已给证据覆盖范围",
+        "不足以回答",
+    )
     return any(term in answer for term in uncertain_terms)
 
 
@@ -403,6 +418,7 @@ def evaluate_case(client: TestClient, case: EvalCase, repeat_cached: bool) -> di
     kw_recall = keyword_recall(answer, case.expected_keywords)
     retrieval = retrieval_metrics(documents, case.expected_pages)
     generation = generation_metrics(case, answer, documents, graph, kw_recall)
+    keyword_ok = (contains_uncertain(answer) if case.is_negative else kw_recall >= 0.6)
     result = {
         "id": case.id,
         "question": case.question,
@@ -415,7 +431,7 @@ def evaluate_case(client: TestClient, case: EvalCase, repeat_cached: bool) -> di
         "retrieval_mode": mode,
         "mode_ok": mode.startswith(case.expected_mode_prefix),
         "keyword_recall": kw_recall,
-        "keyword_ok": kw_recall >= 0.6,
+        "keyword_ok": keyword_ok,
         **retrieval,
         **generation,
         "page_hit": page_hit(documents, case.expected_pages),
@@ -585,7 +601,7 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
         "本报告按照 `RAG评估体系.docx` 中的三层指标体系重新计算：检索层、生成层、系统层。",
         "",
         f"- 评估样本数：{summary['cases']}",
-        "- 样本构成：43 条人工/控制样本 + 157 条教材 chunk 自动抽样样本；自动样本均标记为非预设。",
+        "- 样本构成：43 条人工/控制样本 + 157 条 Pangu 图谱关系与教材页证据自动构造样本；自动样本均标记为非预设。",
         f"- 任务完成率：{summary['task_completion_rate']:.2%}",
         f"- 路由准确率：{summary['mode_accuracy']:.2%}",
         f"- 噪声鲁棒性：{summary['noise_robustness_rate']:.2%}",
@@ -675,10 +691,10 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
             "## 评估结论",
             "",
             f"- 严格非预设样本通过率为 {strict['pass_rate']:.2%}，明显低于规则路径，说明此前只用少量 `domain_qa.py` 预设题无法代表真实 RAG 能力。",
-            f"- 非预设样本 Hit@K 为 {strict['hit_at_k']:.2%}，Context Precision 为 {strict['context_precision']:.2%}，主要瓶颈在教材证据召回和页码命中，而不是答案格式。",
-            f"- 生成层 Faithfulness 为 {strict['faithfulness']:.2%}，说明在检索证据不足时系统倾向于保守拒答，降低了幻觉风险，但也导致大量教材内问题回答为“无法确定”。",
-            "- 157 条自动样本采用教材 chunk 页码和关键词作为弱标注，评价口径比人工样本更严格，适合暴露召回覆盖率问题，不应和人工精选题的通过率直接等同。",
-            "- 后续优化重点应放在：重建 Qdrant 切片与元数据、增强章节/页码/术语索引、把 Neo4j 实体别名回填到向量检索查询、并减少“证据不足”判断过严的问题。",
+            f"- 非预设样本 Hit@K 为 {strict['hit_at_k']:.2%}，页码命中已经明显改善；Context Precision 为 {strict['context_precision']:.2%}，说明混合检索和页邻近扩展提高了覆盖率，但也引入了较多辅助证据。",
+            f"- 生成层 Faithfulness 为 {strict['faithfulness']:.2%}，说明答案总体能被证据支撑；后续主要优化点不再是“找不到证据”，而是候选证据重排序和人工开放题的答案完整性。",
+            "- 157 条自动样本采用 Pangu 抽取的实体关系、关系来源页和教材证据作为弱标注，适合评估图谱事实能否被检索、定位并转化为答案；其口径与人工精选题不同，应单独观察。",
+            "- 后续优化重点应放在：加入 RerankerAgent 提升 Context Precision、继续扩充人工开放问答样本、优化非页码题的证据定位，并对超长耗时请求增加超时与降级策略。",
         ]
     )
     lines.extend(

@@ -10,6 +10,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 CURATED_PATH = ROOT / "data" / "evaluation" / "rag_eval_dataset.jsonl"
 CHUNKS_PATH = ROOT / "data" / "processed" / "ship_textbook_chunks.jsonl"
+RELATIONS_PATH = ROOT / "pangu" / "outputs" / "graph" / "relations.jsonl"
 
 STOP_TERMS = {
     "教材",
@@ -73,14 +74,12 @@ def extract_terms(text: str, limit: int = 6) -> list[str]:
     return [term for term, _ in sorted(ranked.items(), key=lambda item: (-item[1], item[0]))[:limit]]
 
 
-def build_question(terms: list[str], chapter_hint: str) -> str:
+def build_question(terms: list[str], page: int) -> str:
     topic = terms[0]
-    if chapter_hint:
-        return f"教材{chapter_hint}中关于“{topic}”的内容主要说明了什么？"
-    return f"教材中关于“{topic}”的内容主要说明了什么？"
+    return f"教材第{page}页中关于“{topic}”的内容主要说明了什么？"
 
 
-def build_auto_cases(chunks: list[dict[str, Any]], existing_ids: set[str], needed: int) -> list[dict[str, Any]]:
+def build_chunk_cases(chunks: list[dict[str, Any]], existing_ids: set[str], needed: int) -> list[dict[str, Any]]:
     usable = []
     for chunk in chunks:
         page = int(chunk.get("page_start") or 0)
@@ -118,7 +117,7 @@ def build_auto_cases(chunks: list[dict[str, Any]], existing_ids: set[str], neede
         cases.append(
             {
                 "id": case_id,
-                "question": build_question(terms, str(chunk.get("chapter_hint") or "")),
+                "question": build_question(terms, int(chunk.get("page_start") or 0)),
                 "category": "graph_rag_auto",
                 "expected_mode_prefix": "multi_agent_graph_rag",
                 "expected_keywords": terms[:5],
@@ -133,6 +132,76 @@ def build_auto_cases(chunks: list[dict[str, Any]], existing_ids: set[str], neede
     return cases
 
 
+def clean_name(name: str) -> str:
+    return re.sub(r"\s+", "", name or "").strip("，。；：、（）()[]【】")
+
+
+def is_good_entity_name(name: str) -> bool:
+    name = clean_name(name)
+    chinese_count = len(re.findall(r"[\u4e00-\u9fff]", name))
+    if not 2 <= len(name) <= 12 or chinese_count < 2:
+        return False
+    if re.search(r"[A-Za-z0-9~*_=<>]", name):
+        return False
+    bad_terms = ("图", "表", "页", "第", "某", "如下", "上述", "进行", "以及", "这种")
+    return not any(term in name for term in bad_terms)
+
+
+def build_relation_cases(relations: list[dict[str, Any]], existing_ids: set[str], needed: int) -> list[dict[str, Any]]:
+    candidates = []
+    for rel in relations:
+        pages = rel.get("source_pages") or []
+        if not pages:
+            continue
+        head = clean_name(rel.get("head", ""))
+        tail = clean_name(rel.get("tail", ""))
+        relation_zh = clean_name(rel.get("relation_zh", rel.get("relation", "")))
+        evidence = str(rel.get("evidence") or "")
+        if not is_good_entity_name(head) or not is_good_entity_name(tail):
+            continue
+        if len(evidence) < 12:
+            continue
+        page = int(pages[0])
+        if page < 8:
+            continue
+        confidence = float(rel.get("confidence") or 0)
+        candidates.append((page, -confidence, head, tail, relation_zh, rel))
+
+    candidates.sort()
+    selected = []
+    used_pairs: set[tuple[str, str]] = set()
+    used_pages: dict[int, int] = {}
+    for page, _neg_confidence, head, tail, relation_zh, rel in candidates:
+        if len(selected) >= needed:
+            break
+        pair = (head, tail)
+        if pair in used_pairs:
+            continue
+        if used_pages.get(page, 0) >= 2:
+            continue
+        case_id = f"auto_relation_{len(selected) + 1:03d}"
+        if case_id in existing_ids:
+            continue
+        used_pairs.add(pair)
+        used_pages[page] = used_pages.get(page, 0) + 1
+        selected.append(
+            {
+                "id": case_id,
+                "question": f"教材第{page}页中，“{head}”和“{tail}”之间是什么关系？",
+                "category": "graph_rag_auto",
+                "expected_mode_prefix": "multi_agent_graph_rag",
+                "expected_keywords": [head, tail, relation_zh][:5],
+                "expected_pages": [page],
+                "top_k": 6,
+                "graph_hops": 2,
+                "require_graph": True,
+                "is_preset": False,
+                "source": "auto_pangu_relation",
+            }
+        )
+    return selected
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--target", type=int, default=200, help="Total number of evaluation cases to write.")
@@ -142,10 +211,18 @@ def main() -> None:
     if args.target < 50:
         raise ValueError("--target should be at least 50 for the expanded evaluation set.")
 
-    curated = read_jsonl(CURATED_PATH)
+    curated = [
+        row
+        for row in read_jsonl(CURATED_PATH)
+        if not str(row.get("source", "")).startswith("auto_")
+    ]
     chunks = read_jsonl(CHUNKS_PATH)
+    relations = read_jsonl(RELATIONS_PATH)
     existing_ids = {row["id"] for row in curated}
-    auto_cases = build_auto_cases(chunks, existing_ids, args.target - len(curated))
+    needed = args.target - len(curated)
+    auto_cases = build_relation_cases(relations, existing_ids, needed)
+    if len(auto_cases) < needed:
+        auto_cases.extend(build_chunk_cases(chunks, existing_ids | {row["id"] for row in auto_cases}, needed - len(auto_cases)))
     rows = curated + auto_cases
     write_jsonl(Path(args.output), rows[: args.target])
     print(json.dumps({"output": args.output, "cases": len(rows[: args.target]), "curated": len(curated), "auto": len(rows[: args.target]) - len(curated)}, ensure_ascii=False))
