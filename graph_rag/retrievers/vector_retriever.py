@@ -27,10 +27,12 @@ class VectorRetriever:
         vector_results = self.qdrant.search(vector, top_k=candidate_k)
         keyword_results = self._keyword_search(query, top_k=candidate_k)
         page_hint_results = self._page_hint_search(query)
+        if page_hint_results:
+            fused = self._fuse(vector_results, keyword_results, page_hint_results)
+            return self._take_unique([*page_hint_results, *fused], limit=min(top_k, 3))
         fused = self._fuse(vector_results, keyword_results, page_hint_results)
         primary = fused[:top_k]
-        expanded = self._expand_neighbor_pages(primary, max_total=max(top_k + 4, 8))
-        return expanded
+        return self._expand_neighbor_pages(primary, max_total=top_k)
 
     def _keyword_search(self, query: str, top_k: int) -> list[dict]:
         terms = extract_query_terms(query)
@@ -129,6 +131,19 @@ class VectorRetriever:
             if len(expanded) >= max_total:
                 return expanded
         return expanded
+
+    def _take_unique(self, documents: list[dict], limit: int) -> list[dict]:
+        selected = []
+        seen = set()
+        for doc in documents:
+            chunk_id = doc.get("chunk_id")
+            if not chunk_id or chunk_id in seen:
+                continue
+            selected.append(doc)
+            seen.add(chunk_id)
+            if len(selected) >= limit:
+                break
+        return selected
 
 
 def extract_query_terms(query: str) -> list[str]:

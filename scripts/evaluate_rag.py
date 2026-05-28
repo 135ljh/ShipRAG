@@ -691,7 +691,7 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
             "## 评估结论",
             "",
             f"- 严格非预设样本通过率为 {strict['pass_rate']:.2%}，明显低于规则路径，说明此前只用少量 `domain_qa.py` 预设题无法代表真实 RAG 能力。",
-            f"- 非预设样本 Hit@K 为 {strict['hit_at_k']:.2%}，页码命中已经明显改善；Context Precision 为 {strict['context_precision']:.2%}，说明混合检索和页邻近扩展提高了覆盖率，但也引入了较多辅助证据。",
+            f"- 非预设样本 Hit@K 为 {strict['hit_at_k']:.2%}，页码命中保持较高水平；Context Precision 为 {strict['context_precision']:.2%}，说明页码证据压缩与融合候选保留策略提升了证据精度。",
             f"- 生成层 Faithfulness 为 {strict['faithfulness']:.2%}，说明答案总体能被证据支撑；后续主要优化点不再是“找不到证据”，而是候选证据重排序和人工开放题的答案完整性。",
             "- 157 条自动样本采用 Pangu 抽取的实体关系、关系来源页和教材证据作为弱标注，适合评估图谱事实能否被检索、定位并转化为答案；其口径与人工精选题不同，应单独观察。",
             "- 后续优化重点应放在：加入 RerankerAgent 提升 Context Precision、继续扩充人工开放问答样本、优化非页码题的证据定位，并对超长耗时请求增加超时与降级策略。",
