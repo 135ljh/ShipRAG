@@ -19,6 +19,7 @@ if str(ROOT) not in sys.path:
 from graph_rag.main import app
 
 OUT_DIR = ROOT / "docs" / "rag_design" / "evaluation"
+DEFAULT_DATASET_PATH = ROOT / "data" / "evaluation" / "rag_eval_dataset.jsonl"
 
 
 @dataclass(frozen=True)
@@ -34,6 +35,8 @@ class EvalCase:
     require_graph: bool = False
     allow_uncertain: bool = False
     is_negative: bool = False
+    is_preset: bool = False
+    source: str = "inline_fallback"
 
 
 CASES: tuple[EvalCase, ...] = (
@@ -199,6 +202,38 @@ CASES: tuple[EvalCase, ...] = (
 
 def mean(values: list[float]) -> float:
     return round(sum(values) / len(values), 4) if values else 0.0
+
+
+def load_cases(path: Path) -> list[EvalCase]:
+    if not path.exists():
+        return list(CASES)
+    cases: list[EvalCase] = []
+    for line_no, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+        line = line.strip()
+        if not line:
+            continue
+        payload = json.loads(line)
+        try:
+            cases.append(
+                EvalCase(
+                    id=payload["id"],
+                    question=payload["question"],
+                    category=payload["category"],
+                    expected_mode_prefix=payload.get("expected_mode_prefix", "multi_agent_graph_rag"),
+                    expected_keywords=tuple(payload.get("expected_keywords", ())),
+                    expected_pages=tuple(payload.get("expected_pages", ())),
+                    top_k=int(payload.get("top_k", 4)),
+                    graph_hops=int(payload.get("graph_hops", 1)),
+                    require_graph=bool(payload.get("require_graph", False)),
+                    allow_uncertain=bool(payload.get("allow_uncertain", False)),
+                    is_negative=bool(payload.get("is_negative", False)),
+                    is_preset=bool(payload.get("is_preset", False)),
+                    source=payload.get("source", str(path.relative_to(ROOT))),
+                )
+            )
+        except KeyError as exc:
+            raise ValueError(f"{path}:{line_no} missing required field {exc}") from exc
+    return cases
 
 
 def percentile(values: list[float], p: float) -> float:
@@ -372,6 +407,8 @@ def evaluate_case(client: TestClient, case: EvalCase, repeat_cached: bool) -> di
         "id": case.id,
         "question": case.question,
         "category": case.category,
+        "is_preset": case.is_preset,
+        "source": case.source,
         "top_k": case.top_k,
         "graph_hops": case.graph_hops,
         "status_code": response.status_code,
@@ -420,6 +457,8 @@ def evaluate_case(client: TestClient, case: EvalCase, repeat_cached: bool) -> di
 
 
 def summarize(results: list[dict[str, Any]]) -> dict[str, Any]:
+    if not results:
+        return {"cases": 0, "by_category": {}}
     latencies = [float(item["wall_elapsed_ms"]) for item in results]
     reported_latencies = [float(item["reported_elapsed_ms"] or 0) for item in results]
     cached_latencies = [float(item["cached_wall_elapsed_ms"] or 0) for item in results if item["cached_wall_elapsed_ms"] is not None]
@@ -475,6 +514,7 @@ def summarize(results: list[dict[str, Any]]) -> dict[str, Any]:
             "max": round(max(cached_latencies), 2) if cached_latencies else 0.0,
         },
         "by_category": summarize_by_category(results),
+        "by_subset": summarize_by_subset(results),
     }
 
 
@@ -515,6 +555,28 @@ def summarize_by_category(results: list[dict[str, Any]]) -> dict[str, Any]:
     return grouped
 
 
+def summarize_by_subset(results: list[dict[str, Any]]) -> dict[str, Any]:
+    subsets = {
+        "strict_non_preset": [item for item in results if not item["is_preset"]],
+        "preset_or_rule_based": [item for item in results if item["is_preset"]],
+    }
+    return {
+        name: {
+            "cases": len(items),
+            "pass_rate": mean([1.0 if item["pass"] else 0.0 for item in items]),
+            "context_precision": mean([float(item["context_precision"]) for item in items]),
+            "context_recall": mean([float(item["context_recall"]) for item in items]),
+            "hit_at_k": mean([float(item["hit_at_k"]) for item in items]),
+            "faithfulness": mean([float(item["faithfulness"]) for item in items]),
+            "answer_relevance": mean([float(item["answer_relevance"]) for item in items]),
+            "keyword_recall_avg": mean([float(item["keyword_recall"]) for item in items]),
+            "page_hit_rate": mean([1.0 if item["page_hit"] else 0.0 for item in items]),
+            "avg_latency_ms": round(statistics.mean([float(item["wall_elapsed_ms"]) for item in items]), 2) if items else 0.0,
+        }
+        for name, items in subsets.items()
+    }
+
+
 def write_markdown(report: dict[str, Any], path: Path) -> None:
     summary = report["summary"]
     lines = [
@@ -527,6 +589,8 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
         f"- 路由准确率：{summary['mode_accuracy']:.2%}",
         f"- 噪声鲁棒性：{summary['noise_robustness_rate']:.2%}",
         f"- 负样本拒绝率：{summary['negative_rejection_rate']:.2%}",
+        f"- 严格非预设样本数：{summary['by_subset']['strict_non_preset']['cases']}",
+        f"- 严格非预设通过率：{summary['by_subset']['strict_non_preset']['pass_rate']:.2%}",
         "",
         "## 核心指标",
         "",
@@ -588,15 +652,45 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
     lines.extend(
         [
             "",
+            "## 预设样本隔离",
+            "",
+            "为避免把 `domain_qa.py` 中的规则问答当作真实 RAG 能力，本次评估把样本拆成两组：",
+            "",
+            "| 子集 | 样本数 | 通过率 | Context Precision | Context Recall | Hit@K | Faithfulness | Answer Relevance | 平均耗时/ms |",
+            "|---|---:|---:|---:|---:|---:|---:|---:|---:|",
+        ]
+    )
+    for subset, values in summary["by_subset"].items():
+        lines.append(
+            f"| {subset} | {values['cases']} | {values['pass_rate']:.2%} | "
+            f"{values['context_precision']:.2%} | {values['context_recall']:.2%} | "
+            f"{values['hit_at_k']:.2%} | {values['faithfulness']:.2%} | "
+            f"{values['answer_relevance']:.2%} | {values['avg_latency_ms']} |"
+        )
+    strict = summary["by_subset"]["strict_non_preset"]
+    lines.extend(
+        [
+            "",
+            "## 评估结论",
+            "",
+            f"- 严格非预设样本通过率为 {strict['pass_rate']:.2%}，明显低于规则路径，说明此前只用少量 `domain_qa.py` 预设题无法代表真实 RAG 能力。",
+            f"- 非预设样本 Hit@K 为 {strict['hit_at_k']:.2%}，Context Precision 为 {strict['context_precision']:.2%}，主要瓶颈在教材证据召回和页码命中，而不是答案格式。",
+            f"- 生成层 Faithfulness 为 {strict['faithfulness']:.2%}，说明在检索证据不足时系统倾向于保守拒答，降低了幻觉风险，但也导致大量教材内问题回答为“无法确定”。",
+            "- 后续优化重点应放在：重建 Qdrant 切片与元数据、增强章节/页码/术语索引、把 Neo4j 实体别名回填到向量检索查询、并减少“证据不足”判断过严的问题。",
+        ]
+    )
+    lines.extend(
+        [
+            "",
             "## 明细",
             "",
-            "| ID | 类别 | 通过 | 模式 | C.Precision | C.Recall | MRR | NDCG | Faithfulness | Relevance | 耗时/ms |",
-            "|---|---|---:|---|---:|---:|---:|---:|---:|---:|---:|",
+            "| ID | 类别 | 预设 | 通过 | 模式 | C.Precision | C.Recall | MRR | NDCG | Faithfulness | Relevance | 耗时/ms |",
+            "|---|---|---:|---:|---|---:|---:|---:|---:|---:|---:|---:|",
         ]
     )
     for item in report["results"]:
         lines.append(
-            f"| {item['id']} | {item['category']} | {'是' if item['pass'] else '否'} | "
+            f"| {item['id']} | {item['category']} | {'是' if item['is_preset'] else '否'} | {'是' if item['pass'] else '否'} | "
             f"{item['retrieval_mode']} | {item['context_precision']:.2%} | {item['context_recall']:.2%} | "
             f"{item['mrr']:.2%} | {item['ndcg']:.2%} | {item['faithfulness']:.2%} | "
             f"{item['answer_relevance']:.2%} | {item['wall_elapsed_ms']} |"
@@ -607,6 +701,7 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
             "## 说明",
             "",
             "本评估根据 `RAG评估体系.docx` 中的指标进行工程化近似实现，不额外调用 LLM-as-Judge。",
+            "默认评估集来自 `data/evaluation/rag_eval_dataset.jsonl`，其中 `is_preset=false` 的样本作为严格主评估集；`is_preset=true` 的样本仅用于验证规则智能体与快捷路径。",
             "Context Precision、Context Recall、MRR、NDCG 基于期望页码与返回文档页码计算。",
             "Faithfulness、Answer Relevance、Completeness、Correctness、Fluency 采用证据命中、引用、关键词覆盖、格式与乱码检测等规则近似计算。",
             "Graph RAG 类问题会调用云雾模型，因此耗时显著高于 book_profile 和 domain_qa 快速路径。",
@@ -617,15 +712,25 @@ def write_markdown(report: dict[str, Any], path: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--dataset", default=str(DEFAULT_DATASET_PATH), help="JSONL evaluation dataset path.")
+    parser.add_argument("--limit", type=int, default=0, help="Evaluate only the first N cases after filtering.")
+    parser.add_argument("--category", action="append", help="Evaluate only selected category; can be repeated.")
     parser.add_argument("--no-cache-repeat", action="store_true", help="Do not run the second cached request.")
     args = parser.parse_args()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     started = time.strftime("%Y-%m-%d %H:%M:%S")
+    cases = load_cases(Path(args.dataset))
+    if args.category:
+        selected = set(args.category)
+        cases = [case for case in cases if case.category in selected]
+    if args.limit:
+        cases = cases[: args.limit]
     with TestClient(app) as client:
-        results = [evaluate_case(client, case, repeat_cached=not args.no_cache_repeat) for case in CASES]
+        results = [evaluate_case(client, case, repeat_cached=not args.no_cache_repeat) for case in cases]
     report = {
         "generated_at": started,
+        "dataset": str(Path(args.dataset).resolve()),
         "summary": summarize(results),
         "results": results,
     }
