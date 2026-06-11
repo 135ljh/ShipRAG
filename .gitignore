@@ -8,8 +8,11 @@ models/
 
 .env
 pangu/.env
+deepseek/.env
+deepseek/outputs/raw_extractions.jsonl
+deepseek/outputs/sample_*.jsonl
+deepseek/outputs/sample_graph/
 
 *.tmp
 *.bak
 ~$*.docx
-

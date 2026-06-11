@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DeepSeek 船体装配知识图谱</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="mark">DS</div>
+        <div>
+          <h1>DeepSeek 图谱</h1>
+          <p>船体装配知识三元组</p>
+        </div>
+      </div>
+
+      <section class="panel">
+        <label class="label" for="searchInput">搜索实体</label>
+        <div class="searchRow">
+          <input id="searchInput" list="entityList" placeholder="例如：激光经纬仪、分段、胎架" />
+          <button id="searchButton">定位</button>
+        </div>
+        <datalist id="entityList"></datalist>
+      </section>
+
+      <section class="panel stats">
+        <div><span>实体</span><strong id="nodeCount">0</strong></div>
+        <div><span>关系</span><strong id="edgeCount">0</strong></div>
+        <div><span>当前可见</span><strong id="visibleCount">0</strong></div>
+      </section>
+
+      <section class="panel">
+        <label class="label" for="relationFilter">关系类型</label>
+        <select id="relationFilter"></select>
+      </section>
+
+      <section class="panel">
+        <div class="rowBetween">
+          <span class="label">最小度数</span>
+          <strong id="degreeValue">0</strong>
+        </div>
+        <input id="degreeFilter" type="range" min="0" max="20" value="0" />
+      </section>
+
+      <section class="panel">
+        <div class="rowBetween">
+          <span class="label">实体类型</span>
+          <button id="resetTypes" class="linkButton">全选</button>
+        </div>
+        <div id="typeFilters" class="typeFilters"></div>
+      </section>
+
+      <section class="panel controls">
+        <button id="fitButton">适配视图</button>
+        <button id="resetButton">重置布局</button>
+        <label class="check"><input id="labelToggle" type="checkbox" checked /> 显示标签</label>
+      </section>
+    </aside>
+
+    <main class="workspace">
+      <canvas id="graphCanvas"></canvas>
+      <div class="hud">
+        <span>滚轮缩放</span>
+        <span>拖动空白平移</span>
+        <span>拖动节点调整位置</span>
+      </div>
+      <section id="detailPanel" class="detailPanel">
+        <h2>选择一个实体</h2>
+        <p>点击节点后查看实体定义、来源页和相邻关系。</p>
+      </section>
+    </main>
+
+    <script src="./graph_data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
