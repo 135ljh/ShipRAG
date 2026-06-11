@@ -1,0 +1,181 @@
+{
+  "target": {
+    "name": "pangu",
+    "paths": {
+      "raw": "pangu\\outputs\\raw_extractions.jsonl",
+      "entities": "pangu\\outputs\\graph\\entities.jsonl",
+      "relations": "pangu\\outputs\\graph\\relations.jsonl"
+    },
+    "raw": {
+      "rows": 224,
+      "success_rows": 224,
+      "failed_rows": 0,
+      "rows_with_error_marker": 11,
+      "success_rate": 1.0,
+      "raw_entities": 846,
+      "raw_triples": 762,
+      "avg_entities_per_success_chunk": 3.78,
+      "avg_triples_per_success_chunk": 3.4
+    },
+    "entity_quality": {
+      "unique_entities": 1003,
+      "valid_type_rate": 1.0,
+      "with_definition_rate": 0.6092,
+      "with_source_page_rate": 0.999,
+      "with_source_chunk_rate": 0.999,
+      "duplicate_name_count": 100,
+      "duplicate_name_rate": 0.0997,
+      "avg_confidence": 0.8292,
+      "type_counts": {
+        "Chapter": 22,
+        "Component": 290,
+        "Defect": 26,
+        "Material": 7,
+        "Measurement": 63,
+        "Operation": 94,
+        "Parameter": 71,
+        "Process": 150,
+        "ProcessObject": 156,
+        "QualityRequirement": 48,
+        "StandardSafety": 6,
+        "ToolEquipment": 70
+      }
+    },
+    "relation_quality": {
+      "unique_relations": 1747,
+      "valid_relation_type_rate": 1.0,
+      "with_evidence_rate": 1.0,
+      "with_source_page_rate": 1.0,
+      "with_source_chunk_rate": 1.0,
+      "evidence_grounded_rate": 0.3927,
+      "endpoint_linked_rate": 0.9731,
+      "endpoint_in_evidence_avg": 0.5544,
+      "duplicate_relation_count": 89,
+      "duplicate_relation_rate": 0.0509,
+      "self_loop_count": 0,
+      "self_loop_rate": 0.0,
+      "avg_confidence": 0.8082,
+      "relation_type_counts": {
+        "assembled_with": 74,
+        "belongs_to": 13,
+        "causes": 26,
+        "checks": 6,
+        "composed_of": 39,
+        "contains": 1160,
+        "controls": 27,
+        "follows": 16,
+        "located_at": 38,
+        "measures": 44,
+        "operates_on": 39,
+        "precedes": 72,
+        "provides_basis_for": 11,
+        "repairs": 8,
+        "used_for": 68,
+        "uses_tool": 106
+      },
+      "bad_relation_samples": []
+    },
+    "graph_quality": {
+      "isolated_entities": 33,
+      "isolation_rate": 0.0329,
+      "components": 35,
+      "largest_component_size": 968,
+      "largest_component_ratio": 0.9651,
+      "small_components": 34
+    }
+  },
+  "reference": {
+    "name": "deepseek",
+    "paths": {
+      "raw": "deepseek\\outputs\\raw_extractions.jsonl",
+      "entities": "deepseek\\outputs\\graph\\entities.jsonl",
+      "relations": "deepseek\\outputs\\graph\\relations.jsonl"
+    },
+    "raw": {
+      "rows": 569,
+      "success_rows": 569,
+      "failed_rows": 0,
+      "rows_with_error_marker": 345,
+      "success_rate": 1.0,
+      "raw_entities": 1054,
+      "raw_triples": 531,
+      "avg_entities_per_success_chunk": 1.85,
+      "avg_triples_per_success_chunk": 0.93
+    },
+    "entity_quality": {
+      "unique_entities": 830,
+      "valid_type_rate": 1.0,
+      "with_definition_rate": 0.8614,
+      "with_source_page_rate": 0.9988,
+      "with_source_chunk_rate": 0.9988,
+      "duplicate_name_count": 54,
+      "duplicate_name_rate": 0.0651,
+      "avg_confidence": 0.8705,
+      "type_counts": {
+        "Chapter": 9,
+        "Component": 149,
+        "Defect": 29,
+        "Material": 5,
+        "Measurement": 109,
+        "Operation": 125,
+        "Parameter": 42,
+        "Process": 108,
+        "ProcessObject": 143,
+        "QualityRequirement": 10,
+        "StandardSafety": 2,
+        "ToolEquipment": 99
+      }
+    },
+    "relation_quality": {
+      "unique_relations": 1450,
+      "valid_relation_type_rate": 1.0,
+      "with_evidence_rate": 1.0,
+      "with_source_page_rate": 1.0,
+      "with_source_chunk_rate": 1.0,
+      "evidence_grounded_rate": 0.3697,
+      "endpoint_linked_rate": 1.0,
+      "endpoint_in_evidence_avg": 0.548,
+      "duplicate_relation_count": 44,
+      "duplicate_relation_rate": 0.0303,
+      "self_loop_count": 0,
+      "self_loop_rate": 0.0,
+      "avg_confidence": 0.829,
+      "relation_type_counts": {
+        "assembled_with": 27,
+        "belongs_to": 36,
+        "causes": 15,
+        "checks": 3,
+        "composed_of": 50,
+        "contains": 973,
+        "controls": 22,
+        "follows": 1,
+        "located_at": 31,
+        "measures": 12,
+        "operates_on": 62,
+        "precedes": 15,
+        "provides_basis_for": 22,
+        "repairs": 4,
+        "used_for": 105,
+        "uses_tool": 72
+      },
+      "bad_relation_samples": []
+    },
+    "graph_quality": {
+      "isolated_entities": 0,
+      "isolation_rate": 0.0,
+      "components": 1,
+      "largest_component_size": 830,
+      "largest_component_ratio": 1.0,
+      "small_components": 0
+    }
+  },
+  "comparison": {
+    "reference": "deepseek",
+    "entity_name_overlap": 364,
+    "entity_name_precision_vs_reference": 0.4031,
+    "entity_name_recall_vs_reference": 0.4691,
+    "relation_exact_overlap": 426,
+    "relation_precision_vs_reference": 0.2569,
+    "relation_recall_vs_reference": 0.303
+  }
+}
