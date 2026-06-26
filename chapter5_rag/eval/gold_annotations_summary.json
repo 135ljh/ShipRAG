@@ -1,0 +1,27 @@
+[
+  {
+    "chunk_id": "chapter5_001",
+    "entities": 16,
+    "triples": 15
+  },
+  {
+    "chunk_id": "chapter5_005",
+    "entities": 16,
+    "triples": 15
+  },
+  {
+    "chunk_id": "chapter5_012",
+    "entities": 19,
+    "triples": 15
+  },
+  {
+    "chunk_id": "chapter5_018",
+    "entities": 22,
+    "triples": 16
+  },
+  {
+    "chunk_id": "chapter5_025",
+    "entities": 20,
+    "triples": 18
+  }
+]
