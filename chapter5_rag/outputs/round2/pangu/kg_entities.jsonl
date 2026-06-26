@@ -1,0 +1,75 @@
+{"name": "分段装配", "type": "工艺工序", "evidence": "分段装配是船体建造过程中最复杂的工艺阶段", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "正装", "type": "装配方式", "evidence": "按前者划分有正装、倒装、侧装和卧装", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "倒装", "type": "装配方式", "evidence": "按前者划分有正装、倒装、侧装和卧装", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "侧装", "type": "装配方式", "evidence": "按前者划分有正装、倒装、侧装和卧装", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "卧装", "type": "装配方式", "evidence": "按前者划分有正装、倒装、侧装和卧装", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "放射式", "type": "装配方式", "evidence": "按后者划分有放射式、插入式、框架式、散装式和子分段组装式", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "插入式", "type": "装配方式", "evidence": "按后者划分有放射式、插入式、框架式、散装式和子分段组装式", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "框架式", "type": "装配方式", "evidence": "按后者划分有放射式、插入式、框架式、散装式和子分段组装式", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "散装式", "type": "装配方式", "evidence": "按后者划分有放射式、插入式、框架式、散装式和子分段组装式", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "子分段组装式", "type": "装配方式", "evidence": "按后者划分有放射式、插入式、框架式、散装式和子分段组装式", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "平面直边分段", "type": "分段类型", "evidence": "平面直边分段。这是板材为平面，板边是直线的分段", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "平面曲边分段", "type": "分段类型", "evidence": "平面曲边分段。这是板材为平面，板边全部或局部为曲线的分段", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "曲面分段", "type": "分段类型", "evidence": "曲面分段。这是分段板材全部或部分为曲面，板边通常也是曲线的分段", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "立体及半立体分段", "type": "分段类型", "evidence": "立体及半立体分段。这是由外板、甲板和舱壁等子分段组成的封闭或半封闭分段", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "特殊分段", "type": "分段类型", "evidence": "特殊分段。如艏柱、艉柱和烟囱分段，属于船体特殊结构", "source_chunk": "chapter5_001", "source_page": 1}
+{"name": "分段工作图", "type": "图纸资料", "evidence": "分段而不以工序出图，和分段工作图同时提供的还有：板材号料图（数控、龙门和光电跟踪切割）、外板加工活络样板图、型钢弯曲逆直线图等", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "板材号料图", "type": "图纸资料", "evidence": "分段而不以工序出图，和分段工作图同时提供的还有：板材号料图（数控、龙门和光电跟踪切割）、外板加工活络样板图、型钢弯曲逆直线图等", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "外板加工活络样板图", "type": "图纸资料", "evidence": "分段而不以工序出图，和分段工作图同时提供的还有：板材号料图（数控、龙门和光电跟踪切割）、外板加工活络样板图、型钢弯曲逆直线图等", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "型钢弯曲逆直线图", "type": "图纸资料", "evidence": "分段而不以工序出图，和分段工作图同时提供的还有：板材号料图（数控、龙门和光电跟踪切割）、外板加工活络样板图、型钢弯曲逆直线图等", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "双层底分段", "type": "分段类型", "evidence": "图5-13为一双层底分段（左、右舷）的组立树", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "大组立", "type": "分段类型", "evidence": "1-1为大组立或大合拢，即分段装配", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "中组立", "type": "分段类型", "evidence": "1-2为中组立或中合拢，即组合件、子分段装配", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "小组立", "type": "分段类型", "evidence": "1-3为小组立或小合拢，即部件装配", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "正装", "type": "装配方式", "evidence": "本例双层底分段是以外板为基面在胎架上正装的", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "反装", "type": "装配方式", "evidence": "如为1-1“DK1A3”则是以甲板为基面反装", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "侧装", "type": "装配方式", "evidence": "1-1“TB310A3”则是以横舱壁为基面卧装", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "卧装", "type": "装配方式", "evidence": "1-1“TB310A3”则是以横舱壁为基面卧装", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "胎架", "type": "工装设备", "evidence": "本例双层底分段是以外板为基面在胎架上正装的", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "组立树", "type": "工艺工序", "evidence": "组立树通过结构各级代码的分层有序排列，既反映出结构装配单元（部件、组合件）的划分情况和从属关系", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "肋板", "type": "船体构件", "evidence": "图5-14为双层底各部件的小组立图，同时给出肋板的质量和质心位置", "source_chunk": "chapter5_005", "source_page": 5}
+{"name": "横骨架式舷侧分段", "type": "分段类型", "evidence": "以带甲板边板的横骨架式舷侧分段为例", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "双斜切胎架", "type": "工装设备", "evidence": "在专用双斜切胎板上画基准线", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "活络支柱胎架", "type": "工装设备", "evidence": "在活络支柱胎架进行板的定位", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "外板拼接", "type": "工艺工序", "evidence": "外板拼接——焊接——装配画线——装肋骨——焊接", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "焊接", "type": "工艺工序", "evidence": "外板拼接——焊接——装配画线——装肋骨——焊接", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "装配画线", "type": "工艺工序", "evidence": "装配画线——装肋骨——焊接——装舷侧纵桁", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "中间肋骨线", "type": "船体构件", "evidence": "中间肋骨线的画法有以下几种", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "挂线方法", "type": "工艺工序", "evidence": "用挂线方法在板上画出中心线和中间肋骨线", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "粉线延伸法", "type": "工艺工序", "evidence": "粉线延伸与外板相交，先后得到a′～e′点", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "板角距基面高度", "type": "数据指标", "evidence": "h为板角距基面的高度值", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "E10板", "type": "船体构件", "evidence": "依次将F10、E10和G10吊上胎架以后", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "F10板", "type": "船体构件", "evidence": "依次将F10、E10和G10吊上胎架以后", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "G10板", "type": "船体构件", "evidence": "依次将F10、E10和G10吊上胎架以后", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "板角定位", "type": "工艺工序", "evidence": "根据x、y值进行定位", "source_chunk": "chapter5_012", "source_page": 12}
+{"name": "艉部下段", "type": "分段类型", "evidence": "图5-39为含有铸钢艉柱的艉部下段的装配过程", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "胎板", "type": "工装设备", "evidence": "以两倍肋距设置胎板", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "K行板", "type": "船体构件", "evidence": "胎板的宽度应略超出K行板", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "肋距", "type": "数据指标", "evidence": "量出肋距，标出分段长度", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "激光经纬仪", "type": "工装设备", "evidence": "借激光经纬仪或水平软管在胎板上画出水平线", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "水平软管", "type": "工装设备", "evidence": "借激光经纬仪或水平软管在胎板上画出水平线", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "舵杆中心线", "type": "数据指标", "evidence": "检查舵杆中心线的位置", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "零号肋位", "type": "数据指标", "evidence": "量出等于零号肋位至舵杆中心线的距离", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "松紧螺丝", "type": "工装设备", "evidence": "在艉柱两侧各装一只松紧螺丝", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "千斤顶", "type": "工装设备", "evidence": "前后偏差则用千斤顶或铁楔调整", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "肋板", "type": "船体构件", "evidence": "肋板组装", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "T型梁", "type": "工装设备", "evidence": "装肋板底部肘板和顶部纵向T型梁", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "倒装", "type": "装配方式", "evidence": "将各肋板吊上平台，面板朝下进行倒装", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "肘板", "type": "船体构件", "evidence": "肘板对准肋板上的中心线", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "外板", "type": "船体构件", "evidence": "散装各列外板", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "定位焊", "type": "控制措施", "evidence": "与胎板定位焊", "source_chunk": "chapter5_018", "source_page": 18}
+{"name": "平直分段", "type": "分段类型", "evidence": "分类尺寸精度 | 平直分段，包括平面与曲面分段 | 分段长度 | ±4.0 | ±6.0 | |", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "双层底分段", "type": "分段类型", "evidence": "分类尺寸精度 | 双层底分段 | 双层底长度 | ±4.0 | ±8.0 | |", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "立体分段", "type": "分段类型", "evidence": "分类尺寸精度 | 立体分段 | 上下中心线偏差 | ＜5.0 | ＜10.0 | 其他要求与双层底分段相同 |", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "分段长度", "type": "数据指标", "evidence": "分类尺寸精度 | 平直分段，包括平面与曲面分段 | 分段长度 | ±4.0 | ±6.0 | |", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "分段宽度", "type": "数据指标", "evidence": "分类尺寸精度 | 平直分段，包括平面与曲面分段 | 分段宽度 | ±4.0 | ±6.0 | |", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "分段对角线偏差", "type": "数据指标", "evidence": "分类尺寸精度 | 平直分段，包括平面与曲面分段 | 分段对角线偏差 | ＜6.0 | ＜8.0 | |", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "骨架角度位置", "type": "数据指标", "evidence": "分类尺寸精度 | 平直分段，包括平面与曲面分段 | 骨架的角度位置 | ±2.0 | ±3.0 | |", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "双层底高度", "type": "数据指标", "evidence": "分类尺寸精度 | 双层底分段 | 双层底高度 | ±4.0 | ±6.0 | |", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "误差", "type": "质量问题", "evidence": "误差，焊接和火工矫正引起的热变形，不合理的装配程序等。因此必须加强全面质量管理，提高各工序的施工精度，使分段完工误差控制在规定的精度标准范围内。", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "焊接和火工矫正引起的热变形", "type": "质量问题", "evidence": "误差，焊接和火工矫正引起的热变形，不合理的装配程序等。因此必须加强全面质量管理，提高各工序的施工精度，使分段完工误差控制在规定的精度标准范围内。", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "不合理的装配程序", "type": "质量问题", "evidence": "误差，焊接和火工矫正引起的热变形，不合理的装配程序等。因此必须加强全面质量管理，提高各工序的施工精度，使分段完工误差控制在规定的精度标准范围内。", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "全面质量管理", "type": "控制措施", "evidence": "必须加强全面质量管理，提高各工序的施工精度，使分段完工误差控制在规定的精度标准范围内。", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "精度标准", "type": "数据指标", "evidence": "分段制造应达到的精度标准，如表5-1和表5-2所示。", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "表5-1", "type": "图纸资料", "evidence": "分段制造应达到的精度标准，如表5-1和表5-2所示。", "source_chunk": "chapter5_025", "source_page": 25}
+{"name": "表5-2", "type": "图纸资料", "evidence": "分段制造应达到的精度标准，如表5-1和表5-2所示。", "source_chunk": "chapter5_025", "source_page": 25}

@@ -1,0 +1,63 @@
+{
+  "gold_chunk_count": 5,
+  "gold_entity_count": 93,
+  "gold_triple_count": 79,
+  "models": {
+    "pangu": {
+      "entity": {
+        "tp": 21,
+        "fp": 2,
+        "fn": 72,
+        "precision": 0.913,
+        "recall": 0.2258,
+        "f1": 0.3621
+      },
+      "triple": {
+        "tp": 2,
+        "fp": 20,
+        "fn": 77,
+        "precision": 0.0909,
+        "recall": 0.0253,
+        "f1": 0.0396
+      },
+      "triple_evidence_support_rate": 1.0,
+      "hallucination_rate": 0.0,
+      "selected_chunks": 5,
+      "raw_rows_found": 5,
+      "json_legal_rate": 1.0,
+      "extraction_success_rate": 1.0,
+      "gold_entity_count": 93,
+      "gold_triple_count": 79,
+      "pred_entity_count": 23,
+      "pred_triple_count": 22
+    },
+    "deepseek": {
+      "entity": {
+        "tp": 20,
+        "fp": 5,
+        "fn": 73,
+        "precision": 0.8,
+        "recall": 0.2151,
+        "f1": 0.339
+      },
+      "triple": {
+        "tp": 0,
+        "fp": 28,
+        "fn": 79,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "triple_evidence_support_rate": 1.0,
+      "hallucination_rate": 0.0,
+      "selected_chunks": 5,
+      "raw_rows_found": 5,
+      "json_legal_rate": 1.0,
+      "extraction_success_rate": 1.0,
+      "gold_entity_count": 93,
+      "gold_triple_count": 79,
+      "pred_entity_count": 25,
+      "pred_triple_count": 28
+    }
+  }
+}

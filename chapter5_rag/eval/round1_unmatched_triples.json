@@ -1,0 +1,1238 @@
+{
+  "pangu": {
+    "false_positive": [
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "约占",
+        "tail": "35%"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "曲面分段",
+        "relation": "装配于",
+        "tail": "胎架上进行板的拼接和分段的装配"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "特殊分段",
+        "relation": "装配于",
+        "tail": "专用胎架上装配"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "立体及半立体分段",
+        "relation": "装配于",
+        "tail": "平台或胎架上装配"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "包括",
+        "tail": "双层底分段"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "大组立",
+        "relation": "属于",
+        "tail": "分段装配"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "小组立",
+        "relation": "属于",
+        "tail": "部件装配"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "组合件",
+        "relation": "属于",
+        "tail": "子分段装配"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "双斜切胎架",
+        "relation": "包括",
+        "tail": "中心线"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "双斜切胎架",
+        "relation": "用于",
+        "tail": "横骨架式舷侧分段"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "活络支柱胎架",
+        "relation": "包括",
+        "tail": "中间肋骨线"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "活络支柱胎架",
+        "relation": "用于",
+        "tail": "横骨架式舷侧分段"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "外板",
+        "relation": "定位",
+        "tail": "K行板"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "肋板",
+        "relation": "连接",
+        "tail": "K行板"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "胎板",
+        "relation": "用于",
+        "tail": "激光经纬仪"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "艉部下段",
+        "relation": "包括",
+        "tail": "铸钢艉柱"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "包括",
+        "tail": "分段宽度"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "包括",
+        "tail": "分段长度"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "精度标准",
+        "relation": "包括",
+        "tail": "表5-1"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "精度标准",
+        "relation": "包括",
+        "tail": "表5-2"
+      }
+    ],
+    "false_negative": [
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段",
+        "relation": "属于",
+        "tail": "船体最重要的结构单元"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "属于",
+        "tail": "船体建造过程中最复杂的工艺阶段"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "约占",
+        "tail": "船体装焊工作量的35%左右"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "曲面分段",
+        "relation": "装配于",
+        "tail": "胎架"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "特殊分段",
+        "relation": "装配于",
+        "tail": "专用胎架"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "立体及半立体分段",
+        "relation": "组成",
+        "tail": "外板、甲板和舱壁等子分段"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "侧装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "倒装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "卧装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "插入式"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "放射式"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "框架式"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "正装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "1-1",
+        "relation": "代表",
+        "tail": "大组立或大合拢"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "1-2",
+        "relation": "代表",
+        "tail": "中组立或中合拢"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "1-3",
+        "relation": "代表",
+        "tail": "小组立或小合拢"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "BS1A3",
+        "relation": "代表",
+        "tail": "大组立阶段"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "DK1A3",
+        "relation": "代表",
+        "tail": "以甲板为基面反装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "TB310A3",
+        "relation": "代表",
+        "tail": "以横舱壁为基面卧装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "同时提供",
+        "tail": "型钢弯曲逆直线图"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "同时提供",
+        "tail": "外板加工活络样板图"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "同时提供",
+        "tail": "板材号料图"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段组立树",
+        "relation": "反映",
+        "tail": "结构装配单元的划分情况和从属关系"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段组立树",
+        "relation": "可看出",
+        "tail": "分段的建造方式"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段组立树",
+        "relation": "表达",
+        "tail": "结构的装配程序"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "双层底分段",
+        "relation": "装配基面",
+        "tail": "外板"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "详细组立要领图",
+        "relation": "反映",
+        "tail": "小组立、中组立和大组立的工作内容"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "详细组立要领图",
+        "relation": "形式",
+        "tail": "三维立体图"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "E10、F10、G10三张板",
+        "relation": "形成",
+        "tail": "A～H共8个板角"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "h",
+        "relation": "代表",
+        "tail": "板角距基面的高度值"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "x、y值",
+        "relation": "用于",
+        "tail": "定位"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "专用双斜切胎架",
+        "relation": "可采用",
+        "tail": "挂线方法"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "普通模板胎架",
+        "relation": "用于",
+        "tail": "画中心线和中间肋骨线"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "板角",
+        "relation": "具有",
+        "tail": "长、宽、高三个数值"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "可采用",
+        "tail": "双斜切胎架"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "外板拼接"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "封底焊"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "插入宽板肋骨"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "插入甲板边板"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "装肋骨"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "装舷侧纵桁"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "活络支柱胎架",
+        "relation": "用于",
+        "tail": "板的定位"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "线锤",
+        "relation": "用于",
+        "tail": "在外板上画出分段中心线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "A～E各列板",
+        "relation": "装配顺序",
+        "tail": "由下向上依次装配"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "K行板",
+        "relation": "定位",
+        "tail": "中心线和端缝线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "K行板",
+        "relation": "装配于",
+        "tail": "胎架"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "千斤顶或铁楔",
+        "relation": "用于",
+        "tail": "调整前后偏差"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "垫板",
+        "relation": "用于",
+        "tail": "外侧单面焊"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "平台",
+        "relation": "用于",
+        "tail": "划出船体中心线和基准肋骨线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "平台",
+        "relation": "用于",
+        "tail": "标出分段长度、舵杆中心线及艉柱与K行板接缝的位置"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "松紧螺丝",
+        "relation": "用于",
+        "tail": "调整艉柱上端左右偏差"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "激光经纬仪或水平软管",
+        "relation": "用于",
+        "tail": "在胎板上画出水平线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "肋板",
+        "relation": "装配于",
+        "tail": "平台"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "胎板",
+        "relation": "宽度要求",
+        "tail": "略超出K行板"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "胎板",
+        "relation": "设置依据",
+        "tail": "两倍肋距"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "艉柱",
+        "relation": "装配于",
+        "tail": "胎架"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "艉柱",
+        "relation": "连接",
+        "tail": "K行板"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "艉部下段",
+        "relation": "组成",
+        "tail": "铸钢艉柱"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "全面质量管理",
+        "relation": "用于控制",
+        "tail": "分段完工误差"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "分段制造",
+        "relation": "应达到",
+        "tail": "精度标准"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "分段制造精度标准",
+        "relation": "包括",
+        "tail": "表5-1和表5-2"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "双层底宽度允许界限",
+        "tail": "±12.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "双层底宽度标准范围",
+        "tail": "±8.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "双层底长度允许界限",
+        "tail": "±8.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "双层底长度标准范围",
+        "tail": "±4.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "骨架位置不垂直度标准范围",
+        "tail": "＜3.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段宽度允许界限",
+        "tail": "±6.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段宽度标准范围",
+        "tail": "±4.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段对角线偏差允许界限",
+        "tail": "＜8.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段对角线偏差标准范围",
+        "tail": "＜6.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段长度允许界限",
+        "tail": "±6.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段长度标准范围",
+        "tail": "±4.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "包括",
+        "tail": "平面与曲面分段"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "立体分段",
+        "relation": "上下中心线偏差允许界限",
+        "tail": "＜10.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "立体分段",
+        "relation": "上下中心线偏差标准范围",
+        "tail": "＜5.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "立体分段",
+        "relation": "其他要求",
+        "tail": "与双层底分段相同"
+      }
+    ]
+  },
+  "deepseek": {
+    "false_positive": [
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "包括",
+        "tail": "侧装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "包括",
+        "tail": "倒装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "包括",
+        "tail": "卧装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "包括",
+        "tail": "正装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "包括",
+        "tail": "分段组立树"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "包括",
+        "tail": "详细组立要领图"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段组立树",
+        "relation": "属于",
+        "tail": "双层底分段"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "大组立",
+        "relation": "依据",
+        "tail": "中组立"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "大组立",
+        "relation": "用于",
+        "tail": "双层底分段"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "详细组立要领图",
+        "relation": "属于",
+        "tail": "双层底分段"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "中间肋骨线",
+        "relation": "控制",
+        "tail": "横骨架式舷侧分段"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "挂线方法",
+        "relation": "包括",
+        "tail": "画中心线和中间肋骨线"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "属于",
+        "tail": "舷侧分段"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "连接",
+        "tail": "双斜切胎架"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "画中心线和中间肋骨线",
+        "relation": "用于",
+        "tail": "双斜切胎架"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "画中心线和中间肋骨线",
+        "relation": "用于",
+        "tail": "挂线方法"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "K行板",
+        "relation": "连接",
+        "tail": "艉柱"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "含有铸钢艉柱的艉部下段",
+        "relation": "组成",
+        "tail": "K行板"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "含有铸钢艉柱的艉部下段",
+        "relation": "组成",
+        "tail": "肋板"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "含有铸钢艉柱的艉部下段",
+        "relation": "组成",
+        "tail": "艉柱"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "散装外板装配工艺",
+        "relation": "用于",
+        "tail": "含有铸钢艉柱的艉部下段"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "肋板",
+        "relation": "连接",
+        "tail": "K行板"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "分段局部变形精度标准",
+        "relation": "包括",
+        "tail": "双层底分段"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "分段局部变形精度标准",
+        "relation": "包括",
+        "tail": "平直分段"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "分段局部变形精度标准",
+        "relation": "包括",
+        "tail": "立体分段"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "分段局部变形精度标准",
+        "relation": "控制",
+        "tail": "分段制造"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "控制",
+        "tail": "分段长度"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "焊接和火工矫正",
+        "relation": "导致",
+        "tail": "热变形"
+      }
+    ],
+    "false_negative": [
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段",
+        "relation": "属于",
+        "tail": "船体最重要的结构单元"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "属于",
+        "tail": "船体建造过程中最复杂的工艺阶段"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "分段装配",
+        "relation": "约占",
+        "tail": "船体装焊工作量的35%左右"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "平面曲边分段",
+        "relation": "适用于",
+        "tail": "数控切割和平台装配"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "平面直边分段",
+        "relation": "适用于",
+        "tail": "手工号料和平面分段流水线装配"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "曲面分段",
+        "relation": "装配于",
+        "tail": "胎架"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "特殊分段",
+        "relation": "装配于",
+        "tail": "专用胎架"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "立体及半立体分段",
+        "relation": "组成",
+        "tail": "外板、甲板和舱壁等子分段"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "侧装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "倒装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "卧装"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "插入式"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "放射式"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "框架式"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "head": "装配方式",
+        "relation": "包括",
+        "tail": "正装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "1-1",
+        "relation": "代表",
+        "tail": "大组立或大合拢"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "1-2",
+        "relation": "代表",
+        "tail": "中组立或中合拢"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "1-3",
+        "relation": "代表",
+        "tail": "小组立或小合拢"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "BS1A3",
+        "relation": "代表",
+        "tail": "大组立阶段"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "DK1A3",
+        "relation": "代表",
+        "tail": "以甲板为基面反装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "TB310A3",
+        "relation": "代表",
+        "tail": "以横舱壁为基面卧装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "同时提供",
+        "tail": "型钢弯曲逆直线图"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "同时提供",
+        "tail": "外板加工活络样板图"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段工作图",
+        "relation": "同时提供",
+        "tail": "板材号料图"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段组立树",
+        "relation": "反映",
+        "tail": "结构装配单元的划分情况和从属关系"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段组立树",
+        "relation": "可看出",
+        "tail": "分段的建造方式"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "分段组立树",
+        "relation": "表达",
+        "tail": "结构的装配程序"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "双层底分段",
+        "relation": "装配基面",
+        "tail": "外板"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "详细组立要领图",
+        "relation": "反映",
+        "tail": "小组立、中组立和大组立的工作内容"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "head": "详细组立要领图",
+        "relation": "形式",
+        "tail": "三维立体图"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "E10、F10、G10三张板",
+        "relation": "形成",
+        "tail": "A～H共8个板角"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "h",
+        "relation": "代表",
+        "tail": "板角距基面的高度值"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "x、y值",
+        "relation": "用于",
+        "tail": "定位"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "专用双斜切胎架",
+        "relation": "可采用",
+        "tail": "挂线方法"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "普通模板胎架",
+        "relation": "用于",
+        "tail": "画中心线和中间肋骨线"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "板角",
+        "relation": "具有",
+        "tail": "长、宽、高三个数值"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "可采用",
+        "tail": "双斜切胎架"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "外板拼接"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "封底焊"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "插入宽板肋骨"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "插入甲板边板"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "装肋骨"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "横骨架式舷侧分段",
+        "relation": "装配程序包括",
+        "tail": "装舷侧纵桁"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "活络支柱胎架",
+        "relation": "用于",
+        "tail": "板的定位"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "head": "线锤",
+        "relation": "用于",
+        "tail": "在外板上画出分段中心线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "A～E各列板",
+        "relation": "装配顺序",
+        "tail": "由下向上依次装配"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "K行板",
+        "relation": "定位",
+        "tail": "中心线和端缝线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "K行板",
+        "relation": "装配于",
+        "tail": "胎架"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "千斤顶或铁楔",
+        "relation": "用于",
+        "tail": "调整前后偏差"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "垫板",
+        "relation": "用于",
+        "tail": "外侧单面焊"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "平台",
+        "relation": "用于",
+        "tail": "划出船体中心线和基准肋骨线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "平台",
+        "relation": "用于",
+        "tail": "标出分段长度、舵杆中心线及艉柱与K行板接缝的位置"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "松紧螺丝",
+        "relation": "用于",
+        "tail": "调整艉柱上端左右偏差"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "激光经纬仪或水平软管",
+        "relation": "用于",
+        "tail": "在胎板上画出水平线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "肋板",
+        "relation": "装配于",
+        "tail": "平台"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "胎板",
+        "relation": "宽度要求",
+        "tail": "略超出K行板"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "胎板",
+        "relation": "设置依据",
+        "tail": "两倍肋距"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "艉柱",
+        "relation": "装配于",
+        "tail": "胎架"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "艉柱",
+        "relation": "连接",
+        "tail": "K行板"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "head": "艉部下段",
+        "relation": "组成",
+        "tail": "铸钢艉柱"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "全面质量管理",
+        "relation": "用于控制",
+        "tail": "分段完工误差"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "分段制造",
+        "relation": "应达到",
+        "tail": "精度标准"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "分段制造精度标准",
+        "relation": "包括",
+        "tail": "表5-1和表5-2"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "双层底宽度允许界限",
+        "tail": "±12.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "双层底宽度标准范围",
+        "tail": "±8.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "双层底长度允许界限",
+        "tail": "±8.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "双层底长度标准范围",
+        "tail": "±4.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "双层底分段",
+        "relation": "骨架位置不垂直度标准范围",
+        "tail": "＜3.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段宽度允许界限",
+        "tail": "±6.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段宽度标准范围",
+        "tail": "±4.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段对角线偏差允许界限",
+        "tail": "＜8.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段对角线偏差标准范围",
+        "tail": "＜6.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段长度允许界限",
+        "tail": "±6.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "分段长度标准范围",
+        "tail": "±4.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "平直分段",
+        "relation": "包括",
+        "tail": "平面与曲面分段"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "立体分段",
+        "relation": "上下中心线偏差允许界限",
+        "tail": "＜10.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "立体分段",
+        "relation": "上下中心线偏差标准范围",
+        "tail": "＜5.0mm"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "head": "立体分段",
+        "relation": "其他要求",
+        "tail": "与双层底分段相同"
+      }
+    ]
+  }
+}

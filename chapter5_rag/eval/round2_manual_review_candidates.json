@@ -1,0 +1,4011 @@
+{
+  "pangu": [
+    {
+      "chunk_id": "chapter5_012",
+      "pred": {
+        "head": "装配程序",
+        "relation": "包括",
+        "tail": "外板拼接",
+        "evidence": "外板拼接——焊接——装配画线——装肋骨——焊接"
+      },
+      "gold": {
+        "head": "横骨架式舷侧分段",
+        "relation": "包括",
+        "tail": "外板拼接"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_012",
+      "pred": {
+        "head": "中间肋骨线",
+        "relation": "可采用",
+        "tail": "挂线方法",
+        "evidence": "用挂线方法在板上画出中心线和中间肋骨线"
+      },
+      "gold": {
+        "head": "专用双斜切胎架",
+        "relation": "可采用",
+        "tail": "挂线方法"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_012",
+      "pred": {
+        "head": "装配程序",
+        "relation": "包括",
+        "tail": "外板拼接",
+        "evidence": "外板拼接——焊接——装配画线——装肋骨——焊接"
+      },
+      "gold": {
+        "head": "横骨架式舷侧分段",
+        "relation": "包括",
+        "tail": "外板拼接"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_012",
+      "pred": {
+        "head": "中间肋骨线",
+        "relation": "可采用",
+        "tail": "挂线方法",
+        "evidence": "用挂线方法在板上画出中心线和中间肋骨线"
+      },
+      "gold": {
+        "head": "专用双斜切胎架",
+        "relation": "可采用",
+        "tail": "挂线方法"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板",
+        "relation": "包括",
+        "tail": "肋板组装",
+        "evidence": "肋板组装"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板",
+        "relation": "包括",
+        "tail": "肋板整体吊装",
+        "evidence": "肋板整体吊装"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板",
+        "relation": "包括",
+        "tail": "散装各列外板",
+        "evidence": "散装各列外板"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板",
+        "relation": "包括",
+        "tail": "肋板组装",
+        "evidence": "肋板组装"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板",
+        "relation": "包括",
+        "tail": "肋板整体吊装",
+        "evidence": "肋板整体吊装"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板",
+        "relation": "包括",
+        "tail": "散装各列外板",
+        "evidence": "散装各列外板"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    }
+  ],
+  "deepseek": [
+    {
+      "chunk_id": "chapter5_005",
+      "pred": {
+        "head": "分段组立树",
+        "relation": "反映",
+        "tail": "装配单元划分情况",
+        "evidence": "组立树通过结构各级代码的分层有序排列，既反映出结构装配单元（部件、组合件）的划分情况和从属关系"
+      },
+      "gold": {
+        "head": "分段组立树",
+        "relation": "反映",
+        "tail": "结构装配单元的划分情况和从属关系"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_005",
+      "pred": {
+        "head": "分段组立树",
+        "relation": "反映",
+        "tail": "建造方式",
+        "evidence": "同时可看出分段的建造方式（由分段基面确定为正装、反装或侧装）"
+      },
+      "gold": {
+        "head": "分段组立树",
+        "relation": "反映",
+        "tail": "结构装配单元的划分情况和从属关系"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画十字线和肋板位置线",
+        "evidence": "①在平台上画出十字线和肋板位置线。"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "吊装肋板",
+        "evidence": "②将各肋板吊上平台，面板朝下进行倒装。"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "装肘板和T型梁",
+        "evidence": "③装肋板底部肘板和顶部纵向T型梁。"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板整体吊装",
+        "relation": "包括",
+        "tail": "吊装肋板整体",
+        "evidence": "①将肋板整体吊上胎架。"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板整体吊装",
+        "relation": "包括",
+        "tail": "修整肋板下缘",
+        "evidence": "②根据底部间隙和肋板的高度，对肋板及肘板的下缘进行必要的修整。"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "肋板整体吊装",
+        "relation": "包括",
+        "tail": "定位焊肋板",
+        "evidence": "③将肋板放下，与艉柱及K行板定位焊。"
+      },
+      "gold": {
+        "head": "肋板组装",
+        "relation": "包括",
+        "tail": "画出十字线和肋板位置线"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "散装外板",
+        "relation": "装配顺序",
+        "tail": "由下向上",
+        "evidence": "如图5-40所示，由下向上，依次装配A～E各列板。"
+      },
+      "gold": {
+        "head": "A～E各列板",
+        "relation": "装配顺序",
+        "tail": "由下向上依次装配"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_018",
+      "pred": {
+        "head": "散装外板",
+        "relation": "装配顺序",
+        "tail": "由下向上",
+        "evidence": "如图5-40所示，由下向上，依次装配A～E各列板。"
+      },
+      "gold": {
+        "head": "A～E各列板",
+        "relation": "装配顺序",
+        "tail": "由下向上依次装配"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段局部变形精度标准",
+        "relation": "包括",
+        "tail": "分类尺寸精度",
+        "evidence": "表5-2 分段局部变形精度标准"
+      },
+      "gold": {
+        "head": "分段制造精度标准",
+        "relation": "包括",
+        "tail": "表5-1和表5-2"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分类尺寸精度",
+        "relation": "包括",
+        "tail": "平直分段",
+        "evidence": "平直分段，包括平面与曲面分段"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "包括",
+        "tail": "平面与曲面分段"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "包括",
+        "tail": "平面分段",
+        "evidence": "平直分段，包括平面与曲面分段"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "包括",
+        "tail": "平面与曲面分段"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段长度",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段长度",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段长度",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段宽度",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段宽度",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段宽度",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段对角线偏差",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段对角线偏差",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段对角线偏差",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "标准范围",
+        "tail": "＜6.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "标准范围",
+        "tail": "＜6.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "标准范围",
+        "tail": "＜6.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "允许界限",
+        "tail": "＜8.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "＜8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "允许界限",
+        "tail": "＜8.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "允许界限",
+        "tail": "＜8.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "骨架的角度位置",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "骨架的角度位置",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "骨架的角度位置",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "标准范围",
+        "tail": "±2.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "标准范围",
+        "tail": "±2.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "标准范围",
+        "tail": "±2.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "标准范围",
+        "tail": "±2.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "允许界限",
+        "tail": "±3.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "允许界限",
+        "tail": "±3.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "允许界限",
+        "tail": "±3.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "允许界限",
+        "tail": "±3.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底长度",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底长度",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底长度",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "＜8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底宽度",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底宽度",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底宽度",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "标准范围",
+        "tail": "±8.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "标准范围",
+        "tail": "±8.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "标准范围",
+        "tail": "±8.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "标准范围",
+        "tail": "±8.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "允许界限",
+        "tail": "±12.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底高度",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底高度",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底高度",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底四角水平度",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底四角水平度",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底四角水平度",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "标准范围",
+        "tail": "±10.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "标准范围",
+        "tail": "±10.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "标准范围",
+        "tail": "±10.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "标准范围",
+        "tail": "±10.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "允许界限",
+        "tail": "±25.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "骨架位置不垂直度",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "骨架位置不垂直度",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "骨架位置不垂直度",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "标准范围",
+        "tail": "＜3.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "标准范围",
+        "tail": "＜3.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "标准范围",
+        "tail": "＜3.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "允许界限",
+        "tail": "＜4.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "＜8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "允许界限",
+        "tail": "＜4.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "上下中心线偏差",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "标准范围",
+        "tail": "＜5.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "标准范围",
+        "tail": "＜5.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "标准范围",
+        "tail": "＜5.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "允许界限",
+        "tail": "＜10.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "＜8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "允许界限",
+        "tail": "＜10.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "允许界限",
+        "tail": "＜10.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "上下肋位线偏差",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下肋位线偏差",
+        "relation": "标准范围",
+        "tail": "＜7.0",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下肋位线偏差",
+        "relation": "标准范围",
+        "tail": "＜7.0",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下肋位线偏差",
+        "relation": "标准范围",
+        "tail": "＜7.0",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下肋位线偏差",
+        "relation": "允许界限",
+        "tail": "＜15.0",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "同一水平面基准",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "上下两个水平面之间的高度差",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段局部变形精度标准",
+        "relation": "包括",
+        "tail": "分类尺寸精度",
+        "evidence": "表5-2 分段局部变形精度标准"
+      },
+      "gold": {
+        "head": "分段制造精度标准",
+        "relation": "包括",
+        "tail": "表5-1和表5-2"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分类尺寸精度",
+        "relation": "包括",
+        "tail": "平直分段",
+        "evidence": "平直分段，包括平面与曲面分段"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "包括",
+        "tail": "平面与曲面分段"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段长度",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段长度",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段长度",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段长度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段长度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段宽度",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段宽度",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段宽度",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段宽度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "分段宽度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段对角线偏差",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段对角线偏差",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "分段对角线偏差",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "标准范围",
+        "tail": "＜6.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "标准范围",
+        "tail": "＜6.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "标准范围",
+        "tail": "＜6.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "允许界限",
+        "tail": "＜8.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "＜8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "允许界限",
+        "tail": "＜8.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "分段对角线偏差",
+        "relation": "允许界限",
+        "tail": "＜8.0",
+        "evidence": "分段对角线偏差 | ＜6.0 | ＜8.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "骨架的角度位置",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "骨架的角度位置",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "骨架的角度位置",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "标准范围",
+        "tail": "±2.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "标准范围",
+        "tail": "±2.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "标准范围",
+        "tail": "±2.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "标准范围",
+        "tail": "±2.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "允许界限",
+        "tail": "±3.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "允许界限",
+        "tail": "±3.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "允许界限",
+        "tail": "±3.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架的角度位置",
+        "relation": "允许界限",
+        "tail": "±3.0",
+        "evidence": "骨架的角度位置 | ±2.0 | ±3.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底长度",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底长度",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底长度",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "＜8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底长度",
+        "relation": "允许界限",
+        "tail": "±8.0",
+        "evidence": "双层底长度 | ±4.0 | ±8.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底宽度",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底宽度",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底宽度",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "标准范围",
+        "tail": "±8.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "标准范围",
+        "tail": "±8.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "标准范围",
+        "tail": "±8.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "标准范围",
+        "tail": "±8.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底宽度",
+        "relation": "允许界限",
+        "tail": "±12.0",
+        "evidence": "双层底宽度 | ±8.0 | ±12.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底高度",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底高度",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底高度",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底高度",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "双层底高度 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底四角水平度",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底四角水平度",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "双层底四角水平度",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "标准范围",
+        "tail": "±10.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "标准范围",
+        "tail": "±10.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "标准范围",
+        "tail": "±10.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "标准范围",
+        "tail": "±10.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底四角水平度",
+        "relation": "允许界限",
+        "tail": "±25.0",
+        "evidence": "双层底四角水平度 | ±10.0 | ±25.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "骨架位置不垂直度",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "骨架位置不垂直度",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "骨架位置不垂直度",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "标准范围",
+        "tail": "＜3.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "标准范围",
+        "tail": "＜3.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "标准范围",
+        "tail": "＜3.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "允许界限",
+        "tail": "＜4.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "＜8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "骨架位置不垂直度",
+        "relation": "允许界限",
+        "tail": "＜4.0",
+        "evidence": "骨架位置不垂直度 | ＜3.0 | ＜4.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "上下中心线偏差",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "标准范围",
+        "tail": "＜5.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "标准范围",
+        "tail": "＜5.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "标准范围",
+        "tail": "＜5.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "允许界限",
+        "tail": "＜10.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "＜8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "允许界限",
+        "tail": "＜10.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下中心线偏差",
+        "relation": "允许界限",
+        "tail": "＜10.0",
+        "evidence": "上下中心线偏差 | ＜5.0 | ＜10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "上下肋位线偏差",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下肋位线偏差",
+        "relation": "标准范围",
+        "tail": "＜7.0",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "＜6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下肋位线偏差",
+        "relation": "标准范围",
+        "tail": "＜7.0",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "＜3.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下肋位线偏差",
+        "relation": "标准范围",
+        "tail": "＜7.0",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下肋位线偏差",
+        "relation": "允许界限",
+        "tail": "＜15.0",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "同一水平面基准",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "标准范围",
+        "tail": "±4.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "同一水平面基准",
+        "relation": "允许界限",
+        "tail": "±6.0",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "上下两个水平面之间的高度差",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±4.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "标准范围",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "标准范围",
+        "tail": "±5.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "标准范围",
+        "tail": "＜5.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "平直分段",
+        "relation": "允许界限",
+        "tail": "±6.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±8.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "双层底分段",
+        "relation": "允许界限",
+        "tail": "±12.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    },
+    {
+      "chunk_id": "chapter5_025",
+      "pred": {
+        "head": "上下两个水平面之间的高度差",
+        "relation": "允许界限",
+        "tail": "±10.0",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      },
+      "gold": {
+        "head": "立体分段",
+        "relation": "允许界限",
+        "tail": "＜10.0mm"
+      },
+      "reason": "partial head/tail overlap"
+    }
+  ]
+}

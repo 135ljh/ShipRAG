@@ -1,0 +1,80 @@
+{
+  "models": {
+    "pangu": {
+      "gold_entity_count": 93,
+      "gold_triple_count": 79,
+      "pred_entity_count": 75,
+      "pred_triple_count": 81,
+      "avg_entities_per_chunk": 15.0,
+      "avg_triples_per_chunk": 16.2,
+      "entity": {
+        "tp": 53,
+        "precision": 0.7067,
+        "recall": 0.5699,
+        "f1": 0.631
+      },
+      "entity_type_accuracy": 0.7358,
+      "strict_triple": {
+        "tp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "relaxed_triple": {
+        "tp": 6,
+        "precision": 0.0741,
+        "recall": 0.0759,
+        "f1": 0.075
+      },
+      "semantic_like_triple": {
+        "tp": 6,
+        "precision": 0.0741,
+        "recall": 0.0759,
+        "f1": 0.075
+      },
+      "evidence_support_rate": 0.9753,
+      "hallucination_rate": 0.0192,
+      "raw_rows_found": 5,
+      "json_legal_rate": 1.0,
+      "extraction_success_rate": 1.0
+    },
+    "deepseek": {
+      "gold_entity_count": 93,
+      "gold_triple_count": 79,
+      "pred_entity_count": 78,
+      "pred_triple_count": 110,
+      "avg_entities_per_chunk": 15.6,
+      "avg_triples_per_chunk": 22.0,
+      "entity": {
+        "tp": 60,
+        "precision": 0.7692,
+        "recall": 0.6452,
+        "f1": 0.7018
+      },
+      "entity_type_accuracy": 0.8,
+      "strict_triple": {
+        "tp": 5,
+        "precision": 0.0455,
+        "recall": 0.0633,
+        "f1": 0.0529
+      },
+      "relaxed_triple": {
+        "tp": 17,
+        "precision": 0.1545,
+        "recall": 0.2152,
+        "f1": 0.1799
+      },
+      "semantic_like_triple": {
+        "tp": 19,
+        "precision": 0.1727,
+        "recall": 0.2405,
+        "f1": 0.2011
+      },
+      "evidence_support_rate": 0.9727,
+      "hallucination_rate": 0.0479,
+      "raw_rows_found": 5,
+      "json_legal_rate": 0.8,
+      "extraction_success_rate": 0.8
+    }
+  }
+}

@@ -78,3 +78,40 @@ python chapter5_rag\eval\evaluate_extraction_quality.py
 - `unmatched_triples.json`
 
 如果 `gold_annotations.json` 不存在，脚本会退出并提示先人工标注，不会自动生成 gold。
+
+## 第二轮抽取优化与对比
+
+保留第一轮结果后，只对 gold 标注中的 5 个 chunk 进行第二轮抽取：
+
+```powershell
+python chapter5_rag\extract_round2_gold_chunks.py --model pangu
+
+$env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
+python chapter5_rag\extract_round2_gold_chunks.py --model deepseek
+```
+
+第二轮评测：
+
+```powershell
+python chapter5_rag\eval_extraction_quality.py `
+  --gold chapter5_rag\eval\gold_annotations.json `
+  --pangu chapter5_rag\outputs\round2\pangu\raw_extractions.jsonl `
+  --deepseek chapter5_rag\outputs\round2\deepseek\raw_extractions.jsonl `
+  --out-prefix round2
+```
+
+生成 round1 / round2 对比报告：
+
+```powershell
+python chapter5_rag\compare_extraction_rounds.py
+```
+
+第二轮输出文件：
+
+- `round2_extraction_eval_report.md`
+- `round2_extraction_eval_metrics.json`
+- `round2_unmatched_entities.json`
+- `round2_unmatched_triples.json`
+- `round2_manual_review_candidates.json`
+- `extraction_round_comparison.md`
+- `extraction_round_comparison.json`

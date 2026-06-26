@@ -1,0 +1,704 @@
+{
+  "pangu": {
+    "false_positive": [
+      {
+        "chunk_id": "chapter5_001",
+        "name": "散装式",
+        "type": "装配方式",
+        "evidence": "按后者划分有放射式、插入式、框架式、散装式和子分段组装式"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "正装",
+        "type": "装配方式",
+        "evidence": "本例双层底分段是以外板为基面在胎架上正装的"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "反装",
+        "type": "装配方式",
+        "evidence": "如为1-1“DK1A3”则是以甲板为基面反装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "侧装",
+        "type": "装配方式",
+        "evidence": "1-1“TB310A3”则是以横舱壁为基面卧装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "卧装",
+        "type": "装配方式",
+        "evidence": "1-1“TB310A3”则是以横舱壁为基面卧装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "胎架",
+        "type": "工装设备",
+        "evidence": "本例双层底分段是以外板为基面在胎架上正装的"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "肋板",
+        "type": "船体构件",
+        "evidence": "图5-14为双层底各部件的小组立图，同时给出肋板的质量和质心位置"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "焊接",
+        "type": "工艺工序",
+        "evidence": "外板拼接——焊接——装配画线——装肋骨——焊接"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "挂线方法",
+        "type": "工艺工序",
+        "evidence": "用挂线方法在板上画出中心线和中间肋骨线"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "粉线延伸法",
+        "type": "工艺工序",
+        "evidence": "粉线延伸与外板相交，先后得到a′～e′点"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "板角距基面高度",
+        "type": "数据指标",
+        "evidence": "h为板角距基面的高度值"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "E10板",
+        "type": "船体构件",
+        "evidence": "依次将F10、E10和G10吊上胎架以后"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "F10板",
+        "type": "船体构件",
+        "evidence": "依次将F10、E10和G10吊上胎架以后"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "G10板",
+        "type": "船体构件",
+        "evidence": "依次将F10、E10和G10吊上胎架以后"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "板角定位",
+        "type": "工艺工序",
+        "evidence": "根据x、y值进行定位"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "零号肋位",
+        "type": "数据指标",
+        "evidence": "量出等于零号肋位至舵杆中心线的距离"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "倒装",
+        "type": "装配方式",
+        "evidence": "将各肋板吊上平台，面板朝下进行倒装"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "肘板",
+        "type": "船体构件",
+        "evidence": "肘板对准肋板上的中心线"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "定位焊",
+        "type": "控制措施",
+        "evidence": "与胎板定位焊"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "骨架角度位置",
+        "type": "数据指标",
+        "evidence": "分类尺寸精度 | 平直分段，包括平面与曲面分段 | 骨架的角度位置 | ±2.0 | ±3.0 | |"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "焊接和火工矫正引起的热变形",
+        "type": "质量问题",
+        "evidence": "误差，焊接和火工矫正引起的热变形，不合理的装配程序等。因此必须加强全面质量管理，提高各工序的施工精度，使分段完工误差控制在规定的精度标准范围内。"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "不合理的装配程序",
+        "type": "质量问题",
+        "evidence": "误差，焊接和火工矫正引起的热变形，不合理的装配程序等。因此必须加强全面质量管理，提高各工序的施工精度，使分段完工误差控制在规定的精度标准范围内。"
+      }
+    ],
+    "false_negative": [
+      {
+        "chunk_id": "chapter5_001",
+        "name": "分段装配",
+        "type": "工艺工序"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "装配方式",
+        "type": "装配方式"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "平面直边分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "平面曲边分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "曲面分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "立体及半立体分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "特殊分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "胎架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "结构装配单元",
+        "type": "其他"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "外板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "内底板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "甲板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "舱壁",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "详细组立要领图",
+        "type": "图纸资料"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "三维立体图",
+        "type": "图纸资料"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "普通模板胎架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "中心线",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "构架安装角度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "肋骨",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "舷侧纵桁",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "宽板肋骨",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "甲板边板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "吊环",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "封底焊",
+        "type": "工艺工序"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "x、y和h",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "专用双斜切胎架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "拉线架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "线锤",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "铸钢艉柱",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "平台",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "船体中心线",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "基准肋骨线",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "艉柱",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "铁楔",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "A～E各列板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "垫板",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "单面焊",
+        "type": "工艺工序"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "轴包板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "施工精度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "表5-2",
+        "type": "图纸资料"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "分类尺寸精度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "骨架的角度位置",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "双层底长度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "双层底宽度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "双层底四角水平度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "骨架位置不垂直度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "上下中心线偏差",
+        "type": "数据指标"
+      }
+    ]
+  },
+  "deepseek": {
+    "false_positive": [
+      {
+        "chunk_id": "chapter5_001",
+        "name": "散装式",
+        "type": "装配方式",
+        "evidence": "按后者划分有放射式、插入式、框架式、散装式和子分段组装式"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "正装",
+        "type": "装配方式",
+        "evidence": "本例双层底分段是以外板为基面在胎架上正装的。"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "反装",
+        "type": "装配方式",
+        "evidence": "如为1-1“DK1A3”则是以甲板为基面反装。"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "侧装",
+        "type": "装配方式",
+        "evidence": "由分段基面确定为正装、反装或侧装"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "卧装",
+        "type": "装配方式",
+        "evidence": "1-1“TB310A3”则是以横舱壁为基面卧装。"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "散装件",
+        "type": "船体构件",
+        "evidence": "1-10005A（或0005Q）代表分段大组立的散装件"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "胎架",
+        "type": "工装设备",
+        "evidence": "本例双层底分段是以外板为基面在胎架上正装的。"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "肘板",
+        "type": "船体构件",
+        "evidence": "③装肋板底部肘板和顶部纵向T型梁。"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "分段局部变形精度标准",
+        "type": "数据指标",
+        "evidence": "表5-2 分段局部变形精度标准"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "焊接",
+        "type": "工艺工序",
+        "evidence": "焊接和火工矫正引起的热变形"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "火工矫正",
+        "type": "工艺工序",
+        "evidence": "焊接和火工矫正引起的热变形"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "热变形",
+        "type": "质量问题",
+        "evidence": "焊接和火工矫正引起的热变形"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "不合理的装配程序",
+        "type": "质量问题",
+        "evidence": "不合理的装配程序等"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "平面分段",
+        "type": "分段类型",
+        "evidence": "平直分段，包括平面与曲面分段"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "曲面分段",
+        "type": "分段类型",
+        "evidence": "平直分段，包括平面与曲面分段"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "上下肋位线偏差",
+        "type": "数据指标",
+        "evidence": "上下肋位线偏差 | ＜7.0 | ＜15.0"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "同一水平面基准",
+        "type": "数据指标",
+        "evidence": "同一水平面基准 | ±4.0 | ±6.0"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "上下两个水平面之间的高度差",
+        "type": "数据指标",
+        "evidence": "上下两个水平面之间的高度差 | ±5.0 | ±10.0"
+      }
+    ],
+    "false_negative": [
+      {
+        "chunk_id": "chapter5_001",
+        "name": "分段装配",
+        "type": "工艺工序"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "装配方式",
+        "type": "装配方式"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "平面直边分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "平面曲边分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "曲面分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "立体及半立体分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "特殊分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_001",
+        "name": "胎架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "结构装配单元",
+        "type": "其他"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "外板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_005",
+        "name": "三维立体图",
+        "type": "图纸资料"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "横骨架式舷侧分段",
+        "type": "分段类型"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "双斜切胎架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "普通模板胎架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "活络支柱胎架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "中心线",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "中间肋骨线",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "构架安装角度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "外板拼接",
+        "type": "工艺工序"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "装配画线",
+        "type": "工艺工序"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "肋骨",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "舷侧纵桁",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "宽板肋骨",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "甲板边板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "吊环",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "封底焊",
+        "type": "工艺工序"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "x、y和h",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "专用双斜切胎架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "拉线架",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_012",
+        "name": "线锤",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "船体中心线",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "基准肋骨线",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "肋距",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "舵杆中心线",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "艉柱",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "A～E各列板",
+        "type": "船体构件"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "垫板",
+        "type": "工装设备"
+      },
+      {
+        "chunk_id": "chapter5_018",
+        "name": "单面焊",
+        "type": "工艺工序"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "施工精度",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "分段制造精度标准",
+        "type": "数据指标"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "表5-1",
+        "type": "图纸资料"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "表5-2",
+        "type": "图纸资料"
+      },
+      {
+        "chunk_id": "chapter5_025",
+        "name": "分类尺寸精度",
+        "type": "数据指标"
+      }
+    ]
+  }
+}

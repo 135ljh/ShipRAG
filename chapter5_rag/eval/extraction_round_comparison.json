@@ -1,0 +1,166 @@
+{
+  "round1": {
+    "models": {
+      "pangu": {
+        "pred_entity_count": 23,
+        "pred_triple_count": 22,
+        "avg_entities_per_chunk": 4.6,
+        "avg_triples_per_chunk": 4.4,
+        "json_legal_rate": 1.0,
+        "extraction_success_rate": 1.0,
+        "entity": {
+          "tp": 21,
+          "fp": 2,
+          "fn": 72,
+          "precision": 0.913,
+          "recall": 0.2258,
+          "f1": 0.3621
+        },
+        "entity_type_accuracy": null,
+        "strict_triple": {
+          "tp": 2,
+          "fp": 20,
+          "fn": 77,
+          "precision": 0.0909,
+          "recall": 0.0253,
+          "f1": 0.0396
+        },
+        "relaxed_triple": null,
+        "semantic_like_triple": null,
+        "evidence_support_rate": 1.0,
+        "hallucination_rate": 0.0
+      },
+      "deepseek": {
+        "pred_entity_count": 25,
+        "pred_triple_count": 28,
+        "avg_entities_per_chunk": 5.0,
+        "avg_triples_per_chunk": 5.6,
+        "json_legal_rate": 1.0,
+        "extraction_success_rate": 1.0,
+        "entity": {
+          "tp": 20,
+          "fp": 5,
+          "fn": 73,
+          "precision": 0.8,
+          "recall": 0.2151,
+          "f1": 0.339
+        },
+        "entity_type_accuracy": null,
+        "strict_triple": {
+          "tp": 0,
+          "fp": 28,
+          "fn": 79,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "relaxed_triple": null,
+        "semantic_like_triple": null,
+        "evidence_support_rate": 1.0,
+        "hallucination_rate": 0.0
+      }
+    }
+  },
+  "round2": {
+    "models": {
+      "pangu": {
+        "gold_entity_count": 93,
+        "gold_triple_count": 79,
+        "pred_entity_count": 75,
+        "pred_triple_count": 81,
+        "avg_entities_per_chunk": 15.0,
+        "avg_triples_per_chunk": 16.2,
+        "entity": {
+          "tp": 53,
+          "precision": 0.7067,
+          "recall": 0.5699,
+          "f1": 0.631
+        },
+        "entity_type_accuracy": 0.7358,
+        "strict_triple": {
+          "tp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "relaxed_triple": {
+          "tp": 6,
+          "precision": 0.0741,
+          "recall": 0.0759,
+          "f1": 0.075
+        },
+        "semantic_like_triple": {
+          "tp": 6,
+          "precision": 0.0741,
+          "recall": 0.0759,
+          "f1": 0.075
+        },
+        "evidence_support_rate": 0.9753,
+        "hallucination_rate": 0.0192,
+        "raw_rows_found": 5,
+        "json_legal_rate": 1.0,
+        "extraction_success_rate": 1.0
+      },
+      "deepseek": {
+        "gold_entity_count": 93,
+        "gold_triple_count": 79,
+        "pred_entity_count": 78,
+        "pred_triple_count": 110,
+        "avg_entities_per_chunk": 15.6,
+        "avg_triples_per_chunk": 22.0,
+        "entity": {
+          "tp": 60,
+          "precision": 0.7692,
+          "recall": 0.6452,
+          "f1": 0.7018
+        },
+        "entity_type_accuracy": 0.8,
+        "strict_triple": {
+          "tp": 5,
+          "precision": 0.0455,
+          "recall": 0.0633,
+          "f1": 0.0529
+        },
+        "relaxed_triple": {
+          "tp": 17,
+          "precision": 0.1545,
+          "recall": 0.2152,
+          "f1": 0.1799
+        },
+        "semantic_like_triple": {
+          "tp": 19,
+          "precision": 0.1727,
+          "recall": 0.2405,
+          "f1": 0.2011
+        },
+        "evidence_support_rate": 0.9727,
+        "hallucination_rate": 0.0479,
+        "raw_rows_found": 5,
+        "json_legal_rate": 0.8,
+        "extraction_success_rate": 0.8
+      }
+    }
+  },
+  "error_summary": {
+    "deepseek": {
+      "实体遗漏": 43,
+      "实体边界过长": 1,
+      "实体类型错误": 18,
+      "关系泛化": 43,
+      "关系方向错误": 0,
+      "head 粒度不一致": 2,
+      "tail 粒度不一致": 10,
+      "数值表达不一致": 16
+    },
+    "pangu": {
+      "实体遗漏": 47,
+      "实体边界过长": 1,
+      "实体类型错误": 22,
+      "关系泛化": 19,
+      "关系方向错误": 0,
+      "head 粒度不一致": 2,
+      "tail 粒度不一致": 10,
+      "数值表达不一致": 16
+    }
+  }
+}
