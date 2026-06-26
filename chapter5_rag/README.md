@@ -109,6 +109,31 @@ uvicorn chapter5_rag.deepseek_app:app --host 127.0.0.1 --port 8094
 http://127.0.0.1:8094/
 ```
 
+DeepSeek 版图谱也可以独立导入 Neo4j，不影响 Pangu 版第五章图谱和整本书图谱：
+
+```powershell
+python chapter5_rag\import_deepseek_neo4j.py --clear-deepseek
+```
+
+脚本使用独立命名空间：
+
+- 节点标签：`:Chapter5DeepSeekEntity`
+- 节点 id 前缀：`chapter5_deepseek::`
+- 关系属性：`scope = "chapter5_deepseek"`
+
+查看 Neo4j 中 DeepSeek 第五章子图规模：
+
+```powershell
+python chapter5_rag\import_deepseek_neo4j.py --stats-only
+```
+
+Neo4j Browser 查看 DeepSeek 完整图谱：
+
+```cypher
+MATCH p=(n:Chapter5DeepSeekEntity)-[r {scope: "chapter5_deepseek"}]->(m:Chapter5DeepSeekEntity)
+RETURN p;
+```
+
 ## 纯向量 RAG 基线方案
 
 为了和知识图谱增强 RAG 做对照，本目录新增纯向量 RAG 基线服务。该方案不读取、不构建、不使用任何知识图谱，只依赖第五章文本块的向量检索结果生成答案。
