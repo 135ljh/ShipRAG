@@ -39,13 +39,15 @@ async function checkHealth() {
   try {
     const res = await fetch('/health');
     const data = await res.json();
+    const model = data.model || data.pangu || {};
+    const modelName = model.model || model.provider || model.status || 'unknown';
     $('status').innerHTML = [
       `服务：${escapeHtml(data.status)}`,
       `文本块：${escapeHtml(data.chunks)}`,
       `实体：${escapeHtml(data.entities)}`,
       `关系：${escapeHtml(data.relations)}`,
       `向量库：${data.qdrant_enabled ? escapeHtml(data.qdrant_collection) : '未启用'}`,
-      `Pangu：${escapeHtml(data.pangu?.status || 'unknown')}`
+      `模型：${escapeHtml(modelName)}`
     ].join('<br>');
   } catch (err) {
     $('status').textContent = `服务异常：${err}`;

@@ -1,0 +1,100 @@
+{
+  "provider": "deepseek",
+  "raw_rows": 29,
+  "failed_rows": 0,
+  "entities": 192,
+  "relations": 335,
+  "isolated_entities": 1,
+  "entity_type_counts": {
+    "Chapter": 30,
+    "Component": 49,
+    "Defect": 4,
+    "Measurement": 7,
+    "Operation": 22,
+    "Parameter": 6,
+    "Process": 35,
+    "ProcessObject": 25,
+    "StandardSafety": 1,
+    "ToolEquipment": 13
+  },
+  "relation_type_counts": {
+    "assembled_with": 21,
+    "belongs_to": 13,
+    "causes": 4,
+    "checks": 1,
+    "composed_of": 9,
+    "contains": 199,
+    "controls": 11,
+    "follows": 3,
+    "located_at": 7,
+    "measures": 10,
+    "operates_on": 12,
+    "precedes": 4,
+    "provides_basis_for": 5,
+    "repairs": 1,
+    "used_for": 25,
+    "uses_tool": 10
+  },
+  "top_connected_entities": [
+    {
+      "id": "Chapter_第五章船体分段的装配",
+      "degree": 25
+    },
+    {
+      "id": "Component_肋板",
+      "degree": 15
+    },
+    {
+      "id": "Process_分段装配",
+      "degree": 13
+    },
+    {
+      "id": "Component_舷侧纵桁",
+      "degree": 10
+    },
+    {
+      "id": "Chapter_1_分段工作图",
+      "degree": 10
+    },
+    {
+      "id": "Chapter_3_分段装配相关数据",
+      "degree": 10
+    },
+    {
+      "id": "Chapter_4_装配方式按构架装配顺序或结构单元分类",
+      "degree": 10
+    },
+    {
+      "id": "Chapter_表5_2分段局部变形精度标准",
+      "degree": 10
+    },
+    {
+      "id": "Component_内底板",
+      "degree": 9
+    },
+    {
+      "id": "ToolEquipment_胎架",
+      "degree": 9
+    },
+    {
+      "id": "ToolEquipment_双斜切胎架",
+      "degree": 8
+    },
+    {
+      "id": "Component_纵骨",
+      "degree": 8
+    },
+    {
+      "id": "Measurement_不平度",
+      "degree": 8
+    },
+    {
+      "id": "StandardSafety_分段局部变形精度标准",
+      "degree": 8
+    },
+    {
+      "id": "Component_外板",
+      "degree": 7
+    }
+  ]
+}

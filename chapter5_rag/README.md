@@ -70,3 +70,41 @@ MATCH p=(n:Chapter5Entity)-[r {scope: "chapter5"}]->(m:Chapter5Entity)
 RETURN p
 LIMIT 80;
 ```
+
+## DeepSeek 版第五章 RAG
+
+本目录同时提供 DeepSeek 版第五章流程，不覆盖 Pangu 版产物。DeepSeek 输出目录为：
+
+- `deepseek_outputs/raw_extractions.jsonl`：DeepSeek 抽取原始结果。
+- `deepseek_outputs/graph/entities.jsonl`：DeepSeek 版实体表。
+- `deepseek_outputs/graph/relations.jsonl`：DeepSeek 版关系表。
+- `deepseek_outputs/graph/summary.json`：DeepSeek 版图谱摘要。
+
+运行抽取与构图：
+
+```powershell
+$env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
+python chapter5_rag\deepseek_pipeline.py extract --retries 2 --sleep 0.1 --max-tokens 1800
+python chapter5_rag\deepseek_pipeline.py build-graph --min-confidence 0.55
+```
+
+启动 DeepSeek 版 RAG：
+
+```powershell
+$env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
+uvicorn chapter5_rag.deepseek_app:app --host 127.0.0.1 --port 8094
+```
+
+当前 DeepSeek 版第五章图谱规模：
+
+- 原始抽取 chunk：29
+- 失败 chunk：0
+- 实体：192
+- 关系：335
+- 孤立实体：1
+
+访问地址：
+
+```text
+http://127.0.0.1:8094/
+```
