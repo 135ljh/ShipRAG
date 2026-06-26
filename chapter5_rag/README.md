@@ -108,3 +108,31 @@ uvicorn chapter5_rag.deepseek_app:app --host 127.0.0.1 --port 8094
 ```text
 http://127.0.0.1:8094/
 ```
+
+## 纯向量 RAG 基线方案
+
+为了和知识图谱增强 RAG 做对照，本目录新增纯向量 RAG 基线服务。该方案不读取、不构建、不使用任何知识图谱，只依赖第五章文本块的向量检索结果生成答案。
+
+特点：
+
+- 不使用 `outputs/graph/`。
+- 不使用 `deepseek_outputs/graph/`。
+- `linked_entities` 固定为空。
+- `evidence.graph` 固定为空。
+- 只返回文本块证据 `evidence.documents`。
+- 执行链路为 `VectorRetriever -> AnswerGenerator -> BaselineVerifier`。
+
+启动命令：
+
+```powershell
+$env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
+uvicorn chapter5_rag.vector_baseline_app:app --host 127.0.0.1 --port 8095
+```
+
+访问地址：
+
+```text
+http://127.0.0.1:8095/
+```
+
+该基线适合作为后续评估中的对比项，用来衡量“知识图谱增强”相对于“仅向量检索”的提升。
