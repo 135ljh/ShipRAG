@@ -8,44 +8,92 @@
   </head>
   <body>
     <aside class="sidebar">
-      <div class="brand">第五章 RAG</div>
-      <div class="sub">船体分段的装配</div>
-      <div class="status" id="status">服务检查中...</div>
+      <div class="brand-block">
+        <div class="brand-mark">C5</div>
+        <div>
+          <div class="brand">第五章 RAG</div>
+          <div class="sub">船体分段的装配</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-item active" data-view="qa">RAG 问答</button>
+        <button class="nav-item" data-view="trace">智能执行链路</button>
+        <button class="nav-item" data-view="evidence">检索证据</button>
+      </nav>
+
+      <div class="status-card">
+        <div class="status-title">系统状态</div>
+        <div class="status" id="status">服务检查中...</div>
+      </div>
     </aside>
 
-    <main class="workspace">
-      <section class="question-panel">
-        <div class="section-title">问题输入</div>
-        <textarea id="question">分段装配方式有哪些？各自适用于什么情况？</textarea>
-        <div class="controls">
-          <label><span>Top K</span><input id="topK" type="number" min="1" max="10" value="5" /></label>
-          <label><span>图谱跳数</span><input id="hops" type="number" min="1" max="2" value="1" /></label>
-          <button id="askBtn">生成答案</button>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">Multi-Agent Graph RAG</div>
+          <h1 id="pageTitle">RAG 问答</h1>
+          <p id="pageSub">融合 Pangu、多智能体、知识图谱与向量检索，生成可追溯答案。</p>
+        </div>
+        <div class="metric-strip">
+          <span id="metricAgents">智能体 0</span>
+          <span id="metricDocs">文档 0</span>
+          <span id="metricGraph">图谱 0</span>
+        </div>
+      </header>
+
+      <section class="view active" id="view-qa">
+        <div class="qa-grid">
+          <section class="panel question-panel">
+            <div class="section-title">问题输入</div>
+            <textarea id="question">分段装配方式有哪些？各自适用于什么情况？</textarea>
+            <div class="controls">
+              <label><span>Top K</span><input id="topK" type="number" min="1" max="10" value="5" /></label>
+              <label><span>图谱跳数</span><input id="hops" type="number" min="1" max="2" value="1" /></label>
+              <button id="askBtn">生成答案</button>
+            </div>
+          </section>
+
+          <section class="panel answer-panel">
+            <div class="section-line">
+              <div class="section-title">回答</div>
+              <span id="badge">待生成</span>
+            </div>
+            <pre id="answer">输入问题后生成答案。</pre>
+          </section>
         </div>
       </section>
 
-      <section class="answer-panel">
-        <div class="section-title">回答 <span id="badge">待生成</span></div>
-        <pre id="answer">输入问题后生成答案。</pre>
-      </section>
-
-      <section class="trace-panel">
-        <div class="section-title">智能体执行链路</div>
-        <div id="agentTrace" class="agent-rail"></div>
-      </section>
-
-      <section class="evidence-panel">
-        <div class="evidence-head">
-          <div class="section-title">检索证据</div>
-          <div class="tabs">
-            <button class="tab active" data-target="entities">关联实体</button>
-            <button class="tab" data-target="graph">图谱事实</button>
-            <button class="tab" data-target="docs">文档片段</button>
+      <section class="view" id="view-trace">
+        <section class="panel trace-page">
+          <div class="section-line">
+            <div>
+              <div class="section-title">智能体执行链路</div>
+              <p class="hint">展示 Planner、Vector、Graph、Fusion、Answer、Verifier 的分工与执行结果。</p>
+            </div>
+            <span class="soft-pill" id="traceCount">0 个步骤</span>
           </div>
-        </div>
-        <div class="tab-page active" id="entities"></div>
-        <div class="tab-page" id="graph"></div>
-        <div class="tab-page" id="docs"></div>
+          <div id="agentTrace" class="agent-rail"></div>
+        </section>
+      </section>
+
+      <section class="view" id="view-evidence">
+        <section class="panel evidence-page">
+          <div class="evidence-head">
+            <div>
+              <div class="section-title">检索证据</div>
+              <p class="hint">查看关联实体、图谱事实和教材片段，便于定位答案来源。</p>
+            </div>
+            <div class="tabs">
+              <button class="tab active" data-target="entities">关联实体</button>
+              <button class="tab" data-target="graph">图谱事实</button>
+              <button class="tab" data-target="docs">文档片段</button>
+            </div>
+          </div>
+          <div class="tab-page active" id="entities"></div>
+          <div class="tab-page" id="graph"></div>
+          <div class="tab-page" id="docs"></div>
+        </section>
       </section>
     </main>
     <script src="/static/app.js"></script>
