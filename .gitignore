@@ -12,6 +12,7 @@ deepseek/.env
 deepseek/outputs/raw_extractions.jsonl
 deepseek/outputs/sample_*.jsonl
 deepseek/outputs/sample_graph/
+chapter5_rag/qdrant_storage/
 
 *.tmp
 *.bak

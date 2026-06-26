@@ -16,6 +16,8 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
+from chapter5_rag.chapter5_vector import Chapter5Qdrant
+
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_DIR = ROOT / "chapter5_rag"
@@ -139,17 +141,63 @@ class Chapter5RAG:
             self.relations_by_entity[rel["head"]].append(rel)
             self.relations_by_entity[rel["tail"]].append(rel)
         self.pangu = PanguClient()
+        try:
+            self.qdrant = Chapter5Qdrant()
+            self.qdrant_enabled = True
+        except Exception:
+            self.qdrant = None
+            self.qdrant_enabled = False
 
     def retrieve_documents(self, question: str, top_k: int) -> list[dict[str, Any]]:
         q_terms = terms(question)
-        scored = []
+        keyword_results = []
         for chunk in self.chunks:
             score = score_text(q_terms, f"{chunk.get('chapter_hint','')} {chunk.get('text','')}")
             if score <= 0:
                 continue
-            scored.append({**chunk, "score": round(score, 4), "type": "document"})
-        scored.sort(key=lambda row: row["score"], reverse=True)
-        return scored[:top_k]
+            keyword_results.append({**chunk, "score": round(score, 4), "type": "document", "retrieval_source": "keyword"})
+        keyword_results.sort(key=lambda row: row["score"], reverse=True)
+        vector_results: list[dict[str, Any]] = []
+        if self.qdrant_enabled and self.qdrant is not None:
+            try:
+                vector_results = self.qdrant.search(question, top_k=max(12, top_k * 4))
+            except Exception:
+                vector_results = []
+        return self.fuse_documents(vector_results, keyword_results, top_k)
+
+    def fuse_documents(self, vector_results: list[dict[str, Any]], keyword_results: list[dict[str, Any]], top_k: int) -> list[dict[str, Any]]:
+        merged: dict[str, dict[str, Any]] = {}
+        for weight, rows in ((1.15, vector_results), (1.35, keyword_results)):
+            for rank, row in enumerate(rows, start=1):
+                chunk_id = row.get("chunk_id") or row.get("id")
+                if not chunk_id:
+                    continue
+                current = merged.setdefault(
+                    chunk_id,
+                    {
+                        "id": chunk_id,
+                        "chunk_id": chunk_id,
+                        "source": row.get("source"),
+                        "page_start": row.get("page_start"),
+                        "page_end": row.get("page_end"),
+                        "chapter_hint": row.get("chapter_hint", ""),
+                        "text": row.get("text", ""),
+                        "char_count": row.get("char_count", len(row.get("text", ""))),
+                        "type": "document",
+                        "score": 0.0,
+                        "sources": [],
+                    },
+                )
+                current["score"] += weight / (60 + rank)
+                current["sources"].append(row.get("retrieval_source") or "keyword")
+                if row.get("text") and len(row.get("text", "")) > len(current.get("text", "")):
+                    current["text"] = row["text"]
+        docs = list(merged.values())
+        for doc in docs:
+            doc["score"] = round(float(doc["score"]), 6)
+            doc["retrieval_source"] = "+".join(sorted(set(doc.pop("sources"))))
+        docs.sort(key=lambda item: item["score"], reverse=True)
+        return docs[:top_k]
 
     def retrieve_graph(self, question: str, hops: int, limit: int = 24) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
         q_terms = terms(question)
@@ -278,6 +326,8 @@ def health() -> dict[str, Any]:
         "chunks": len(rag.chunks),
         "entities": len(rag.entities),
         "relations": len(rag.relations),
+        "qdrant_enabled": rag.qdrant_enabled,
+        "qdrant_collection": rag.qdrant.collection if rag.qdrant else None,
         "pangu": pangu_status,
     }
 

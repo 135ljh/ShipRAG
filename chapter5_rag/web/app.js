@@ -9,6 +9,7 @@ async function checkHealth() {
       `Chunks：${data.chunks}`,
       `实体：${data.entities}`,
       `关系：${data.relations}`,
+      `Qdrant：${data.qdrant_enabled ? data.qdrant_collection : '未启用'}`,
       `Pangu：${data.pangu?.status || 'unknown'}`
     ].join('<br>');
   } catch (err) {
@@ -35,7 +36,7 @@ async function ask() {
   const question = $('question').value.trim();
   if (!question) return;
   $('badge').textContent = '生成中';
-  $('answer').textContent = '正在检索第五章图谱和教材证据...';
+  $('answer').textContent = '正在检索 Qdrant 向量库、第五章图谱和教材证据...';
   const started = performance.now();
   try {
     const res = await fetch('/ask', {
@@ -53,7 +54,7 @@ async function ask() {
     $('answer').textContent = data.answer || '无答案';
     renderItems('entities', data.linked_entities, (e) => `<strong>${e.name}</strong><span class="muted">${e.type} | score ${e.score}</span><br>${e.definition || ''}`);
     renderItems('graph', data.evidence?.graph, (g) => `<strong>${g.head} --${g.relation_zh || g.relation}--> ${g.tail}</strong><span class="muted">score ${g.score}</span><br>${g.evidence || ''}`);
-    renderItems('docs', data.evidence?.documents, (d) => `<strong>${d.id}</strong><span class="muted">位置 ${d.page_start} | score ${d.score}</span><br>${(d.text || '').slice(0, 220)}`);
+    renderItems('docs', data.evidence?.documents, (d) => `<strong>${d.id}</strong><span class="muted">位置 ${d.page_start} | ${d.retrieval_source || 'unknown'} | score ${d.score}</span><br>${(d.text || '').slice(0, 220)}`);
   } catch (err) {
     $('badge').textContent = '失败';
     $('answer').textContent = String(err);
