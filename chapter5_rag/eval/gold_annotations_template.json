@@ -1,0 +1,97 @@
+[
+  {
+    "chunk_id": "chapter5_001",
+    "section": "3. 装配方式按分段位置状态分类",
+    "gold_entities": [
+      {
+        "name": "",
+        "type": "",
+        "evidence": ""
+      }
+    ],
+    "gold_triples": [
+      {
+        "head": "",
+        "relation": "",
+        "tail": "",
+        "evidence": ""
+      }
+    ]
+  },
+  {
+    "chunk_id": "chapter5_005",
+    "section": "1. 分段工作图",
+    "gold_entities": [
+      {
+        "name": "",
+        "type": "",
+        "evidence": ""
+      }
+    ],
+    "gold_triples": [
+      {
+        "head": "",
+        "relation": "",
+        "tail": "",
+        "evidence": ""
+      }
+    ]
+  },
+  {
+    "chunk_id": "chapter5_012",
+    "section": "2. 在专用双斜切胎板上画基准线",
+    "gold_entities": [
+      {
+        "name": "",
+        "type": "",
+        "evidence": ""
+      }
+    ],
+    "gold_triples": [
+      {
+        "head": "",
+        "relation": "",
+        "tail": "",
+        "evidence": ""
+      }
+    ]
+  },
+  {
+    "chunk_id": "chapter5_018",
+    "section": "5. 散装外板",
+    "gold_entities": [
+      {
+        "name": "",
+        "type": "",
+        "evidence": ""
+      }
+    ],
+    "gold_triples": [
+      {
+        "head": "",
+        "relation": "",
+        "tail": "",
+        "evidence": ""
+      }
+    ]
+  },
+  {
+    "chunk_id": "chapter5_025",
+    "section": "表5-2 分段局部变形精度标准",
+    "gold_entities": [
+      {
+        "name": "",
+        "type": "",
+        "evidence": ""
+      }
+    ],
+    "gold_triples": [
+      {
+        "head": "",
+        "relation": "",
+        "tail": "",
+        "evidence": ""
+      }
+    ]
+  }
+]
