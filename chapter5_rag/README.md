@@ -11,6 +11,11 @@
 5. `outputs/graph/relations.jsonl`：第五章关系表。
 6. `chapter5_vector.py`：第五章 chunk 向量化并写入 Qdrant。
 7. `chapter5_app.py`：第五章 Qdrant 向量检索 + 本地关键词检索 + 图谱检索 + Pangu 生成答案服务。
+8. `multi_agent_design.md`：第五章多智能体 RAG 设计说明。
+
+## 多智能体
+
+当前第五章 RAG 已实现多智能体执行链路：PlannerAgent、VectorAgent、GraphAgent、FusionAgent、AnswerAgent、VerifierAgent。前端会展示 `AGENT TRACE`，后端 `/ask` 接口会在 `metadata.agent_trace` 中返回每个智能体的执行动作和耗时。
 
 ## 重新运行
 

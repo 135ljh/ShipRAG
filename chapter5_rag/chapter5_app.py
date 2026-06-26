@@ -228,21 +228,150 @@ class Chapter5RAG:
         facts.sort(key=lambda row: row["score"], reverse=True)
         return selected, facts[:limit]
 
+    def trace_step(self, trace: list[dict[str, Any]], agent: str, action: str, detail: dict[str, Any], started: float) -> None:
+        trace.append(
+            {
+                "agent": agent,
+                "action": action,
+                "detail": detail,
+                "elapsed_ms": round((time.perf_counter() - started) * 1000, 2),
+            }
+        )
+
+    def planner_agent(self, question: str, trace: list[dict[str, Any]]) -> dict[str, Any]:
+        started = time.perf_counter()
+        fallback = {
+            "intent": "chapter5_domain_qa",
+            "keywords": terms(question),
+            "needs_graph": True,
+            "needs_vector": True,
+        }
+        prompt = f"""你是第五章船体分段装配RAG系统的PlannerAgent。请分析用户问题，输出JSON。
+只返回JSON，不要解释。
+字段：
+- intent: 问题意图
+- keywords: 2到8个检索关键词
+- needs_graph: 是否需要知识图谱
+- needs_vector: 是否需要教材向量检索
+
+用户问题：{question}
+
+输出示例：
+{{"intent":"分段装配方式查询","keywords":["分段装配","正装","反装"],"needs_graph":true,"needs_vector":true}}
+/no_think
+"""
+        try:
+            raw = self.pangu.generate(prompt, max_new_tokens=180)
+            match = re.search(r"\{.*\}", raw, flags=re.S)
+            payload = json.loads(match.group(0)) if match else {}
+            plan = {
+                "intent": str(payload.get("intent") or fallback["intent"]),
+                "keywords": [str(item) for item in payload.get("keywords", []) if str(item).strip()][:8] or fallback["keywords"],
+                "needs_graph": bool(payload.get("needs_graph", True)),
+                "needs_vector": bool(payload.get("needs_vector", True)),
+            }
+            self.trace_step(trace, "PlannerAgent", "LLM query planning", {"intent": plan["intent"], "keywords": plan["keywords"]}, started)
+            return plan
+        except Exception as exc:
+            self.trace_step(trace, "PlannerAgent", "fallback query planning", {"keywords": fallback["keywords"], "error": type(exc).__name__}, started)
+            return fallback
+
+    def vector_agent(self, question: str, top_k: int, trace: list[dict[str, Any]], needs_vector: bool = True) -> list[dict[str, Any]]:
+        started = time.perf_counter()
+        docs = self.retrieve_documents(question, top_k) if needs_vector else []
+        self.trace_step(
+            trace,
+            "VectorAgent",
+            "Qdrant vector + keyword retrieval",
+            {
+                "documents": len(docs),
+                "sources": sorted({doc.get("retrieval_source", "") for doc in docs}),
+                "top_chunks": [doc.get("chunk_id") or doc.get("id") for doc in docs[:5]],
+            },
+            started,
+        )
+        return docs
+
+    def graph_agent(self, question: str, graph_hops: int, trace: list[dict[str, Any]], needs_graph: bool = True) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+        started = time.perf_counter()
+        entities, facts = self.retrieve_graph(question, graph_hops) if needs_graph else ([], [])
+        self.trace_step(
+            trace,
+            "GraphAgent",
+            "entity linking + graph neighborhood retrieval",
+            {
+                "linked_entities": len(entities),
+                "graph_facts": len(facts),
+                "top_entities": [item.get("name") for item in entities[:5]],
+            },
+            started,
+        )
+        return entities, facts
+
+    def fusion_agent(self, docs: list[dict[str, Any]], facts: list[dict[str, Any]], trace: list[dict[str, Any]]) -> dict[str, Any]:
+        started = time.perf_counter()
+        graph_chunks = {chunk for fact in facts for chunk in fact.get("source_chunks", [])}
+        for doc in docs:
+            chunk_id = doc.get("chunk_id") or doc.get("id")
+            if chunk_id in graph_chunks:
+                doc["score"] = round(float(doc.get("score") or 0) + 0.03, 6)
+                doc["retrieval_source"] = f"{doc.get('retrieval_source', '')}+graph_boost".strip("+")
+        docs.sort(key=lambda item: item.get("score", 0), reverse=True)
+        fused = {"documents": docs, "graph": facts}
+        self.trace_step(
+            trace,
+            "FusionAgent",
+            "evidence merge and graph-boost rerank",
+            {"documents": len(docs), "graph_facts": len(facts), "graph_backed_chunks": len(graph_chunks)},
+            started,
+        )
+        return fused
+
+    def verifier_agent(self, answer: str, evidence: dict[str, Any], trace: list[dict[str, Any]]) -> dict[str, Any]:
+        started = time.perf_counter()
+        docs = evidence.get("documents", [])
+        facts = evidence.get("graph", [])
+        has_sections = all(marker in answer for marker in ("结论", "依据", "引用"))
+        result = {
+            "grounded": bool(docs or facts),
+            "has_required_sections": has_sections,
+            "document_evidence": len(docs),
+            "graph_evidence": len(facts),
+        }
+        self.trace_step(trace, "VerifierAgent", "evidence and format verification", result, started)
+        return result
+
     def answer(self, question: str, top_k: int = 5, graph_hops: int = 1) -> dict[str, Any]:
         started = time.perf_counter()
-        docs = self.retrieve_documents(question, top_k)
-        entities, facts = self.retrieve_graph(question, graph_hops)
-        answer = self.generate_answer(question, docs, facts)
+        trace: list[dict[str, Any]] = []
+        plan = self.planner_agent(question, trace)
+        docs = self.vector_agent(question, top_k, trace, needs_vector=plan.get("needs_vector", True))
+        entities, facts = self.graph_agent(question, graph_hops, trace, needs_graph=plan.get("needs_graph", True))
+        fused = self.fusion_agent(docs, facts, trace)
+        answer_started = time.perf_counter()
+        answer = self.generate_answer(question, fused["documents"], fused["graph"])
+        self.trace_step(
+            trace,
+            "AnswerAgent",
+            "Pangu evidence-grounded answer generation",
+            {"answer_chars": len(answer), "llm": "Pangu 7B /generate"},
+            answer_started,
+        )
+        verification = self.verifier_agent(answer, fused, trace)
         return {
             "question": question,
             "answer": answer,
             "linked_entities": entities[:8],
-            "evidence": {"documents": docs, "graph": facts},
+            "evidence": fused,
             "metadata": {
                 "elapsed_ms": round((time.perf_counter() - started) * 1000, 2),
                 "chapter": "第五章 船体分段的装配",
                 "graph_entities": self.summary.get("entities"),
                 "graph_relations": self.summary.get("relations"),
+                "retrieval_mode": "chapter5_multi_agent_graph_vector_rag",
+                "planner": plan,
+                "verification": verification,
+                "agent_trace": trace,
             },
         }
 

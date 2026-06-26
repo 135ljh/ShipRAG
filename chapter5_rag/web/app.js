@@ -52,6 +52,7 @@ async function ask() {
     const elapsed = Math.round(performance.now() - started);
     $('badge').textContent = `已生成 | ${elapsed}ms`;
     $('answer').textContent = data.answer || '无答案';
+    renderItems('agentTrace', data.metadata?.agent_trace, (step) => `<strong>${step.agent}</strong><span class="muted">${step.action} | ${step.elapsed_ms}ms</span><br><code>${JSON.stringify(step.detail || {})}</code>`);
     renderItems('entities', data.linked_entities, (e) => `<strong>${e.name}</strong><span class="muted">${e.type} | score ${e.score}</span><br>${e.definition || ''}`);
     renderItems('graph', data.evidence?.graph, (g) => `<strong>${g.head} --${g.relation_zh || g.relation}--> ${g.tail}</strong><span class="muted">score ${g.score}</span><br>${g.evidence || ''}`);
     renderItems('docs', data.evidence?.documents, (d) => `<strong>${d.id}</strong><span class="muted">位置 ${d.page_start} | ${d.retrieval_source || 'unknown'} | score ${d.score}</span><br>${(d.text || '').slice(0, 220)}`);
