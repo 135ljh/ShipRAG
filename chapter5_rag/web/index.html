@@ -7,42 +7,45 @@
     <link rel="stylesheet" href="/static/styles.css" />
   </head>
   <body>
-    <aside>
-      <div class="brand">Chapter 5 RAG</div>
+    <aside class="sidebar">
+      <div class="brand">第五章 RAG</div>
       <div class="sub">船体分段的装配</div>
-      <div class="status" id="status">检查中...</div>
+      <div class="status" id="status">服务检查中...</div>
     </aside>
-    <main>
-      <section class="ask-panel">
-        <label>QUESTION</label>
+
+    <main class="workspace">
+      <section class="question-panel">
+        <div class="section-title">问题输入</div>
         <textarea id="question">分段装配方式有哪些？各自适用于什么情况？</textarea>
         <div class="controls">
-          <div><span>Top K</span><input id="topK" type="number" min="1" max="10" value="5" /></div>
-          <div><span>Graph Hops</span><input id="hops" type="number" min="1" max="2" value="1" /></div>
+          <label><span>Top K</span><input id="topK" type="number" min="1" max="10" value="5" /></label>
+          <label><span>图谱跳数</span><input id="hops" type="number" min="1" max="2" value="1" /></label>
           <button id="askBtn">生成答案</button>
         </div>
       </section>
+
       <section class="answer-panel">
-        <div class="panel-title">ANSWER <span id="badge">待生成</span></div>
+        <div class="section-title">回答 <span id="badge">待生成</span></div>
         <pre id="answer">输入问题后生成答案。</pre>
       </section>
-      <section class="trace">
-        <div>
-          <h3>AGENT TRACE</h3>
-          <div id="agentTrace"></div>
+
+      <section class="trace-panel">
+        <div class="section-title">智能体执行链路</div>
+        <div id="agentTrace" class="agent-rail"></div>
+      </section>
+
+      <section class="evidence-panel">
+        <div class="evidence-head">
+          <div class="section-title">检索证据</div>
+          <div class="tabs">
+            <button class="tab active" data-target="entities">关联实体</button>
+            <button class="tab" data-target="graph">图谱事实</button>
+            <button class="tab" data-target="docs">文档片段</button>
+          </div>
         </div>
-        <div>
-          <h3>LINKED ENTITIES</h3>
-          <div id="entities"></div>
-        </div>
-        <div>
-          <h3>GRAPH EVIDENCE</h3>
-          <div id="graph"></div>
-        </div>
-        <div>
-          <h3>DOCUMENT EVIDENCE</h3>
-          <div id="docs"></div>
-        </div>
+        <div class="tab-page active" id="entities"></div>
+        <div class="tab-page" id="graph"></div>
+        <div class="tab-page" id="docs"></div>
       </section>
     </main>
     <script src="/static/app.js"></script>
