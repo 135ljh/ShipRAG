@@ -36,3 +36,37 @@ uvicorn chapter5_rag.chapter5_app:app --host 127.0.0.1 --port 8092
 第五章 RAG 使用独立 Qdrant collection：`chapter5_rag_chunks`。系统优先连接 `QDRANT_URL`/`CHAPTER5_QDRANT_URL` 指向的 HTTP Qdrant 服务；如果本地 6333 未启动，会自动 fallback 到 `chapter5_rag/qdrant_storage/` 的 Qdrant embedded local 模式。该目录是运行产物，可通过 `python chapter5_rag\chapter5_vector.py --recreate` 重建。
 
 注意：Qdrant embedded local 模式同一时间只能被一个 Python 进程打开。如果第五章 RAG 服务正在运行并占用 `qdrant_storage`，需要先停止服务，再重新执行向量入库命令。使用独立 Qdrant Server 时没有这个限制。
+
+## Neo4j 独立存储
+
+第五章知识图谱可以单独写入 Neo4j，并且不会影响整本书图谱。导入脚本为：
+
+```powershell
+python chapter5_rag\import_neo4j.py
+```
+
+脚本使用独立命名空间：
+
+- 第五章节点标签：`:Chapter5Entity`
+- 节点 id 前缀：`chapter5::`
+- 关系属性：`scope = "chapter5"`
+
+如果需要重导第五章图谱，只删除第五章子图，不清空整本书图谱：
+
+```powershell
+python chapter5_rag\import_neo4j.py --clear-chapter5
+```
+
+查看 Neo4j 中第五章子图规模：
+
+```powershell
+python chapter5_rag\import_neo4j.py --stats-only
+```
+
+Neo4j Browser 可视化查询：
+
+```cypher
+MATCH p=(n:Chapter5Entity)-[r {scope: "chapter5"}]->(m:Chapter5Entity)
+RETURN p
+LIMIT 80;
+```
