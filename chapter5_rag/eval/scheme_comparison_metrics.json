@@ -1,0 +1,1222 @@
+{
+  "meta": {
+    "chapter": "第五章 船体分段的装配",
+    "qa_question_count": 15,
+    "generation_evaluation": "not_run",
+    "generation_note": "生成阶段受远程模型稳定性影响，本实验主要比较检索阶段性能。"
+  },
+  "extraction_quality": [
+    {
+      "model": "pangu",
+      "round": "round1",
+      "entity_f1": 0.3621,
+      "strict_triple_f1": 0.0396,
+      "relaxed_triple_f1": null,
+      "semantic_like_f1": null,
+      "json_valid_rate": 1.0,
+      "extraction_success_rate": 1.0
+    },
+    {
+      "model": "deepseek",
+      "round": "round1",
+      "entity_f1": 0.339,
+      "strict_triple_f1": 0.0,
+      "relaxed_triple_f1": null,
+      "semantic_like_f1": null,
+      "json_valid_rate": 1.0,
+      "extraction_success_rate": 1.0
+    },
+    {
+      "model": "pangu",
+      "round": "round2",
+      "entity_f1": 0.631,
+      "strict_triple_f1": 0.0,
+      "relaxed_triple_f1": 0.075,
+      "semantic_like_f1": 0.075,
+      "json_valid_rate": 1.0,
+      "extraction_success_rate": 1.0
+    },
+    {
+      "model": "deepseek",
+      "round": "round2",
+      "entity_f1": 0.7018,
+      "strict_triple_f1": 0.0529,
+      "relaxed_triple_f1": 0.1799,
+      "semantic_like_f1": 0.2011,
+      "json_valid_rate": 0.8,
+      "extraction_success_rate": 0.8
+    }
+  ],
+  "graph_quality": {
+    "pangu": {
+      "available": true,
+      "triple_file": "D:\\project\\ShipRAG\\chapter5_rag\\outputs\\round2\\pangu\\kg_triples.jsonl",
+      "entity_file": "D:\\project\\ShipRAG\\chapter5_rag\\outputs\\round2\\pangu\\kg_entities.jsonl",
+      "entity_count": 120,
+      "triple_count": 81,
+      "relation_type_count": 43,
+      "average_degree": 1.35,
+      "largest_component_ratio": 0.2,
+      "isolated_entity_ratio": 0.0833,
+      "duplicate_triple_ratio": 0.0,
+      "self_loop_ratio": 0.0,
+      "generic_relation_ratio": 0.1728,
+      "relation_counts": {
+        "工作量占比": 1,
+        "适用场景": 1,
+        "适用工艺": 1,
+        "装配位置": 1,
+        "装配特点": 1,
+        "精度要求": 1,
+        "影响因素": 1,
+        "结构特点": 3,
+        "组成构件": 1,
+        "形状特征": 1,
+        "合拢特点": 1,
+        "装配方式": 9,
+        "包括": 7,
+        "反映": 1,
+        "表达": 1,
+        "确定": 1,
+        "属于": 7,
+        "采用": 3,
+        "表示": 1,
+        "标注": 1,
+        "具有": 8,
+        "用于": 2,
+        "装配于": 1,
+        "可采用": 2,
+        "依据": 1,
+        "组成": 1,
+        "标准范围": 1,
+        "代表": 1,
+        "设置依据": 1,
+        "装配工艺": 1,
+        "宽度应略超出": 1,
+        "标出": 1,
+        "初步对上": 1,
+        "调整": 2,
+        "倒装": 1,
+        "对齐": 1,
+        "装配顺序": 1,
+        "施焊方式": 1,
+        "装配程序包括": 3,
+        "正足边": 1,
+        "切割余量": 1,
+        "导致": 3,
+        "控制": 1
+      }
+    },
+    "deepseek": {
+      "available": true,
+      "triple_file": "D:\\project\\ShipRAG\\chapter5_rag\\outputs\\round2\\deepseek\\kg_triples.jsonl",
+      "entity_file": "D:\\project\\ShipRAG\\chapter5_rag\\outputs\\round2\\deepseek\\kg_entities.jsonl",
+      "entity_count": 117,
+      "triple_count": 110,
+      "relation_type_count": 17,
+      "average_degree": 1.8803,
+      "largest_component_ratio": 0.5214,
+      "isolated_entity_ratio": 0.094,
+      "duplicate_triple_ratio": 0.0,
+      "self_loop_ratio": 0.0,
+      "generic_relation_ratio": 0.2455,
+      "relation_counts": {
+        "约占": 1,
+        "包括": 24,
+        "适用于": 2,
+        "装配于": 4,
+        "同时提供": 3,
+        "反映": 2,
+        "表达": 1,
+        "属于": 3,
+        "可采用": 4,
+        "可以是": 4,
+        "装配程序包括": 16,
+        "装配方式": 2,
+        "装配顺序": 1,
+        "标准范围": 26,
+        "允许界限": 13,
+        "导致": 3,
+        "控制": 1
+      }
+    }
+  },
+  "qa_performance": {
+    "A_vector_rag": {
+      "available": true,
+      "question_count": 15,
+      "top1_hit_rate": 0.4,
+      "top3_hit_rate": 0.7333,
+      "top5_hit_rate": 0.8667,
+      "answer_keyword_coverage": 0.93,
+      "avg_retrieval_time_ms": 1.11,
+      "avg_generation_time_ms": null,
+      "avg_total_latency_ms": 1.11,
+      "answer_length_avg": null,
+      "generation_status": "未调用生成模型；生成阶段受远程模型稳定性影响，本实验主要比较检索阶段性能。",
+      "details": [
+        {
+          "question": "分段装配是什么？它在船体建造中的作用是什么？",
+          "type": "概念定义类",
+          "retrieved_chunk_ids": [
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_002",
+            "chapter5_012"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_001"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 2.3479999508708715,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段装配方式按位置状态可以分为哪些？",
+          "type": "概念定义类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_002",
+            "chapter5_021"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_001",
+            "chapter5_002"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.0469001717865467,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "放射式、插入式、框架式装配方式有什么区别？",
+          "type": "对比类",
+          "retrieved_chunk_ids": [
+            "chapter5_003",
+            "chapter5_001",
+            "chapter5_009",
+            "chapter5_010",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_002",
+            "chapter5_003"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.195400021970272,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段工作图通常同时提供哪些图纸资料？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_006",
+            "chapter5_005",
+            "chapter5_009",
+            "chapter5_014"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_005"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.012100139632821,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段组立树反映了什么信息？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_005",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_005"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 0.974099850282073,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段装配相关数据包括哪些内容？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_007",
+            "chapter5_004",
+            "chapter5_003",
+            "chapter5_006",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_006",
+            "chapter5_007"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 0.9844999294728041,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "双层底分段装配中纵骨和肋板如何定位？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_014",
+            "chapter5_002",
+            "chapter5_004",
+            "chapter5_010",
+            "chapter5_003"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_010",
+            "chapter5_011"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 0.9977000299841166,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": true
+        },
+        {
+          "question": "舷侧分段采用双斜切胎架时要画哪些基准线？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_009",
+            "chapter5_008",
+            "chapter5_012",
+            "chapter5_001",
+            "chapter5_007"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_012",
+            "chapter5_013"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.0245000012218952,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "横骨架式舷侧分段的装配流程包括哪些步骤？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_003",
+            "chapter5_015",
+            "chapter5_001",
+            "chapter5_002",
+            "chapter5_021"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_012",
+            "chapter5_014"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.6,
+          "retrieval_time_ms": 1.0059999767690897,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false
+        },
+        {
+          "question": "艉部下段装配时如何进行定位和调整？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_018",
+            "chapter5_021",
+            "chapter5_002",
+            "chapter5_001",
+            "chapter5_022"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_018",
+            "chapter5_019",
+            "chapter5_020"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.008500112220645,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "球鼻艏分段装配中纵桁和肋骨框架如何处理？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_021",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_021",
+            "chapter5_022"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.003500074148178,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "提高分段制造质量需要采取哪些措施？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_001",
+            "chapter5_007",
+            "chapter5_024",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_025",
+            "chapter5_028",
+            "chapter5_029"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.6,
+          "retrieval_time_ms": 0.9945998899638653,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false
+        },
+        {
+          "question": "分段制造精度标准中平直分段有哪些控制指标？",
+          "type": "表格数据类",
+          "retrieved_chunk_ids": [
+            "chapter5_001",
+            "chapter5_024",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_025"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_025",
+            "chapter5_026"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.0214000940322876,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": true
+        },
+        {
+          "question": "焊接变形产生的原因有哪些，如何控制？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_028",
+            "chapter5_029",
+            "chapter5_010",
+            "chapter5_027",
+            "chapter5_015"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_028",
+            "chapter5_029"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.0403001215308905,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "完工测量和二次除锈涂装在质量控制中起什么作用？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_008",
+            "chapter5_024",
+            "chapter5_007",
+            "chapter5_006",
+            "chapter5_004"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_024",
+            "chapter5_025"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.75,
+          "retrieval_time_ms": 1.0194000788033009,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        }
+      ]
+    },
+    "B_pangu_graph_rag": {
+      "available": true,
+      "question_count": 15,
+      "top1_hit_rate": 0.3333,
+      "top3_hit_rate": 0.7333,
+      "top5_hit_rate": 0.8667,
+      "answer_keyword_coverage": 0.93,
+      "avg_retrieval_time_ms": 1.3,
+      "avg_generation_time_ms": null,
+      "avg_total_latency_ms": 1.3,
+      "answer_length_avg": null,
+      "generation_status": "未调用生成模型；生成阶段受远程模型稳定性影响，本实验主要比较检索阶段性能。",
+      "details": [
+        {
+          "question": "分段装配是什么？它在船体建造中的作用是什么？",
+          "type": "概念定义类",
+          "retrieved_chunk_ids": [
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_002",
+            "chapter5_012"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_001"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.3910001143813133,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段装配方式按位置状态可以分为哪些？",
+          "type": "概念定义类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_002",
+            "chapter5_021"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_001",
+            "chapter5_002"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.4142000582069159,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "放射式、插入式、框架式装配方式有什么区别？",
+          "type": "对比类",
+          "retrieved_chunk_ids": [
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_009",
+            "chapter5_010",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_002",
+            "chapter5_003"
+          ],
+          "top_triples": [
+            "分段装配 装配方式 放射式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001",
+            "分段装配 装配方式 插入式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001",
+            "分段装配 装配方式 框架式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001",
+            "分段装配 装配方式 散装式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001",
+            "分段装配 装配方式 子分段组装式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001"
+          ],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.4423001557588577,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段工作图通常同时提供哪些图纸资料？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_006",
+            "chapter5_005",
+            "chapter5_009",
+            "chapter5_014"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_005"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.2737999204546213,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段组立树反映了什么信息？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_005",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_005"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.2489000800997019,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段装配相关数据包括哪些内容？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_007",
+            "chapter5_004",
+            "chapter5_003",
+            "chapter5_006",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_006",
+            "chapter5_007"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.2649998534470797,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "双层底分段装配中纵骨和肋板如何定位？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_014",
+            "chapter5_002",
+            "chapter5_004",
+            "chapter5_010",
+            "chapter5_003"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_010",
+            "chapter5_011"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.261100172996521,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": true
+        },
+        {
+          "question": "舷侧分段采用双斜切胎架时要画哪些基准线？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_009",
+            "chapter5_008",
+            "chapter5_012",
+            "chapter5_001",
+            "chapter5_007"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_012",
+            "chapter5_013"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.2637998443096876,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "横骨架式舷侧分段的装配流程包括哪些步骤？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_003",
+            "chapter5_015",
+            "chapter5_001",
+            "chapter5_002",
+            "chapter5_021"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_012",
+            "chapter5_014"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.6,
+          "retrieval_time_ms": 1.2948999647051096,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false
+        },
+        {
+          "question": "艉部下段装配时如何进行定位和调整？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_018",
+            "chapter5_021",
+            "chapter5_002",
+            "chapter5_001",
+            "chapter5_022"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_018",
+            "chapter5_019",
+            "chapter5_020"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.2415999080985785,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "球鼻艏分段装配中纵桁和肋骨框架如何处理？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_021",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_021",
+            "chapter5_022"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.2552000116556883,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "提高分段制造质量需要采取哪些措施？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_001",
+            "chapter5_007",
+            "chapter5_024",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_025",
+            "chapter5_028",
+            "chapter5_029"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.6,
+          "retrieval_time_ms": 1.2367998715490103,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false
+        },
+        {
+          "question": "分段制造精度标准中平直分段有哪些控制指标？",
+          "type": "表格数据类",
+          "retrieved_chunk_ids": [
+            "chapter5_001",
+            "chapter5_024",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_025"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_025",
+            "chapter5_026"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.259000040590763,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": true
+        },
+        {
+          "question": "焊接变形产生的原因有哪些，如何控制？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_028",
+            "chapter5_029",
+            "chapter5_010",
+            "chapter5_027",
+            "chapter5_015"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_028",
+            "chapter5_029"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.3486999087035656,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "完工测量和二次除锈涂装在质量控制中起什么作用？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_008",
+            "chapter5_024",
+            "chapter5_007",
+            "chapter5_006",
+            "chapter5_004"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_024",
+            "chapter5_025"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.75,
+          "retrieval_time_ms": 1.2626999523490667,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        }
+      ]
+    },
+    "C_deepseek_graph_rag": {
+      "available": true,
+      "question_count": 15,
+      "top1_hit_rate": 0.3333,
+      "top3_hit_rate": 0.7333,
+      "top5_hit_rate": 0.8667,
+      "answer_keyword_coverage": 0.93,
+      "avg_retrieval_time_ms": 1.37,
+      "avg_generation_time_ms": null,
+      "avg_total_latency_ms": 1.37,
+      "answer_length_avg": null,
+      "generation_status": "未调用生成模型；生成阶段受远程模型稳定性影响，本实验主要比较检索阶段性能。",
+      "details": [
+        {
+          "question": "分段装配是什么？它在船体建造中的作用是什么？",
+          "type": "概念定义类",
+          "retrieved_chunk_ids": [
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_002",
+            "chapter5_012"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_001"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.440499909222126,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段装配方式按位置状态可以分为哪些？",
+          "type": "概念定义类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_002",
+            "chapter5_021"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_001",
+            "chapter5_002"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.327600097283721,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "放射式、插入式、框架式装配方式有什么区别？",
+          "type": "对比类",
+          "retrieved_chunk_ids": [
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_009",
+            "chapter5_010",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_002",
+            "chapter5_003"
+          ],
+          "top_triples": [
+            "分段装配 包括 放射式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001",
+            "分段装配 包括 插入式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001",
+            "分段装配 包括 框架式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001",
+            "分段装配 包括 散装式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001",
+            "分段装配 包括 子分段组装式 按后者划分有放射式、插入式、框架式、散装式和子分段组装式 chapter5_001"
+          ],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.458900049328804,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段工作图通常同时提供哪些图纸资料？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_006",
+            "chapter5_005",
+            "chapter5_009",
+            "chapter5_014"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_005"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.3383999466896057,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段组立树反映了什么信息？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_005",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_005"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.3228000607341528,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "分段装配相关数据包括哪些内容？",
+          "type": "图纸资料类",
+          "retrieved_chunk_ids": [
+            "chapter5_007",
+            "chapter5_004",
+            "chapter5_003",
+            "chapter5_006",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_006",
+            "chapter5_007"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.335600158199668,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "双层底分段装配中纵骨和肋板如何定位？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_014",
+            "chapter5_002",
+            "chapter5_004",
+            "chapter5_010",
+            "chapter5_003"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_010",
+            "chapter5_011"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.336999936029315,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": true
+        },
+        {
+          "question": "舷侧分段采用双斜切胎架时要画哪些基准线？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_009",
+            "chapter5_008",
+            "chapter5_012",
+            "chapter5_001",
+            "chapter5_007"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_012",
+            "chapter5_013"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.3307000044733286,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "横骨架式舷侧分段的装配流程包括哪些步骤？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_003",
+            "chapter5_015",
+            "chapter5_001",
+            "chapter5_002",
+            "chapter5_021"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_012",
+            "chapter5_014"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.6,
+          "retrieval_time_ms": 1.365399919450283,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false
+        },
+        {
+          "question": "艉部下段装配时如何进行定位和调整？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_018",
+            "chapter5_021",
+            "chapter5_002",
+            "chapter5_001",
+            "chapter5_022"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_018",
+            "chapter5_019",
+            "chapter5_020"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.396500039845705,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "球鼻艏分段装配中纵桁和肋骨框架如何处理？",
+          "type": "工艺流程类",
+          "retrieved_chunk_ids": [
+            "chapter5_021",
+            "chapter5_001",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_021",
+            "chapter5_022"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.370500074699521,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "提高分段制造质量需要采取哪些措施？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_004",
+            "chapter5_001",
+            "chapter5_007",
+            "chapter5_024",
+            "chapter5_002"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_025",
+            "chapter5_028",
+            "chapter5_029"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.6,
+          "retrieval_time_ms": 1.3528999406844378,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false
+        },
+        {
+          "question": "分段制造精度标准中平直分段有哪些控制指标？",
+          "type": "表格数据类",
+          "retrieved_chunk_ids": [
+            "chapter5_001",
+            "chapter5_024",
+            "chapter5_003",
+            "chapter5_004",
+            "chapter5_025"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_025",
+            "chapter5_026"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.3699999544769526,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": true
+        },
+        {
+          "question": "焊接变形产生的原因有哪些，如何控制？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_028",
+            "chapter5_029",
+            "chapter5_010",
+            "chapter5_027",
+            "chapter5_015"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_028",
+            "chapter5_029"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 1.0,
+          "retrieval_time_ms": 1.4132000505924225,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true
+        },
+        {
+          "question": "完工测量和二次除锈涂装在质量控制中起什么作用？",
+          "type": "质量控制类",
+          "retrieved_chunk_ids": [
+            "chapter5_008",
+            "chapter5_024",
+            "chapter5_007",
+            "chapter5_006",
+            "chapter5_004"
+          ],
+          "expected_chunk_ids": [
+            "chapter5_024",
+            "chapter5_025"
+          ],
+          "top_triples": [],
+          "keyword_coverage": 0.75,
+          "retrieval_time_ms": 1.4158999547362328,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true
+        }
+      ]
+    }
+  },
+  "build_and_cost": {
+    "A_vector_rag": {
+      "available": true,
+      "chunk_count": 29,
+      "embedding_time_seconds": 0.0968,
+      "kg_extraction_time_seconds": 0,
+      "kg_build_time_seconds": 0.0,
+      "total_build_time_seconds": 0.0968,
+      "model_call_count": 0,
+      "json_valid_rate": null,
+      "extraction_success_rate": null,
+      "chunk_file_size_kb": 68.37,
+      "vector_index_size_kb": 232.52,
+      "kg_entities_size_kb": 0,
+      "kg_triples_size_kb": 0,
+      "kg_graph_size_kb": 0,
+      "total_output_size_kb": 300.89,
+      "input_token_estimate": 0,
+      "output_token_estimate": 0,
+      "total_token_estimate": 0,
+      "avg_tokens_per_chunk": 0,
+      "estimated_api_cost": 0,
+      "local_gpu_required": false,
+      "engineering_complexity_score": 2,
+      "notes": "纯向量方案不进行知识抽取，模型调用和抽取相关指标不适用。"
+    },
+    "B_pangu_graph_rag": {
+      "available": true,
+      "chunk_count": 29,
+      "embedding_time_seconds": 0.0968,
+      "kg_extraction_time_seconds": null,
+      "kg_build_time_seconds": 0.0005,
+      "total_build_time_seconds": null,
+      "model_call_count": 5,
+      "json_valid_rate": 1.0,
+      "extraction_success_rate": 1.0,
+      "chunk_file_size_kb": 68.37,
+      "vector_index_size_kb": 232.52,
+      "kg_entities_size_kb": 14.0,
+      "kg_triples_size_kb": 17.62,
+      "kg_graph_size_kb": 31.62,
+      "total_output_size_kb": 332.51,
+      "input_token_estimate": 2372,
+      "output_token_estimate": 6336,
+      "total_token_estimate": 8708,
+      "avg_tokens_per_chunk": 1741.6,
+      "estimated_api_cost": "N/A/self-hosted",
+      "local_gpu_required": true,
+      "engineering_complexity_score": 4,
+      "notes": "未记录端到端知识抽取耗时，因此 kg_extraction_time_seconds 不填；token 仅按已有 raw_extractions 文本与响应估算。"
+    },
+    "C_deepseek_graph_rag": {
+      "available": true,
+      "chunk_count": 29,
+      "embedding_time_seconds": 0.0968,
+      "kg_extraction_time_seconds": null,
+      "kg_build_time_seconds": 0.0005,
+      "total_build_time_seconds": null,
+      "model_call_count": 5,
+      "json_valid_rate": 0.8,
+      "extraction_success_rate": 0.8,
+      "chunk_file_size_kb": 68.37,
+      "vector_index_size_kb": 232.52,
+      "kg_entities_size_kb": 12.94,
+      "kg_triples_size_kb": 20.89,
+      "kg_graph_size_kb": 33.83,
+      "total_output_size_kb": 334.72,
+      "input_token_estimate": 2372,
+      "output_token_estimate": 9438,
+      "total_token_estimate": 11810,
+      "avg_tokens_per_chunk": 2362.0,
+      "estimated_api_cost": "unknown",
+      "local_gpu_required": false,
+      "engineering_complexity_score": 3,
+      "notes": "未记录端到端知识抽取耗时，因此 kg_extraction_time_seconds 不填；token 仅按已有 raw_extractions 文本与响应估算。"
+    }
+  }
+}

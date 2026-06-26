@@ -1,0 +1,219 @@
+[
+  {
+    "question": "分段装配是什么？它在船体建造中的作用是什么？",
+    "expected_keywords": [
+      "分段装配",
+      "船体建造",
+      "工艺阶段",
+      "35%"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_001"
+    ],
+    "type": "概念定义类"
+  },
+  {
+    "question": "分段装配方式按位置状态可以分为哪些？",
+    "expected_keywords": [
+      "正装",
+      "倒装",
+      "侧装",
+      "卧装"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_001",
+      "chapter5_002"
+    ],
+    "type": "概念定义类"
+  },
+  {
+    "question": "放射式、插入式、框架式装配方式有什么区别？",
+    "expected_keywords": [
+      "放射式",
+      "插入式",
+      "框架式",
+      "纵骨",
+      "肋板"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_002",
+      "chapter5_003"
+    ],
+    "type": "对比类"
+  },
+  {
+    "question": "分段工作图通常同时提供哪些图纸资料？",
+    "expected_keywords": [
+      "板材号料图",
+      "外板加工",
+      "型钢弯曲",
+      "分段工作图"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_005"
+    ],
+    "type": "图纸资料类"
+  },
+  {
+    "question": "分段组立树反映了什么信息？",
+    "expected_keywords": [
+      "分段组立树",
+      "结构装配单元",
+      "装配程序",
+      "建造方式"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_005"
+    ],
+    "type": "图纸资料类"
+  },
+  {
+    "question": "分段装配相关数据包括哪些内容？",
+    "expected_keywords": [
+      "胎架支柱高度",
+      "定位数值",
+      "二次画线",
+      "型值"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_006",
+      "chapter5_007"
+    ],
+    "type": "图纸资料类"
+  },
+  {
+    "question": "双层底分段装配中纵骨和肋板如何定位？",
+    "expected_keywords": [
+      "纵骨",
+      "肋板",
+      "定位",
+      "内底板",
+      "外板"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_010",
+      "chapter5_011"
+    ],
+    "type": "工艺流程类"
+  },
+  {
+    "question": "舷侧分段采用双斜切胎架时要画哪些基准线？",
+    "expected_keywords": [
+      "双斜切胎架",
+      "中心线",
+      "中间肋骨线",
+      "基准线"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_012",
+      "chapter5_013"
+    ],
+    "type": "工艺流程类"
+  },
+  {
+    "question": "横骨架式舷侧分段的装配流程包括哪些步骤？",
+    "expected_keywords": [
+      "外板拼接",
+      "装配画线",
+      "肋骨",
+      "舷侧纵桁",
+      "封底焊"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_012",
+      "chapter5_014"
+    ],
+    "type": "工艺流程类"
+  },
+  {
+    "question": "艉部下段装配时如何进行定位和调整？",
+    "expected_keywords": [
+      "艉柱",
+      "K行板",
+      "中心线",
+      "松紧螺丝",
+      "千斤顶"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_018",
+      "chapter5_019",
+      "chapter5_020"
+    ],
+    "type": "工艺流程类"
+  },
+  {
+    "question": "球鼻艏分段装配中纵桁和肋骨框架如何处理？",
+    "expected_keywords": [
+      "球鼻艏",
+      "纵桁",
+      "肋骨框架",
+      "切口",
+      "强制装配"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_021",
+      "chapter5_022"
+    ],
+    "type": "工艺流程类"
+  },
+  {
+    "question": "提高分段制造质量需要采取哪些措施？",
+    "expected_keywords": [
+      "全面质量管理",
+      "施工精度",
+      "补偿",
+      "刚性固定",
+      "火工矫正"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_025",
+      "chapter5_028",
+      "chapter5_029"
+    ],
+    "type": "质量控制类"
+  },
+  {
+    "question": "分段制造精度标准中平直分段有哪些控制指标？",
+    "expected_keywords": [
+      "分段长度",
+      "分段宽度",
+      "对角线",
+      "标准范围",
+      "允许界限"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_025",
+      "chapter5_026"
+    ],
+    "type": "表格数据类"
+  },
+  {
+    "question": "焊接变形产生的原因有哪些，如何控制？",
+    "expected_keywords": [
+      "焊接变形",
+      "刚性固定",
+      "补偿",
+      "余量",
+      "火工矫正"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_028",
+      "chapter5_029"
+    ],
+    "type": "质量控制类"
+  },
+  {
+    "question": "完工测量和二次除锈涂装在质量控制中起什么作用？",
+    "expected_keywords": [
+      "完工测量",
+      "二次除锈",
+      "涂装",
+      "质量控制"
+    ],
+    "expected_chunk_ids": [
+      "chapter5_024",
+      "chapter5_025"
+    ],
+    "type": "质量控制类"
+  }
+]
