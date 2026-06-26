@@ -1,0 +1,17 @@
+{
+  "failed_chunk_id": "chapter5_012",
+  "first_failure_reason": "ValueError('<string>:46 Unexpected end of input at column 199')",
+  "retry_success": false,
+  "retry_entity_count": 0,
+  "retry_triple_count": 0,
+  "json_parseable": false,
+  "evidence_traceable_count": 0,
+  "evidence_item_count": 0,
+  "evidence_traceable_rate": 0.0,
+  "original_success_rate": 0.8,
+  "after_retry_success_rate": 0.8,
+  "original_raw_file_preserved": "D:\\project\\ShipRAG\\chapter5_rag\\outputs\\round2\\deepseek\\raw_extractions.jsonl",
+  "retry_raw_file": "D:\\project\\ShipRAG\\chapter5_rag\\outputs\\round2_retry\\deepseek\\raw_extractions_retry.jsonl",
+  "retry_entity_file": "D:\\project\\ShipRAG\\chapter5_rag\\outputs\\round2_retry\\deepseek\\kg_entities_retry.jsonl",
+  "retry_triple_file": "D:\\project\\ShipRAG\\chapter5_rag\\outputs\\round2_retry\\deepseek\\kg_triples_retry.jsonl"
+}
