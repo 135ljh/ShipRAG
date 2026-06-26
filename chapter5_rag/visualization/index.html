@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>第五章知识图谱可视化</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <aside>
+      <div class="brand">Chapter 5 KG</div>
+      <div class="sub">船体分段的装配</div>
+      <div class="stats" id="stats"></div>
+      <label>搜索实体</label>
+      <input id="search" placeholder="输入实体名" />
+      <button id="fit">适配画布</button>
+      <button id="toggleLabels">显示/隐藏标签</button>
+      <label>实体类型</label>
+      <div id="typeFilters" class="filters"></div>
+      <label>最小度数</label>
+      <input id="degree" type="range" min="0" max="20" value="0" />
+      <div id="degreeValue">0</div>
+      <div class="hint">滚轮缩放，拖动画布平移，拖动节点调整位置，点击节点或关系查看详情。</div>
+    </aside>
+    <main>
+      <canvas id="graph"></canvas>
+      <section id="details">
+        <h2>详情</h2>
+        <div id="detailBody">点击节点或关系查看信息。</div>
+      </section>
+    </main>
+    <script src="./graph_data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
