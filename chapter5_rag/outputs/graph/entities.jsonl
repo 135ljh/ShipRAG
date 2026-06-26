@@ -1,0 +1,205 @@
+{"id": "Chapter_1_分段工作图", "name": "1.分段工作图", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [4, 5], "source_chunks": ["chapter5_004", "chapter5_005"], "confidence": 0.95}
+{"id": "Chapter_1_胎架制作", "name": "1.胎架制作", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [17], "source_chunks": ["chapter5_017"], "confidence": 0.95}
+{"id": "Chapter_10_二次翻身和焊接", "name": "10.二次翻身和焊接", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [14], "source_chunks": ["chapter5_014"], "confidence": 0.95}
+{"id": "Chapter_2_三工位装配法", "name": "2.三工位装配法", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [15], "source_chunks": ["chapter5_015"], "confidence": 0.95}
+{"id": "Chapter_2_在专用双斜切胎板上画基准线", "name": "2.在专用双斜切胎板上画基准线", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [12], "source_chunks": ["chapter5_012"], "confidence": 0.95}
+{"id": "Chapter_2_安装纵_横舱壁", "name": "2.安装纵、横舱壁", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [19], "source_chunks": ["chapter5_019"], "confidence": 0.95}
+{"id": "Chapter_2_胎架基面的切取", "name": "2.胎架基面的切取", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [8], "source_chunks": ["chapter5_008"], "confidence": 0.95}
+{"id": "Chapter_2_装配中分段的刚性固定", "name": "2.装配中分段的刚性固定", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [28], "source_chunks": ["chapter5_028"], "confidence": 0.95}
+{"id": "Chapter_3_分段装配相关数据", "name": "3.分段装配相关数据", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [6, 7], "source_chunks": ["chapter5_006", "chapter5_007"], "confidence": 0.95}
+{"id": "Chapter_3_装配方式按分段位置状态分类", "name": "3.装配方式按分段位置状态分类", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.95}
+{"id": "Chapter_4_安装舷侧纵桁", "name": "4.安装舷侧纵桁", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [20], "source_chunks": ["chapter5_020"], "confidence": 0.95}
+{"id": "Chapter_4_散装外板", "name": "4.散装外板", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [22], "source_chunks": ["chapter5_022"], "confidence": 0.95}
+{"id": "Chapter_4_装纵桁和肋板", "name": "4.装纵桁和肋板", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [9], "source_chunks": ["chapter5_009"], "confidence": 0.95}
+{"id": "Chapter_4_装配方式按构架装配顺序或结构单元分类", "name": "4.装配方式按构架装配顺序或结构单元分类", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [2, 3], "source_chunks": ["chapter5_002", "chapter5_003"], "confidence": 0.95}
+{"id": "Chapter_5_建立完善的尺寸补偿系统", "name": "5.建立完善的尺寸补偿系统", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.95}
+{"id": "Chapter_5_散装外板", "name": "5.散装外板", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [18], "source_chunks": ["chapter5_018"], "confidence": 0.95}
+{"id": "Chapter_6_火工矫正局部变形", "name": "6.火工矫正局部变形", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [29], "source_chunks": ["chapter5_029"], "confidence": 0.95}
+{"id": "Chapter_8_装外板", "name": "8.装外板", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [10], "source_chunks": ["chapter5_010"], "confidence": 0.95}
+{"id": "Chapter_chapter5_008", "name": "chapter5_008", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [8], "source_chunks": ["chapter5_008"], "confidence": 0.9}
+{"id": "Chapter_三_球鼻艏分段的装配", "name": "三、球鼻艏分段的装配", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [21], "source_chunks": ["chapter5_021"], "confidence": 0.95}
+{"id": "Chapter_分段工作图", "name": "分段工作图", "type": "Chapter", "aliases": [], "definition": "分段制造的主要施工依据", "source_pages": [4, 5], "source_chunks": ["chapter5_004", "chapter5_005"], "confidence": 0.9125}
+{"id": "Chapter_横骨架式舷侧分段", "name": "横骨架式舷侧分段", "type": "Chapter", "aliases": [], "definition": "船体结构分段类型", "source_pages": [12], "source_chunks": ["chapter5_012"], "confidence": 0.9}
+{"id": "Chapter_第七节甲板半立体分段的装配", "name": "第七节甲板半立体分段的装配", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [16], "source_chunks": ["chapter5_016"], "confidence": 0.95}
+{"id": "Chapter_第九节提高分段制造质量的措施", "name": "第九节提高分段制造质量的措施", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [23], "source_chunks": ["chapter5_023"], "confidence": 0.95}
+{"id": "Chapter_第五章船体分段的装配", "name": "第五章船体分段的装配", "type": "Chapter", "aliases": [], "definition": "第五章知识单元", "source_pages": [1], "source_chunks": [], "confidence": 1.0}
+{"id": "Chapter_第五节舷侧分段的装配", "name": "第五节舷侧分段的装配", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [11], "source_chunks": ["chapter5_011"], "confidence": 0.95}
+{"id": "Chapter_第六节边舱分段的装配", "name": "第六节边舱分段的装配", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [13], "source_chunks": ["chapter5_013"], "confidence": 0.95}
+{"id": "Chapter_胎架基面", "name": "胎架基面", "type": "Chapter", "aliases": [], "definition": "胎架的底面，用来确定胎架工作曲面的基准", "source_pages": [8], "source_chunks": ["chapter5_008"], "confidence": 0.935}
+{"id": "Chapter_艏部上段", "name": "艏部上段", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [23], "source_chunks": ["chapter5_023"], "confidence": 0.9}
+{"id": "Chapter_表5_1", "name": "表5-1", "type": "Chapter", "aliases": [], "definition": "分段制造精度标准", "source_pages": [25], "source_chunks": ["chapter5_025"], "confidence": 0.9}
+{"id": "Chapter_表5_1分段制造精度标准", "name": "表5-1分段制造精度标准", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [24], "source_chunks": ["chapter5_024"], "confidence": 0.95}
+{"id": "Chapter_表5_2", "name": "表5-2", "type": "Chapter", "aliases": [], "definition": "分段局部变形精度标准", "source_pages": [25], "source_chunks": ["chapter5_025"], "confidence": 0.9}
+{"id": "Chapter_表5_2分段局部变形精度标准", "name": "表5-2分段局部变形精度标准", "type": "Chapter", "aliases": [], "definition": "", "source_pages": [25, 26], "source_chunks": ["chapter5_025", "chapter5_026"], "confidence": 0.95}
+{"id": "Component_K行板", "name": "K行板", "type": "Component", "aliases": [], "definition": "", "source_pages": [18], "source_chunks": ["chapter5_018"], "confidence": 0.875}
+{"id": "Component_上甲板", "name": "上甲板", "type": "Component", "aliases": [], "definition": "", "source_pages": [23], "source_chunks": ["chapter5_023"], "confidence": 0.9}
+{"id": "Component_企口外板", "name": "企口外板", "type": "Component", "aliases": [], "definition": "船体构件", "source_pages": [15], "source_chunks": ["chapter5_015"], "confidence": 0.9}
+{"id": "Component_其他", "name": "其他", "type": "Component", "aliases": [], "definition": "", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.85}
+{"id": "Component_内围壁", "name": "内围壁", "type": "Component", "aliases": [], "definition": "船体内部围壁结构", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.75}
+{"id": "Component_内底板", "name": "内底板", "type": "Component", "aliases": [], "definition": "船体内部底板", "source_pages": [9], "source_chunks": ["chapter5_009"], "confidence": 0.92}
+{"id": "Component_内部构件", "name": "内部构件", "type": "Component", "aliases": [], "definition": "", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.8}
+{"id": "Component_前后部分外板", "name": "前后部分外板", "type": "Component", "aliases": [], "definition": "", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.85}
+{"id": "Component_包板", "name": "包板", "type": "Component", "aliases": [], "definition": "外板与内部构架的焊接部件", "source_pages": [23], "source_chunks": ["chapter5_023"], "confidence": 0.9}
+{"id": "Component_围壁", "name": "围壁", "type": "Component", "aliases": [], "definition": "船体结构中的围壁部分", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.8}
+{"id": "Component_外板", "name": "外板", "type": "Component", "aliases": [], "definition": "船体外部面板", "source_pages": [11, 18, 26], "source_chunks": ["chapter5_011", "chapter5_018", "chapter5_026"], "confidence": 0.86}
+{"id": "Component_横上隔板", "name": "横上隔板", "type": "Component", "aliases": [], "definition": "", "source_pages": [17], "source_chunks": ["chapter5_017"], "confidence": 0.94}
+{"id": "Component_横向框架及纵骨", "name": "横向框架及纵骨", "type": "Component", "aliases": [], "definition": "", "source_pages": [16], "source_chunks": ["chapter5_016"], "confidence": 0.85}
+{"id": "Component_横向隔板和肘板", "name": "横向隔板和肘板", "type": "Component", "aliases": [], "definition": "", "source_pages": [16], "source_chunks": ["chapter5_016"], "confidence": 0.8}
+{"id": "Component_甲板", "name": "甲板", "type": "Component", "aliases": [], "definition": "", "source_pages": [16], "source_chunks": ["chapter5_016"], "confidence": 0.85}
+{"id": "Component_甲板纵桁与艏柱纵桁", "name": "甲板纵桁与艏柱纵桁", "type": "Component", "aliases": [], "definition": "连接甲板与艏柱的纵向结构构件", "source_pages": [24], "source_chunks": ["chapter5_024"], "confidence": 0.8833}
+{"id": "Component_纵向隔板", "name": "纵向隔板", "type": "Component", "aliases": [], "definition": "分段中的纵向结构构件", "source_pages": [17], "source_chunks": ["chapter5_017"], "confidence": 0.965}
+{"id": "Component_纵桁", "name": "纵桁", "type": "Component", "aliases": [], "definition": "船舶结构中的纵向桁架", "source_pages": [10, 17, 21], "source_chunks": ["chapter5_010", "chapter5_017", "chapter5_021"], "confidence": 0.905}
+{"id": "Component_纵舱壁", "name": "纵舱壁", "type": "Component", "aliases": [], "definition": "舱室的分隔构件", "source_pages": [19], "source_chunks": ["chapter5_019"], "confidence": 0.98}
+{"id": "Component_纵骨", "name": "纵骨", "type": "Component", "aliases": [], "definition": "内底板上的纵向构件", "source_pages": [9, 10], "source_chunks": ["chapter5_009", "chapter5_010"], "confidence": 0.9375}
+{"id": "Component_肋板", "name": "肋板", "type": "Component", "aliases": [], "definition": "船舶结构中的肋骨板件", "source_pages": [10, 11, 14, 18, 19, 20], "source_chunks": ["chapter5_010", "chapter5_011", "chapter5_014", "chapter5_018", "chapter5_019", "chapter5_020"], "confidence": 0.8975}
+{"id": "Component_肋骨框架", "name": "肋骨框架", "type": "Component", "aliases": [], "definition": "船体侧板的支撑结构", "source_pages": [19, 21], "source_chunks": ["chapter5_019", "chapter5_021"], "confidence": 0.85}
+{"id": "Component_肋骨线", "name": "肋骨线", "type": "Component", "aliases": [], "definition": "分段装配中的标注基准线", "source_pages": [8], "source_chunks": ["chapter5_008"], "confidence": 0.95}
+{"id": "Component_船中0_6L区域的外板", "name": "船中0.6L区域的外板", "type": "Component", "aliases": [], "definition": "", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.85}
+{"id": "Component_轴包板", "name": "轴包板", "type": "Component", "aliases": [], "definition": "包裹轴的金属板", "source_pages": [19], "source_chunks": ["chapter5_019"], "confidence": 0.9175}
+{"id": "Component_铸钢艉柱", "name": "铸钢艉柱", "type": "Component", "aliases": [], "definition": "", "source_pages": [18], "source_chunks": ["chapter5_018"], "confidence": 0.9}
+{"id": "Component_零号舱壁", "name": "零号舱壁", "type": "Component", "aliases": [], "definition": "船底或舷侧的主要结构构件", "source_pages": [21], "source_chunks": ["chapter5_021"], "confidence": 0.9}
+{"id": "Component_非暴露部分", "name": "非暴露部分", "type": "Component", "aliases": [], "definition": "", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.8}
+{"id": "Component_顶边舱", "name": "顶边舱", "type": "Component", "aliases": [], "definition": "船体分段构件", "source_pages": [15], "source_chunks": ["chapter5_015"], "confidence": 0.9}
+{"id": "Defect_不平度", "name": "不平度", "type": "Defect", "aliases": [], "definition": "分段变形精度标准中的一项指标", "source_pages": [26, 27], "source_chunks": ["chapter5_026", "chapter5_027"], "confidence": 0.8438}
+{"id": "Defect_对接工作量大", "name": "对接工作量大", "type": "Defect", "aliases": [], "definition": "", "source_pages": [15], "source_chunks": ["chapter5_015"], "confidence": 0.85}
+{"id": "Defect_局部变形", "name": "局部变形", "type": "Defect", "aliases": [], "definition": "", "source_pages": [29], "source_chunks": ["chapter5_029"], "confidence": 0.95}
+{"id": "Defect_构件边缘要作难度较大的垂直修割", "name": "构件边缘要作难度较大的垂直修割", "type": "Defect", "aliases": [], "definition": "", "source_pages": [3], "source_chunks": ["chapter5_003"], "confidence": 0.8}
+{"id": "Defect_焊接变形", "name": "焊接变形", "type": "Defect", "aliases": [], "definition": "分离式装配中纵向构件产生的焊接变形会增加肋板装配的难度", "source_pages": [3, 14, 19, 23, 28, 29], "source_chunks": ["chapter5_003", "chapter5_014", "chapter5_019", "chapter5_023", "chapter5_028", "chapter5_029"], "confidence": 0.89}
+{"id": "Defect_焊接变形控制", "name": "焊接变形控制", "type": "Defect", "aliases": [], "definition": "", "source_pages": [16], "source_chunks": ["chapter5_016"], "confidence": 0.75}
+{"id": "Defect_纵向构件产生的焊接变形会增加肋板装配的难度", "name": "纵向构件产生的焊接变形会增加肋板装配的难度", "type": "Defect", "aliases": [], "definition": "", "source_pages": [3], "source_chunks": ["chapter5_003"], "confidence": 0.9}
+{"id": "Defect_角变形", "name": "角变形", "type": "Defect", "aliases": [], "definition": "焊接产生的角部变形", "source_pages": [27], "source_chunks": ["chapter5_027"], "confidence": 0.8625}
+{"id": "Measurement_中心线", "name": "中心线", "type": "Measurement", "aliases": [], "definition": "测量对象", "source_pages": [22], "source_chunks": ["chapter5_022"], "confidence": 0.85}
+{"id": "Measurement_垂直度", "name": "垂直度", "type": "Measurement", "aliases": [], "definition": "", "source_pages": [10], "source_chunks": ["chapter5_010"], "confidence": 0.96}
+{"id": "Operation_专用胎架上装配", "name": "专用胎架上装配", "type": "Operation", "aliases": [], "definition": "", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.9}
+{"id": "Operation_中心线", "name": "中心线", "type": "Operation", "aliases": [], "definition": "", "source_pages": [12], "source_chunks": ["chapter5_012"], "confidence": 0.88}
+{"id": "Operation_中间肋骨线", "name": "中间肋骨线", "type": "Operation", "aliases": [], "definition": "通过粉线、钢丝悬线锤或计算法绘制的肋骨定位线", "source_pages": [12, 13], "source_chunks": ["chapter5_012", "chapter5_013"], "confidence": 0.8925}
+{"id": "Operation_俯向焊接", "name": "俯向焊接", "type": "Operation", "aliases": [], "definition": "横向框架及纵骨与甲板的焊接方式", "source_pages": [16], "source_chunks": ["chapter5_016"], "confidence": 0.85}
+{"id": "Operation_先骨架后板缝", "name": "先骨架后板缝", "type": "Operation", "aliases": [], "definition": "", "source_pages": [11], "source_chunks": ["chapter5_011"], "confidence": 0.85}
+{"id": "Operation_分段定位", "name": "分段定位", "type": "Operation", "aliases": [], "definition": "", "source_pages": [7], "source_chunks": ["chapter5_007"], "confidence": 0.9}
+{"id": "Operation_分段定位和画线", "name": "分段定位和画线", "type": "Operation", "aliases": [], "definition": "", "source_pages": [29], "source_chunks": ["chapter5_029"], "confidence": 0.9}
+{"id": "Operation_反变形", "name": "反变形", "type": "Operation", "aliases": [], "definition": "在可能发生变形的相反方向，使结构作适度的反变形", "source_pages": [28], "source_chunks": ["chapter5_028"], "confidence": 0.98}
+{"id": "Operation_反造", "name": "反造", "type": "Operation", "aliases": [], "definition": "", "source_pages": [28], "source_chunks": ["chapter5_028"], "confidence": 0.96}
+{"id": "Operation_垂直修割", "name": "垂直修割", "type": "Operation", "aliases": [], "definition": "", "source_pages": [3], "source_chunks": ["chapter5_003"], "confidence": 0.85}
+{"id": "Operation_外板吊装", "name": "外板吊装", "type": "Operation", "aliases": [], "definition": "", "source_pages": [11], "source_chunks": ["chapter5_011"], "confidence": 0.85}
+{"id": "Operation_定位", "name": "定位", "type": "Operation", "aliases": [], "definition": "", "source_pages": [19], "source_chunks": ["chapter5_019"], "confidence": 0.9}
+{"id": "Operation_定位焊", "name": "定位焊", "type": "Operation", "aliases": [], "definition": "", "source_pages": [29], "source_chunks": ["chapter5_029"], "confidence": 0.9}
+{"id": "Operation_平台或胎架上装配", "name": "平台或胎架上装配", "type": "Operation", "aliases": [], "definition": "", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.9}
+{"id": "Operation_手工号料和平面分段流水线装配", "name": "手工号料和平面分段流水线装配", "type": "Operation", "aliases": [], "definition": "", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.9}
+{"id": "Operation_数控切割和平台装配", "name": "数控切割和平台装配", "type": "Operation", "aliases": [], "definition": "", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.9}
+{"id": "Operation_样板检查角度", "name": "样板检查角度", "type": "Operation", "aliases": [], "definition": "", "source_pages": [24], "source_chunks": ["chapter5_024"], "confidence": 0.85}
+{"id": "Operation_焊接", "name": "焊接", "type": "Operation", "aliases": [], "definition": "", "source_pages": [19, 23], "source_chunks": ["chapter5_019", "chapter5_023"], "confidence": 0.8667}
+{"id": "Operation_第一工位", "name": "第一工位", "type": "Operation", "aliases": [], "definition": "", "source_pages": [15], "source_chunks": ["chapter5_015"], "confidence": 0.825}
+{"id": "Operation_第二工位", "name": "第二工位", "type": "Operation", "aliases": [], "definition": "", "source_pages": [15], "source_chunks": ["chapter5_015"], "confidence": 0.8}
+{"id": "Operation_胎上二次画线", "name": "胎上二次画线", "type": "Operation", "aliases": [], "definition": "在胎架上进行的分段装配画线", "source_pages": [7], "source_chunks": ["chapter5_007"], "confidence": 0.825}
+{"id": "Operation_胎架上进行板的拼接和分段的装配", "name": "胎架上进行板的拼接和分段的装配", "type": "Operation", "aliases": [], "definition": "", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.9}
+{"id": "Parameter_35", "name": "35%", "type": "Parameter", "aliases": [], "definition": "", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.9}
+{"id": "Parameter_分段宽度", "name": "分段宽度", "type": "Parameter", "aliases": [], "definition": "", "source_pages": [25], "source_chunks": ["chapter5_025"], "confidence": 0.85}
+{"id": "Parameter_分段长度", "name": "分段长度", "type": "Parameter", "aliases": [], "definition": "", "source_pages": [25], "source_chunks": ["chapter5_025"], "confidence": 0.85}
+{"id": "Parameter_反变形", "name": "反变形", "type": "Parameter", "aliases": [], "definition": "肋板上口向分段外侧倾斜5～8mm的预变形措施", "source_pages": [14], "source_chunks": ["chapter5_014"], "confidence": 0.875}
+{"id": "Parameter_反变形计算公式", "name": "反变形计算公式", "type": "Parameter", "aliases": [], "definition": "y =（2/1000～3/1000）Bₓ", "source_pages": [28], "source_chunks": ["chapter5_028"], "confidence": 0.97}
+{"id": "Parameter_型值", "name": "型值", "type": "Parameter", "aliases": [], "definition": "", "source_pages": [6], "source_chunks": ["chapter5_006"], "confidence": 0.75}
+{"id": "Parameter_平台准备", "name": "平台准备", "type": "Parameter", "aliases": [], "definition": "", "source_pages": [4], "source_chunks": ["chapter5_004"], "confidence": 0.8}
+{"id": "Parameter_平面基准", "name": "平面基准", "type": "Parameter", "aliases": [], "definition": "", "source_pages": [26], "source_chunks": ["chapter5_026"], "confidence": 0.85}
+{"id": "Parameter_支柱高度", "name": "支柱高度", "type": "Parameter", "aliases": [], "definition": "胎架支柱的高度参数", "source_pages": [7], "source_chunks": ["chapter5_007"], "confidence": 0.9}
+{"id": "Parameter_胎架支柱高度及板", "name": "胎架支柱高度及板", "type": "Parameter", "aliases": [], "definition": "工艺文件中的型值数据", "source_pages": [6], "source_chunks": ["chapter5_006"], "confidence": 0.775}
+{"id": "Process_三工位装配法", "name": "三工位装配法", "type": "Process", "aliases": [], "definition": "装配方法", "source_pages": [15], "source_chunks": ["chapter5_015"], "confidence": 0.8875}
+{"id": "Process_侧装", "name": "侧装", "type": "Process", "aliases": [], "definition": "装配时分段处于侧倒位置", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.95}
+{"id": "Process_倒装", "name": "倒装", "type": "Process", "aliases": [], "definition": "按分段装配时的位置状态划分的一种方式", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.9}
+{"id": "Process_分段制造", "name": "分段制造", "type": "Process", "aliases": [], "definition": "", "source_pages": [4, 24], "source_chunks": ["chapter5_004", "chapter5_024"], "confidence": 0.8667}
+{"id": "Process_分段装配", "name": "分段装配", "type": "Process", "aliases": [], "definition": "船体建造过程中最复杂的工艺阶段", "source_pages": [1, 4, 5, 7, 17, 28], "source_chunks": ["chapter5_001", "chapter5_004", "chapter5_005", "chapter5_007", "chapter5_017", "chapter5_028"], "confidence": 0.9182}
+{"id": "Process_分离式装配", "name": "分离式装配", "type": "Process", "aliases": [], "definition": "装配方式的一种，适用于纵骨架式、板材较厚的平直分段，先将纵骨、侧桁材和中桁材全部装好，然后再插入全部肋板", "source_pages": [3], "source_chunks": ["chapter5_003"], "confidence": 0.9125}
+{"id": "Process_卧装", "name": "卧装", "type": "Process", "aliases": [], "definition": "装配时分段处于纵向卧倒的位置", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.95}
+{"id": "Process_叉口连接", "name": "叉口连接", "type": "Process", "aliases": [], "definition": "", "source_pages": [13], "source_chunks": ["chapter5_013"], "confidence": 0.87}
+{"id": "Process_反装", "name": "反装", "type": "Process", "aliases": [], "definition": "装配时分段处于倒转位置", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.95}
+{"id": "Process_外板散装式", "name": "外板散装式", "type": "Process", "aliases": [], "definition": "适用于艏艉封闭型立体分段及L型、N型半立体分段的装配方式", "source_pages": [4], "source_chunks": ["chapter5_004"], "confidence": 0.88}
+{"id": "Process_外板装配", "name": "外板装配", "type": "Process", "aliases": [], "definition": "散装各列外板的工艺过程", "source_pages": [21, 23], "source_chunks": ["chapter5_021", "chapter5_023"], "confidence": 0.87}
+{"id": "Process_子分段装配", "name": "子分段装配", "type": "Process", "aliases": [], "definition": "装配方式的一种，适用于现代大型船舶分段，将分段划分为若干个较小的子分段进行预装", "source_pages": [3, 4, 5], "source_chunks": ["chapter5_003", "chapter5_004", "chapter5_005"], "confidence": 0.9186}
+{"id": "Process_插入式装配", "name": "插入式装配", "type": "Process", "aliases": [], "definition": "装配方式的一种，适用于中型船舶横骨架式，先装间断构件，后装连续构件，步步插入", "source_pages": [3, 10], "source_chunks": ["chapter5_003", "chapter5_010"], "confidence": 0.89}
+{"id": "Process_放射式装配", "name": "放射式装配", "type": "Process", "aliases": [], "definition": "装配方式的一种，适用于全船肋骨和肋板，整个装配过程需要吊车配合", "source_pages": [3, 10], "source_chunks": ["chapter5_003", "chapter5_010"], "confidence": 0.926}
+{"id": "Process_构架的装配过程", "name": "构架的装配过程", "type": "Process", "aliases": [], "definition": "", "source_pages": [22], "source_chunks": ["chapter5_022"], "confidence": 0.85}
+{"id": "Process_框架式装配", "name": "框架式装配", "type": "Process", "aliases": [], "definition": "装配方式的一种，适用于大型船舶平面型分段，将分段板的拼接和骨架的装配分别在两个平台上进行", "source_pages": [3, 11], "source_chunks": ["chapter5_003", "chapter5_011"], "confidence": 0.9333}
+{"id": "Process_正装", "name": "正装", "type": "Process", "aliases": [], "definition": "按分段装配时的位置状态划分的一种方式", "source_pages": [1, 2], "source_chunks": ["chapter5_001", "chapter5_002"], "confidence": 0.925}
+{"id": "Process_火工矫正局部变形", "name": "火工矫正局部变形", "type": "Process", "aliases": [], "definition": "控制局部变形的工艺方法", "source_pages": [29], "source_chunks": ["chapter5_029"], "confidence": 0.95}
+{"id": "Process_甲板边板连接", "name": "甲板边板连接", "type": "Process", "aliases": [], "definition": "肋骨与甲板边板的连接工艺", "source_pages": [13], "source_chunks": ["chapter5_013"], "confidence": 0.875}
+{"id": "Process_纵横骨架装焊", "name": "纵横骨架装焊", "type": "Process", "aliases": [], "definition": "", "source_pages": [13], "source_chunks": ["chapter5_013"], "confidence": 0.9}
+{"id": "Process_纵骨架式结构", "name": "纵骨架式结构", "type": "Process", "aliases": [], "definition": "顶边舱与外板构成的P型舷侧分段结构", "source_pages": [14], "source_chunks": ["chapter5_014"], "confidence": 0.9}
+{"id": "Process_肋板或横舱壁为基面在平台上卧装", "name": "肋板或横舱壁为基面在平台上卧装", "type": "Process", "aliases": [], "definition": "构架的装配过程", "source_pages": [22], "source_chunks": ["chapter5_022"], "confidence": 0.9167}
+{"id": "Process_胎架基面切取", "name": "胎架基面切取", "type": "Process", "aliases": [], "definition": "胎架基面的切割和确定工艺", "source_pages": [8], "source_chunks": ["chapter5_008"], "confidence": 0.93}
+{"id": "Process_船台合拢", "name": "船台合拢", "type": "Process", "aliases": [], "definition": "", "source_pages": [24], "source_chunks": ["chapter5_024"], "confidence": 0.88}
+{"id": "Process_部件装配", "name": "部件装配", "type": "Process", "aliases": [], "definition": "", "source_pages": [5], "source_chunks": ["chapter5_005"], "confidence": 0.94}
+{"id": "Process_高效焊接", "name": "高效焊接", "type": "Process", "aliases": [], "definition": "减少焊接变形的焊接方法", "source_pages": [29], "source_chunks": ["chapter5_029"], "confidence": 0.9}
+{"id": "ProcessObject_A板", "name": "A板", "type": "ProcessObject", "aliases": [], "definition": "外板的一种", "source_pages": [19], "source_chunks": ["chapter5_019"], "confidence": 0.925}
+{"id": "ProcessObject_L型半立体分段", "name": "L型半立体分段", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [4], "source_chunks": ["chapter5_004"], "confidence": 0.88}
+{"id": "ProcessObject_专用胎架", "name": "专用胎架", "type": "ProcessObject", "aliases": [], "definition": "用于装配的特殊胎具", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_中桁材", "name": "中桁材", "type": "ProcessObject", "aliases": [], "definition": "分段装配中的工艺对象", "source_pages": [20], "source_chunks": ["chapter5_020"], "confidence": 0.85}
+{"id": "ProcessObject_侧装", "name": "侧装", "type": "ProcessObject", "aliases": [], "definition": "装配时分段处于侧倒位置", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.95}
+{"id": "ProcessObject_内底板", "name": "内底板", "type": "ProcessObject", "aliases": [], "definition": "工艺对象，船舶分段装配中的底板部分", "source_pages": [10], "source_chunks": ["chapter5_010"], "confidence": 0.935}
+{"id": "ProcessObject_分段", "name": "分段", "type": "ProcessObject", "aliases": [], "definition": "船舶建造中的工艺对象", "source_pages": [8, 17], "source_chunks": ["chapter5_008", "chapter5_017"], "confidence": 0.9433}
+{"id": "ProcessObject_分段外板", "name": "分段外板", "type": "ProcessObject", "aliases": [], "definition": "需要装配的外板分段", "source_pages": [7], "source_chunks": ["chapter5_007"], "confidence": 0.875}
+{"id": "ProcessObject_半立体分段", "name": "半立体分段", "type": "ProcessObject", "aliases": [], "definition": "船体分段的一种类型", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_单斜切基面", "name": "单斜切基面", "type": "ProcessObject", "aliases": [], "definition": "基面垂直于肋骨平面而倾斜于基线面和中线面", "source_pages": [9], "source_chunks": ["chapter5_009"], "confidence": 0.96}
+{"id": "ProcessObject_卧装", "name": "卧装", "type": "ProcessObject", "aliases": [], "definition": "装配时分段处于纵向卧倒的位置", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.95}
+{"id": "ProcessObject_双层底分段", "name": "双层底分段", "type": "ProcessObject", "aliases": [], "definition": "分段制造的例子", "source_pages": [4, 5, 6, 9, 11, 26], "source_chunks": ["chapter5_004", "chapter5_005", "chapter5_006", "chapter5_009", "chapter5_011", "chapter5_026"], "confidence": 0.8938}
+{"id": "ProcessObject_双斜切基面", "name": "双斜切基面", "type": "ProcessObject", "aliases": [], "definition": "基面同时倾斜于肋骨平面、基线面和中线面", "source_pages": [9], "source_chunks": ["chapter5_009"], "confidence": 0.95}
+{"id": "ProcessObject_双斜切胎架", "name": "双斜切胎架", "type": "ProcessObject", "aliases": [], "definition": "用于肋骨装配的斜面支撑结构", "source_pages": [13], "source_chunks": ["chapter5_013"], "confidence": 0.875}
+{"id": "ProcessObject_反装", "name": "反装", "type": "ProcessObject", "aliases": [], "definition": "装配时分段处于倒转位置", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.95}
+{"id": "ProcessObject_外板", "name": "外板", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [19], "source_chunks": ["chapter5_019"], "confidence": 0.85}
+{"id": "ProcessObject_外板主焊缝为俯焊", "name": "外板主焊缝为俯焊", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_外板子分段", "name": "外板子分段", "type": "ProcessObject", "aliases": [], "definition": "由外板、外板纵骨、横向隔板和肘板组成的分段", "source_pages": [16], "source_chunks": ["chapter5_016"], "confidence": 0.85}
+{"id": "ProcessObject_外板对接缝的焊缝变形可能增加构架边缘的修割量", "name": "外板对接缝的焊缝变形可能增加构架边缘的修割量", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_大组立", "name": "大组立", "type": "ProcessObject", "aliases": [], "definition": "分段装配中的大组立部分", "source_pages": [5], "source_chunks": ["chapter5_005"], "confidence": 0.96}
+{"id": "ProcessObject_完工测量", "name": "完工测量", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [24], "source_chunks": ["chapter5_024"], "confidence": 0.92}
+{"id": "ProcessObject_小组立", "name": "小组立", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [5], "source_chunks": ["chapter5_005"], "confidence": 0.94}
+{"id": "ProcessObject_带曲面外板的底部和艏艉分段", "name": "带曲面外板的底部和艏艉分段", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_平台", "name": "平台", "type": "ProcessObject", "aliases": [], "definition": "工艺对象", "source_pages": [22], "source_chunks": ["chapter5_022"], "confidence": 0.8875}
+{"id": "ProcessObject_平直分段", "name": "平直分段", "type": "ProcessObject", "aliases": [], "definition": "包括平面与曲面分段", "source_pages": [25], "source_chunks": ["chapter5_025"], "confidence": 0.8833}
+{"id": "ProcessObject_平面曲边分段", "name": "平面曲边分段", "type": "ProcessObject", "aliases": [], "definition": "板材为平面，板边全部或局部为曲线的分段", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.925}
+{"id": "ProcessObject_平面直边分段", "name": "平面直边分段", "type": "ProcessObject", "aliases": [], "definition": "板材为平面，板边是直线的分段", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.925}
+{"id": "ProcessObject_底边舱分段", "name": "底边舱分段", "type": "ProcessObject", "aliases": [], "definition": "散装货船货舱区域的D型分段", "source_pages": [14], "source_chunks": ["chapter5_014"], "confidence": 0.88}
+{"id": "ProcessObject_支柱胎架", "name": "支柱胎架", "type": "ProcessObject", "aliases": [], "definition": "用于分段装配的胎架结构", "source_pages": [7], "source_chunks": ["chapter5_007"], "confidence": 0.9}
+{"id": "ProcessObject_曲面分段", "name": "曲面分段", "type": "ProcessObject", "aliases": [], "definition": "分段板材全部或部分为曲面，板边通常也是曲线的分段", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.925}
+{"id": "ProcessObject_横舱壁", "name": "横舱壁", "type": "ProcessObject", "aliases": [], "definition": "分段装配中的工艺对象", "source_pages": [20], "source_chunks": ["chapter5_020"], "confidence": 0.9}
+{"id": "ProcessObject_横骨架式舷侧分段", "name": "横骨架式舷侧分段", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [12], "source_chunks": ["chapter5_012"], "confidence": 0.875}
+{"id": "ProcessObject_正切基面", "name": "正切基面", "type": "ProcessObject", "aliases": [], "definition": "基面垂直于肋骨平面，同时平行或垂直于基线面", "source_pages": [9], "source_chunks": ["chapter5_009"], "confidence": 0.97}
+{"id": "ProcessObject_正装", "name": "正装", "type": "ProcessObject", "aliases": [], "definition": "装配时分段处于正立位置", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9125}
+{"id": "ProcessObject_烟囱分段", "name": "烟囱分段", "type": "ProcessObject", "aliases": [], "definition": "船体特殊结构的一种", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_特殊分段", "name": "特殊分段", "type": "ProcessObject", "aliases": [], "definition": "如艏柱、艉柱和烟囱分段", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.925}
+{"id": "ProcessObject_球鼻艏分段", "name": "球鼻艏分段", "type": "ProcessObject", "aliases": [], "definition": "船首的突出部分，用于减少船舶阻力", "source_pages": [21], "source_chunks": ["chapter5_021"], "confidence": 0.875}
+{"id": "ProcessObject_甲板半立体分段", "name": "甲板半立体分段", "type": "ProcessObject", "aliases": [], "definition": "某集装箱船货舱区域第四甲板和内底板之间的分段", "source_pages": [16], "source_chunks": ["chapter5_016"], "confidence": 0.85}
+{"id": "ProcessObject_立体分段", "name": "立体分段", "type": "ProcessObject", "aliases": [], "definition": "船体分段的一种类型", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_立体及半立体分段", "name": "立体及半立体分段", "type": "ProcessObject", "aliases": [], "definition": "由外板、甲板和舱壁等子分段组成的封闭或半封闭分段", "source_pages": [1], "source_chunks": ["chapter5_001"], "confidence": 0.925}
+{"id": "ProcessObject_纵舱壁", "name": "纵舱壁", "type": "ProcessObject", "aliases": [], "definition": "分段装配中的工艺对象", "source_pages": [20], "source_chunks": ["chapter5_020"], "confidence": 0.875}
+{"id": "ProcessObject_组合件", "name": "组合件", "type": "ProcessObject", "aliases": [], "definition": "分段装配中的组合件部分", "source_pages": [5], "source_chunks": ["chapter5_005"], "confidence": 0.945}
+{"id": "ProcessObject_肋板", "name": "肋板", "type": "ProcessObject", "aliases": [], "definition": "工艺对象", "source_pages": [22], "source_chunks": ["chapter5_022"], "confidence": 0.9}
+{"id": "ProcessObject_肋骨", "name": "肋骨", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [13], "source_chunks": ["chapter5_013"], "confidence": 0.85}
+{"id": "ProcessObject_胎架基面", "name": "胎架基面", "type": "ProcessObject", "aliases": [], "definition": "用于分段装配的基面，分为正切基面、单斜切基面和双斜切基面", "source_pages": [9], "source_chunks": ["chapter5_009"], "confidence": 0.95}
+{"id": "ProcessObject_舷侧分段", "name": "舷侧分段", "type": "ProcessObject", "aliases": [], "definition": "船体结构中的舷侧部分", "source_pages": [11, 15], "source_chunks": ["chapter5_011", "chapter5_015"], "confidence": 0.88}
+{"id": "ProcessObject_船体特殊结构", "name": "船体特殊结构", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_艉柱", "name": "艉柱", "type": "ProcessObject", "aliases": [], "definition": "船体特殊结构的一种", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_艉部下段", "name": "艉部下段", "type": "ProcessObject", "aliases": [], "definition": "含有铸钢艉柱的艉部下段", "source_pages": [18], "source_chunks": ["chapter5_018"], "confidence": 0.925}
+{"id": "ProcessObject_艏柱", "name": "艏柱", "type": "ProcessObject", "aliases": [], "definition": "船体特殊结构的一种", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ProcessObject_艏艉封闭型立体分段", "name": "艏艉封闭型立体分段", "type": "ProcessObject", "aliases": [], "definition": "", "source_pages": [4], "source_chunks": ["chapter5_004"], "confidence": 0.88}
+{"id": "ProcessObject_艏部上段", "name": "艏部上段", "type": "ProcessObject", "aliases": [], "definition": "船体前部上层建筑结构", "source_pages": [24], "source_chunks": ["chapter5_024"], "confidence": 0.925}
+{"id": "QualityRequirement_分段建造管理图表", "name": "分段建造管理图表", "type": "QualityRequirement", "aliases": [], "definition": "", "source_pages": [6], "source_chunks": ["chapter5_006"], "confidence": 0.85}
+{"id": "QualityRequirement_分段质量_质心", "name": "分段质量、质心", "type": "QualityRequirement", "aliases": [], "definition": "分段建造管理图表中的重要数据", "source_pages": [6], "source_chunks": ["chapter5_006"], "confidence": 0.825}
+{"id": "QualityRequirement_提高了焊接质量_缩短建造周期", "name": "提高了焊接质量，缩短建造周期", "type": "QualityRequirement", "aliases": [], "definition": "", "source_pages": [3], "source_chunks": ["chapter5_003"], "confidence": 0.85}
+{"id": "QualityRequirement_操作方便_安全", "name": "操作方便、安全", "type": "QualityRequirement", "aliases": [], "definition": "", "source_pages": [3], "source_chunks": ["chapter5_003"], "confidence": 0.85}
+{"id": "QualityRequirement_精度标准", "name": "精度标准", "type": "QualityRequirement", "aliases": [], "definition": "分段制造应达到的精度标准", "source_pages": [25], "source_chunks": ["chapter5_025"], "confidence": 0.9167}
+{"id": "QualityRequirement_间隙", "name": "间隙", "type": "QualityRequirement", "aliases": [], "definition": "", "source_pages": [19], "source_chunks": ["chapter5_019"], "confidence": 0.9}
+{"id": "QualityRequirement_零件明细表", "name": "零件明细表", "type": "QualityRequirement", "aliases": [], "definition": "", "source_pages": [6], "source_chunks": ["chapter5_006"], "confidence": 0.8}
+{"id": "StandardSafety_分段制造精度标准", "name": "分段制造精度标准", "type": "StandardSafety", "aliases": [], "definition": "表5-1和表5-2中规定的分段尺寸误差允许范围", "source_pages": [24], "source_chunks": ["chapter5_024"], "confidence": 0.835}
+{"id": "ToolEquipment_专用胎架", "name": "专用胎架", "type": "ToolEquipment", "aliases": [], "definition": "用于装配的特殊设备", "source_pages": [2], "source_chunks": ["chapter5_002"], "confidence": 0.9}
+{"id": "ToolEquipment_双斜切胎架", "name": "双斜切胎架", "type": "ToolEquipment", "aliases": [], "definition": "专用胎架设备", "source_pages": [12], "source_chunks": ["chapter5_012"], "confidence": 0.91}
+{"id": "ToolEquipment_吊车", "name": "吊车", "type": "ToolEquipment", "aliases": [], "definition": "用于放射式装配、插入式装配中的起重设备", "source_pages": [3], "source_chunks": ["chapter5_003"], "confidence": 0.9}
+{"id": "ToolEquipment_平台", "name": "平台", "type": "ToolEquipment", "aliases": [], "definition": "用于子分段装配的支撑设备", "source_pages": [4], "source_chunks": ["chapter5_004"], "confidence": 0.9}
+{"id": "ToolEquipment_底板胎架", "name": "底板胎架", "type": "ToolEquipment", "aliases": [], "definition": "用于分段装配的支撑设备", "source_pages": [6], "source_chunks": ["chapter5_006"], "confidence": 0.9}
+{"id": "ToolEquipment_普通胎架", "name": "普通胎架", "type": "ToolEquipment", "aliases": [], "definition": "用于制造分段的基础设备", "source_pages": [29], "source_chunks": ["chapter5_029"], "confidence": 0.9}
+{"id": "ToolEquipment_松紧螺丝", "name": "松紧螺丝", "type": "ToolEquipment", "aliases": [], "definition": "用于拉紧和定位的工艺工具", "source_pages": [20, 21], "source_chunks": ["chapter5_020", "chapter5_021"], "confidence": 0.9}
+{"id": "ToolEquipment_活络支柱胎架", "name": "活络支柱胎架", "type": "ToolEquipment", "aliases": [], "definition": "可调节支柱的胎架", "source_pages": [12, 16], "source_chunks": ["chapter5_012", "chapter5_016"], "confidence": 0.868}
+{"id": "ToolEquipment_激光经纬仪", "name": "激光经纬仪", "type": "ToolEquipment", "aliases": [], "definition": "用于精确测量的仪器", "source_pages": [11, 18, 29], "source_chunks": ["chapter5_011", "chapter5_018", "chapter5_029"], "confidence": 0.86}
+{"id": "ToolEquipment_简易胎架", "name": "简易胎架", "type": "ToolEquipment", "aliases": [], "definition": "根据分段尺寸制作的装配支撑结构", "source_pages": [14], "source_chunks": ["chapter5_014"], "confidence": 0.885}
+{"id": "ToolEquipment_胎板", "name": "胎板", "type": "ToolEquipment", "aliases": [], "definition": "宽度略超出K行板，用于支撑和定位分段", "source_pages": [18], "source_chunks": ["chapter5_018"], "confidence": 0.875}
+{"id": "ToolEquipment_胎架", "name": "胎架", "type": "ToolEquipment", "aliases": [], "definition": "用于子分段装配的支撑设备", "source_pages": [4, 11, 17, 23], "source_chunks": ["chapter5_004", "chapter5_011", "chapter5_017", "chapter5_023"], "confidence": 0.9}
+{"id": "ToolEquipment_葫芦", "name": "葫芦", "type": "ToolEquipment", "aliases": [], "definition": "", "source_pages": [19], "source_chunks": ["chapter5_019"], "confidence": 0.92}
+{"id": "ToolEquipment_角度水准尺", "name": "角度水准尺", "type": "ToolEquipment", "aliases": [], "definition": "用于测量肋骨面与胎架基面夹角的工具", "source_pages": [13], "source_chunks": ["chapter5_013"], "confidence": 0.91}
+{"id": "ToolEquipment_通用支柱式胎架", "name": "通用支柱式胎架", "type": "ToolEquipment", "aliases": [], "definition": "在船厂广泛使用的胎架类型", "source_pages": [9], "source_chunks": ["chapter5_009"], "confidence": 0.93}
