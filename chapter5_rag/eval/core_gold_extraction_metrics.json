@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "source_gold": "D:\\project\\ShipRAG\\chapter5_rag\\eval\\gold_annotations.json",
+    "core_gold": "D:\\project\\ShipRAG\\chapter5_rag\\eval\\gold_annotations_core.json",
+    "note": "core gold 仅从原始 gold 中筛选和规范化，未新增事实。"
+  },
+  "models": {
+    "pangu": {
+      "model": "pangu",
+      "gold_entity_count": 50,
+      "gold_triple_count": 50,
+      "pred_entity_count": 75,
+      "pred_triple_count": 81,
+      "entity": {
+        "tp": 36,
+        "precision": 0.48,
+        "recall": 0.72,
+        "f1": 0.576
+      },
+      "strict_triple": {
+        "tp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "core_relaxed_triple": {
+        "tp": 4,
+        "precision": 0.0494,
+        "recall": 0.08,
+        "f1": 0.0611
+      },
+      "evidence_support_rate": 0.9753,
+      "hallucination_rate": 0.0192,
+      "raw_rows_found": 5,
+      "json_legal_rate": 1.0,
+      "extraction_success_rate": 1.0
+    },
+    "deepseek": {
+      "model": "deepseek",
+      "gold_entity_count": 50,
+      "gold_triple_count": 50,
+      "pred_entity_count": 78,
+      "pred_triple_count": 110,
+      "entity": {
+        "tp": 32,
+        "precision": 0.4103,
+        "recall": 0.64,
+        "f1": 0.5
+      },
+      "strict_triple": {
+        "tp": 5,
+        "precision": 0.0455,
+        "recall": 0.1,
+        "f1": 0.0625
+      },
+      "core_relaxed_triple": {
+        "tp": 9,
+        "precision": 0.0818,
+        "recall": 0.18,
+        "f1": 0.1125
+      },
+      "evidence_support_rate": 0.9727,
+      "hallucination_rate": 0.0479,
+      "raw_rows_found": 5,
+      "json_legal_rate": 0.8,
+      "extraction_success_rate": 0.8
+    }
+  }
+}
