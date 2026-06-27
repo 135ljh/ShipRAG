@@ -1,0 +1,1004 @@
+﻿id,name,type,aliases,definition,source_pages,source_chunks,confidence
+Chapter_II段,II段,Chapter,[],,[105],"[""shiprag_p105_00121""]",0.875
+Chapter_中级船体装配工工艺学,中级船体装配工工艺学,Chapter,[],,[],[],1.0
+Chapter_分段结构,分段结构,Chapter,[],,[148],"[""shiprag_p148_00170""]",0.85
+Chapter_分段装配,分段装配,Chapter,[],,[127],"[""shiprag_p127_00145""]",0.65
+Chapter_半宽水线图,半宽水线图,Chapter,[],,[36],"[""shiprag_p036_00045""]",0.9
+Chapter_工作曲面,工作曲面,Chapter,[],,[124],"[""shiprag_p124_00142""]",0.9
+Chapter_横剖线图,横剖线图,Chapter,[],,[36],"[""shiprag_p036_00045""]",0.85
+Chapter_横缝,横缝,Chapter,[],,[55],"[""shiprag_p055_00068""]",0.875
+Chapter_甲板分段,甲板分段,Chapter,[],,[124],"[""shiprag_p124_00142""]",0.85
+Chapter_第七章船体修理,第七章船体修理,Chapter,[],,"[179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192]","[""shiprag_p179_00210"", ""shiprag_p180_00211"", ""shiprag_p180_00212"", ""shiprag_p181_00213"", ""shiprag_p181_00214"", ""shiprag_p182_00215"", ""shiprag_p183_00216"", ""shiprag_p183_00217"", ""shiprag_p184_00218"", ""shiprag_p185_00219"", ""shiprag_p185_00220"", ""shiprag_p186_00221"", ""shiprag_p186_00222"", ""shiprag_p187_00223"", ""shiprag_p187_00224"", ""shiprag_p188_00225"", ""shiprag_p189_00226"", ""shiprag_p189_00227"", ""shiprag_p190_00228"", ""shiprag_p191_00229"", ""shiprag_p192_00230""]",0.95
+Chapter_第三章,第三章,Chapter,[],,"[64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95]","[""shiprag_p064_00078"", ""shiprag_p065_00079"", ""shiprag_p066_00080"", ""shiprag_p066_00081"", ""shiprag_p067_00082"", ""shiprag_p068_00083"", ""shiprag_p069_00084"", ""shiprag_p070_00085"", ""shiprag_p071_00086"", ""shiprag_p072_00087"", ""shiprag_p073_00088"", ""shiprag_p073_00089"", ""shiprag_p074_00090"", ""shiprag_p075_00091"", ""shiprag_p076_00092"", ""shiprag_p077_00093"", ""shiprag_p078_00094"", ""shiprag_p079_00095"", ""shiprag_p080_00096"", ""shiprag_p081_00097"", ""shiprag_p082_00098"", ""shiprag_p083_00099"", ""shiprag_p084_00100"", ""shiprag_p085_00101"", ""shiprag_p086_00102"", ""shiprag_p087_00103"", ""shiprag_p088_00104"", ""shiprag_p089_00105"", ""shiprag_p090_00106"", ""shiprag_p091_00107"", ""shiprag_p092_00108"", ""shiprag_p093_00109"", ""shiprag_p094_00110"", ""shiprag_p095_00111""]",0.95
+Chapter_第二章舟,第二章舟,Chapter,[],,"[33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]","[""shiprag_p033_00040"", ""shiprag_p033_00041"", ""shiprag_p034_00042"", ""shiprag_p035_00043"", ""shiprag_p036_00044"", ""shiprag_p036_00045"", ""shiprag_p037_00046"", ""shiprag_p038_00047"", ""shiprag_p038_00048"", ""shiprag_p039_00049"", ""shiprag_p040_00050"", ""shiprag_p041_00051"", ""shiprag_p042_00052"", ""shiprag_p043_00053"", ""shiprag_p044_00054"", ""shiprag_p045_00055"", ""shiprag_p046_00056"", ""shiprag_p047_00057"", ""shiprag_p048_00058"", ""shiprag_p048_00059"", ""shiprag_p049_00060"", ""shiprag_p050_00061"", ""shiprag_p051_00062"", ""shiprag_p051_00063"", ""shiprag_p052_00064"", ""shiprag_p053_00065"", ""shiprag_p054_00066"", ""shiprag_p054_00067"", ""shiprag_p055_00068"", ""shiprag_p056_00069"", ""shiprag_p057_00070"", ""shiprag_p058_00071"", ""shiprag_p059_00072"", ""shiprag_p060_00073"", ""shiprag_p060_00074"", ""shiprag_p061_00075"", ""shiprag_p062_00076"", ""shiprag_p063_00077""]",0.95
+Chapter_第五章,第五章,Chapter,[],,"[112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149]","[""shiprag_p112_00129"", ""shiprag_p113_00130"", ""shiprag_p114_00131"", ""shiprag_p115_00132"", ""shiprag_p116_00133"", ""shiprag_p116_00134"", ""shiprag_p117_00135"", ""shiprag_p118_00136"", ""shiprag_p119_00137"", ""shiprag_p120_00138"", ""shiprag_p121_00139"", ""shiprag_p122_00140"", ""shiprag_p123_00141"", ""shiprag_p124_00142"", ""shiprag_p125_00143"", ""shiprag_p126_00144"", ""shiprag_p127_00145"", ""shiprag_p128_00146"", ""shiprag_p129_00147"", ""shiprag_p130_00148"", ""shiprag_p131_00149"", ""shiprag_p132_00150"", ""shiprag_p133_00151"", ""shiprag_p133_00152"", ""shiprag_p134_00153"", ""shiprag_p135_00154"", ""shiprag_p136_00155"", ""shiprag_p136_00156"", ""shiprag_p137_00157"", ""shiprag_p138_00158"", ""shiprag_p139_00159"", ""shiprag_p140_00160"", ""shiprag_p141_00161"", ""shiprag_p141_00162"", ""shiprag_p142_00163"", ""shiprag_p143_00164"", ""shiprag_p144_00165"", ""shiprag_p145_00166"", ""shiprag_p146_00167"", ""shiprag_p146_00168"", ""shiprag_p147_00169"", ""shiprag_p148_00170"", ""shiprag_p149_00171""]",0.95
+Chapter_第五章船体分段的装配,第五章船体分段的装配,Chapter,[],,"[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]","[""shiprag_p008_00008"", ""shiprag_p008_00009"", ""shiprag_p009_00010"", ""shiprag_p010_00011"", ""shiprag_p011_00012"", ""shiprag_p012_00013"", ""shiprag_p013_00014"", ""shiprag_p014_00015"", ""shiprag_p015_00016"", ""shiprag_p016_00017"", ""shiprag_p017_00018"", ""shiprag_p018_00019"", ""shiprag_p018_00020"", ""shiprag_p019_00021"", ""shiprag_p019_00022"", ""shiprag_p020_00023"", ""shiprag_p021_00024"", ""shiprag_p022_00025"", ""shiprag_p023_00026"", ""shiprag_p024_00027"", ""shiprag_p024_00028"", ""shiprag_p025_00029"", ""shiprag_p026_00030"", ""shiprag_p027_00031"", ""shiprag_p027_00032"", ""shiprag_p028_00033"", ""shiprag_p029_00034"", ""shiprag_p029_00035"", ""shiprag_p030_00036"", ""shiprag_p030_00037"", ""shiprag_p031_00038"", ""shiprag_p032_00039""]",0.95
+Chapter_第六章,第六章,Chapter,[],,"[150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178]","[""shiprag_p150_00172"", ""shiprag_p151_00173"", ""shiprag_p152_00174"", ""shiprag_p153_00175"", ""shiprag_p153_00176"", ""shiprag_p154_00177"", ""shiprag_p155_00178"", ""shiprag_p156_00179"", ""shiprag_p157_00180"", ""shiprag_p157_00181"", ""shiprag_p158_00182"", ""shiprag_p159_00183"", ""shiprag_p159_00184"", ""shiprag_p160_00185"", ""shiprag_p161_00186"", ""shiprag_p161_00187"", ""shiprag_p162_00188"", ""shiprag_p163_00189"", ""shiprag_p164_00190"", ""shiprag_p165_00191"", ""shiprag_p166_00192"", ""shiprag_p166_00193"", ""shiprag_p167_00194"", ""shiprag_p168_00195"", ""shiprag_p169_00196"", ""shiprag_p170_00197"", ""shiprag_p170_00198"", ""shiprag_p171_00199"", ""shiprag_p172_00200"", ""shiprag_p173_00201"", ""shiprag_p174_00202"", ""shiprag_p174_00203"", ""shiprag_p175_00204"", ""shiprag_p176_00205"", ""shiprag_p176_00206"", ""shiprag_p177_00207"", ""shiprag_p177_00208"", ""shiprag_p178_00209""]",0.95
+Chapter_第四章,第四章,Chapter,[],,"[96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111]","[""shiprag_p096_00112"", ""shiprag_p097_00113"", ""shiprag_p098_00114"", ""shiprag_p099_00115"", ""shiprag_p100_00116"", ""shiprag_p101_00117"", ""shiprag_p102_00118"", ""shiprag_p103_00119"", ""shiprag_p104_00120"", ""shiprag_p105_00121"", ""shiprag_p106_00122"", ""shiprag_p106_00123"", ""shiprag_p107_00124"", ""shiprag_p108_00125"", ""shiprag_p109_00126"", ""shiprag_p110_00127"", ""shiprag_p111_00128""]",0.95
+Chapter_纵桁,纵桁,Chapter,[],,[101],"[""shiprag_p101_00117""]",0.9
+Chapter_肋板,肋板,Chapter,[],,[101],"[""shiprag_p101_00117""]",0.85
+Chapter_肋骨型线图,肋骨型线图,Chapter,[],,[54],"[""shiprag_p054_00067""]",0.9
+Chapter_船体结构,船体结构,Chapter,[],,[57],"[""shiprag_p057_00070""]",0.9
+Chapter_表3_1,表3-1,Chapter,[],中性层位置系数K值,[85],"[""shiprag_p085_00101""]",0.825
+Chapter_部上段,部上段,Chapter,[],,[144],"[""shiprag_p144_00165""]",0.85
+Component_101b,101b,Component,[],船体冕部立体分段,[161],"[""shiprag_p161_00186""]",0.8
+Component_1500纵剖线,1500纵剖线,Component,[],船体分段装配中的纵向结构线,[44],"[""shiprag_p044_00054""]",0.825
+Component_20号肋骨位置,20号肋骨位置,Component,[],肋骨型线图中的特定肋骨位置,[51],"[""shiprag_p051_00062""]",0.8667
+Component_8号站线,8号站线,Component,[],船体分段装配中的横向结构线,[44],"[""shiprag_p044_00054""]",0.9
+Component_FR322C,FR322C,Component,[],肋骨构件,[118],"[""shiprag_p118_00136""]",0.775
+Component_FR328CI,FR328CI,Component,[],肋骨构件,[118],"[""shiprag_p118_00136""]",0.75
+Component_IV平台,IV平台,Component,[],船体结构中的平台部件,[141],"[""shiprag_p141_00162""]",0.7833
+Component_K行板,K行板,Component,[],船体结构中的横向支撑构件,"[136, 137]","[""shiprag_p136_00156"", ""shiprag_p137_00157""]",0.8375
+Component_LB2A1,LB2A1,Component,[],船体纵向结构件,[136],"[""shiprag_p136_00155""]",0.89
+Component_L型分段骨架,L型分段骨架,Component,[],切断底部分段图1-9机舱区域分段的划分,[14],"[""shiprag_p014_00015""]",0.8
+Component_ABC,△ABC,Component,[],,[64],"[""shiprag_p064_00078""]",0.7
+Component_上层建筑,上层建筑,Component,[],船体结构组成部分,[177],"[""shiprag_p177_00207"", ""shiprag_p177_00208""]",0.8313
+Component_上甲板,上甲板,Component,[],"如上甲板CW3P/S,CC4P/S,CD11分别为货舱区的边底、侧和甲板分段","[21, 47, 51, 62]","[""shiprag_p021_00024"", ""shiprag_p047_00057"", ""shiprag_p051_00063"", ""shiprag_p062_00076""]",0.86
+Component_下倾式内底边板,下倾式内底边板,Component,[],下倾式内底边板的展开方法。,[90],"[""shiprag_p090_00106""]",0.7833
+Component_下层甲板,下层甲板,Component,[],船舶结构部分,[177],"[""shiprag_p177_00208""]",0.8167
+Component_不可展曲面,不可展曲面,Component,[],无法在平面上完全展开的曲面,[80],"[""shiprag_p080_00096""]",0.9
+Component_中心线,中心线,Component,[],,[36],"[""shiprag_p036_00045""]",0.9
+Component_中心线槽钢,中心线槽钢,Component,[],嵌埋在船台中心线处的槽钢或钢板条，用于标画船台中心线和肋骨位置线,[153],"[""shiprag_p153_00175""]",0.9333
+Component_中纵剖线,中纵剖线,Component,[],舰部分的中纵韵线,[38],"[""shiprag_p038_00047""]",0.8
+Component_中间肋骨线,中间肋骨线,Component,[],船体结构中的纵向构件,[130],"[""shiprag_p130_00148""]",0.875
+Component_临时加强材,临时加强材,Component,[],加强分段的刚性或局部强度，防止吊运中变形或损坏,[26],"[""shiprag_p026_00030""]",0.8667
+Component_主甲板,主甲板,Component,[],"各层甲板以主甲板为'1',分别向下和向上排序",[21],"[""shiprag_p021_00024""]",0.8
+Component_主船体,主船体,Component,[],,[98],"[""shiprag_p098_00114""]",0.9
+Component_企口板,企口板,Component,[],,[128],"[""shiprag_p128_00146""]",0.7
+Component_伸缩杆,伸缩杆,Component,[],,[59],"[""shiprag_p059_00072""]",0.85
+Component_余盘,余盘,Component,[],所有分段在船台合扰时都必须进行二次定位,[178],"[""shiprag_p178_00209""]",0.75
+Component_侧分段,侧分段,Component,[],,[11],"[""shiprag_p011_00012""]",0.95
+Component_侧纵桁,侧纵桁,Component,[],船体分段中的纵向加强构件,[141],"[""shiprag_p141_00161""]",0.9
+Component_侧装分段,侧装分段,Component,[],,[114],"[""shiprag_p114_00131""]",0.85
+Component_信号设备,信号设备,Component,[],,[104],"[""shiprag_p104_00120""]",0.85
+Component_假舱壁,假舱壁,Component,[],,[157],"[""shiprag_p157_00180""]",0.8
+Component_共有点,共有点,Component,[],两个形体表面上的共同点,[72],"[""shiprag_p072_00087""]",0.825
+Component_内口线,内口线,Component,[],t6S694/(b)外口线,[89],"[""shiprag_p08900105""]",0.7
+Component_内围壁,内围壁,Component,[],轻围壁，起内部空间分隔作用,[102],"[""shiprag_p102_00118""]",0.925
+Component_内底板,内底板,Component,[],船体结构中的一种构件,"[56, 57, 116, 119, 126, 128, 132, 146, 166, 170]","[""shiprag_p056_00069"", ""shiprag_p057_00070"", ""shiprag_p116_00133"", ""shiprag_p119_00137"", ""shiprag_p126_00144"", ""shiprag_p128_00146"", ""shiprag_p132_00150"", ""shiprag_p146_00168"", ""shiprag_p166_00193"", ""shiprag_p170_00198""]",0.8156
+Component_内底板展开示意图,内底板展开示意图,Component,[],内底板的展开示意图,[91],"[""shiprag_p091_00107""]",0.775
+Component_内底纵骨,内底纵骨,Component,[],船体内底部分的纵向构件,"[126, 133]","[""shiprag_p126_00144"", ""shiprag_p133_00151""]",0.85
+Component_内部构架,内部构架,Component,[],,[143],"[""shiprag_p143_00164""]",0.8
+Component_准线,准线,Component,[],在肋骨型线图的倾斜边板部位作一与其垂直的准线。,[90],"[""shiprag_p090_00106""]",0.725
+Component_几何体表面,几何体表面,Component,[],,[74],"[""shiprag_p074_00090""]",0.85
+Component_分段,分段,Component,[],船体结构装配单元,"[18, 152]","[""shiprag_p018_00019"", ""shiprag_p152_00174""]",0.85
+Component_分段中心线,分段中心线,Component,[],,[163],"[""shiprag_p163_00189""]",0.85
+Component_分段企口板,分段企口板,Component,[],船体结构中的一种构件,[56],"[""shiprag_p056_00069""]",0.7333
+Component_分段大接缝,分段大接缝,Component,[],分段大接缝的壳板和骨架,[14],"[""shiprag_p014_00015""]",0.825
+Component_刚性构件,刚性构件,Component,[],分段的刚性结构部件,[24],"[""shiprag_p024_00028""]",0.85
+Component_刻线,刻线,Component,[],,[10],"[""shiprag_p010_00011""]",0.9
+Component_割键线,割键线,Component,[],,[189],"[""shiprag_p189_00227""]",0.7833
+Component_加强筋,加强筋,Component,[],,[101],"[""shiprag_p101_00117""]",0.85
+Component_助外板骨面,助外板骨面,Component,[],,[131],"[""shiprag_p131_00149""]",0.7
+Component_助板,助板,Component,[],分段焊接用的辅助构件,"[133, 141]","[""shiprag_p133_00151"", ""shiprag_p141_00162""]",0.8214
+Component_包含钢板和型钢的片状结构,包含钢板和型钢的片状结构,Component,[],,[18],"[""shiprag_p018_00019""]",0.9
+Component_包板与内部构架,包板与内部构架,Component,[],柱包板与船体内部支撑结构的焊接连接,[143],"[""shiprag_p143_00164""]",0.8
+Component_千斤索眼板,千斤索眼板,Component,[],,[106],"[""shiprag_p106_00122""]",0.8
+Component_单张外板,单张外板,Component,[],,[18],"[""shiprag_p018_00019""]",0.9
+Component_单根肋骨,单根肋骨,Component,[],,[18],"[""shiprag_p018_00019""]",0.9
+Component_单稳,单稳,Component,[],"单稳的横断面一般为圆形。下段为圆柱体,上段为圆体。杆柱体内不设骨架。",[104],"[""shiprag_p104_00120""]",0.85
+Component_单稳柱体,单稳柱体,Component,[],单稳柱体共有9个自然段。将其合成4个大段作为部件先行装配。,[104],"[""shiprag_p104_00120""]",0.7833
+Component_卡板,卡板,Component,[],分段定位辅助装置,[169],"[""shiprag_p169_00196""]",0.725
+Component_压筋围壁,压筋围壁,Component,[],圆弧型/矩形/梯形围壁,[102],"[""shiprag_p102_00118""]",0.85
+Component_双层底分段,双层底分段,Component,[],,[118],"[""shiprag_p118_00136""]",0.625
+Component_双层底各部件,双层底各部件,Component,[],图5-14为双层底各部件的小组立图,[119],"[""shiprag_p119_00137""]",0.85
+Component_双层底框架,双层底框架,Component,[],,[101],"[""shiprag_p101_00117""]",0.9
+Component_可展表面,可展表面,Component,[],,[80],"[""shiprag_p080_00096""]",0.85
+Component_右侧围板,右侧围板,Component,[],,[108],"[""shiprag_p108_00125""]",0.825
+Component_吊杆座,吊杆座,Component,[],附件部件,[106],"[""shiprag_p106_00122""]",0.825
+Component_吊环,吊环,Component,[],安装在分段上用于翻身的部件,"[23, 24, 25, 31]","[""shiprag_p023_00026"", ""shiprag_p024_00027"", ""shiprag_p024_00028"", ""shiprag_p025_00029"", ""shiprag_p031_00038""]",0.8409
+Component_吊索,吊索,Component,[],用于分段吊运的绳索,[24],"[""shiprag_p024_00027""]",0.85
+Component_后装分段,后装分段,Component,[],船体底部分段中需要后安装的构件,[164],"[""shiprag_p164_00190""]",0.8833
+Component_围壁,围壁,Component,[],船体结构组成部分,"[177, 190]","[""shiprag_p177_00207"", ""shiprag_p190_00228""]",0.8333
+Component_围壁内部木质设施,围壁内部木质设施,Component,[],,[189],"[""shiprag_p189_00227""]",0.775
+Component_围壁扶强材,围壁扶强材,Component,[],,[189],"[""shiprag_p189_00227""]",0.775
+Component_围壁板切割线,围壁板切割线,Component,[],,[190],"[""shiprag_p190_00228""]",0.85
+Component_围板,围板,Component,[],烟窗的围板部件,"[107, 108]","[""shiprag_p107_00124"", ""shiprag_p108_00125""]",0.9
+Component_图6_18,图6-18,Component,[],立体分段的区域序号中央楼图,[162],"[""shiprag_p162_00188""]",0.7
+Component_圆冲眼,圆冲眼,Component,[],用于标记位置的冲眼,[157],"[""shiprag_p157_00181""]",0.775
+Component_圆水准器,圆水准器,Component,[],,[8],"[""shiprag_p008_00008""]",0.975
+Component_圆管,圆管,Component,[],管道基本部件,[87],"[""shiprag_p087_00103""]",0.8
+Component_垂直加强材,垂直加强材,Component,[],,[107],"[""shiprag_p107_00124""]",0.9
+Component_垂直加强板,垂直加强板,Component,[],船体结构中的加强部件,[141],"[""shiprag_p141_00162""]",0.875
+Component_垂直隔板,垂直隔板,Component,[],焊接T型材,[109],"[""shiprag_p109_00126""]",0.8
+Component_型材,型材,Component,[],,[62],"[""shiprag_p062_00076""]",0.8
+Component_型钢弯曲零件,型钢弯曲零件,Component,[],包括肋骨和纵骨的船体结构件,[60],"[""shiprag_p060_00073""]",0.9
+Component_基准段,基准段,Component,[],靠近机舱前端的底部分段,[152],"[""shiprag_p152_00174""]",0.85
+Component_基线标杆,基线标杆,Component,[],在船台中心线处将仪器对中整平。向基线标杆发射激光分段,"[10, 153, 158]","[""shiprag_p010_00011"", ""shiprag_p153_00175"", ""shiprag_p158_00182""]",0.825
+Component_壳板和骨架,壳板和骨架,Component,[],,[14],"[""shiprag_p014_00015""]",0.85
+Component_外口线,外口线,Component,[],,[89],"[""shiprag_p089_00105""]",0.7
+Component_外围壁,外围壁,Component,[],船体强度构件,"[102, 177]","[""shiprag_p102_00118"", ""shiprag_p177_00208""]",0.88
+Component_外壁线型,外壁线型,Component,[],外壁线型的平整光顺和整体外形的美观,[178],"[""shiprag_p178_00209""]",0.875
+Component_外板,外板,Component,[],构成船体外壳的板架结构,"[51, 54, 55, 56, 57, 62, 89, 127, 129, 132, 135, 165, 174, 184, 187, 188]","[""shiprag_p051_00063"", ""shiprag_p054_00067"", ""shiprag_p055_00068"", ""shiprag_p056_00069"", ""shiprag_p057_00070"", ""shiprag_p062_00076"", ""shiprag_p089_00105"", ""shiprag_p127_00145"", ""shiprag_p129_00147"", ""shiprag_p132_00150"", ""shiprag_p135_00154"", ""shiprag_p165_00191"", ""shiprag_p174_00202"", ""shiprag_p174_00203"", ""shiprag_p184_00218"", ""shiprag_p187_00224"", ""shiprag_p188_00225""]",0.8194
+Component_外板加工样条,外板加工样条,Component,[],用于加工外板的样条工具,[188],"[""shiprag_p188_00225""]",0.9
+Component_外板型表面,外板型表面,Component,[],船体外板的形状表面,[48],"[""shiprag_p048_00059""]",0.75
+Component_外板对接缝,外板对接缝,Component,[],,[189],"[""shiprag_p189_00226""]",0.8833
+Component_外板对接缝内表面,外板对接缝内表面,Component,[],外板对接缝的内表面,[189],"[""shiprag_p189_00226""]",0.9
+Component_外板对接缝外表面,外板对接缝外表面,Component,[],外板对接缝的外表面,[189],"[""shiprag_p189_00226""]",0.9
+Component_外板线型,外板线型,Component,[],外板上的线型变化部位,[173],"[""shiprag_p173_00201""]",0.825
+Component_外板轴包板,外板轴包板,Component,[],,[138],"[""shiprag_p138_00158""]",0.7
+Component_多节斜截圆管,多节斜截圆管,Component,[],,[78],"[""shiprag_p078_00094""]",0.85
+Component_大型框架,大型框架,Component,[],,[18],"[""shiprag_p018_00019""]",0.9
+Component_子分段,子分段,Component,[],从壁子分段拆分的较小分段,[116],"[""shiprag_p116_00133""]",0.875
+Component_定位靠板,定位靠板,Component,[],焊接在平台板上的型钢，用于固定肋骨框架,[139],"[""shiprag_p139_00159""]",0.825
+Component_尖舱平台,尖舱平台,Component,[],船体结构中的平台部件,[141],"[""shiprag_p141_00162""]",0.85
+Component_崩爆轮弗线,崩爆轮弗线,Component,[],面与船体型表面的交线,[63],"[""shiprag_p063_00077""]",0.75
+Component_工件,工件,Component,[],被加工的金属部件,[27],"[""shiprag_p027_00032""]",0.8
+Component_平行于中线面的平面作为基面,平行于中线面的平面作为基面,Component,[],,[114],"[""shiprag_p114_00131""]",0.9
+Component_平面分段,平面分段,Component,[],尺寸较大，数量较多的平面分段,[14],"[""shiprag_p014_00015""]",0.8
+Component_平面围壁,平面围壁,Component,[],结构形式之一,[102],"[""shiprag_p102_00118""]",0.875
+Component_平面或画面子分段,平面或画面子分段,Component,[],,[18],"[""shiprag_p018_00019""]",0.9
+Component_平面曲边分段,平面曲边分段,Component,[],板材为平面，板边全部或局部为曲线的分段,[112],"[""shiprag_p112_00129""]",0.825
+Component_平面直边分段,平面直边分段,Component,[],板材为平面，板边是直线的分段,[112],"[""shiprag_p112_00129""]",0.85
+Component_底板,底板,Component,[],,[54],"[""shiprag_p054_00067""]",0.85
+Component_底纵桁,底纵桁,Component,[],倾斜于中线面的底纵桁,[88],"[""shiprag_p088_00104""]",0.8667
+Component_底部分段,底部分段,Component,[],,[163],"[""shiprag_p163_00189""]",0.9
+Component_张外板,张外板,Component,[],船体构件,[33],"[""shiprag_p033_00041""]",0.825
+Component_弯头,弯头,Component,[],管道连接部件,[87],"[""shiprag_p087_00103""]",0.8
+Component_弯曲部分,弯曲部分,Component,[],,[14],"[""shiprag_p014_00015""]",0.8
+Component_弹簧钢带,弹簧钢带,Component,[],用于活络样板调制的工具,"[59, 60]","[""shiprag_p059_00072"", ""shiprag_p060_00073""]",0.875
+Component_强力甲板,强力甲板,Component,[],,[182],"[""shiprag_p182_00215""]",0.925
+Component_强胸横梁,强胸横梁,Component,[],,[141],"[""shiprag_p141_00161""]",0.8
+Component_总段,总段,Component,[],从船底到甲板的D型、C型总段,[151],"[""shiprag_p151_00173""]",0.8833
+Component_扁钢,扁钢,Component,[],连接两侧舵叶板后端,[109],"[""shiprag_p109_00126""]",0.75
+Component_扇形连接板,扇形连接板,Component,[],,[59],"[""shiprag_p059_00072""]",0.85
+Component_托板,托板,Component,[],焊接在平台上防止包板下滑的钢板构件,[143],"[""shiprag_p143_00164""]",0.85
+Component_扶强材,扶强材,Component,[],纵向加强构件,"[106, 118, 141, 190]","[""shiprag_p106_00123"", ""shiprag_p118_00136"", ""shiprag_p141_00161"", ""shiprag_p190_00228""]",0.8143
+Component_批龙骨,批龙骨,Component,[],批龙骨,[53],"[""shiprag_p053_00065""]",0.875
+Component_折角点,折角点,Component,[],圆弧与助骨线相交的交点,[50],"[""shiprag_p050_00061""]",0.8
+Component_拉线角钢,拉线角钢,Component,[],用于固定钢丝的焊接结构件,[129],"[""shiprag_p129_00147""]",0.75
+Component_挡板,挡板,Component,[],焊接在髓柱上防止柱包板倾倒的钢板构件,[143],"[""shiprag_p143_00164""]",0.85
+Component_挡水板,挡水板,Component,[],,[141],"[""shiprag_p141_00162""]",0.75
+Component_推进器轴,推进器轴,Component,[],,[48],"[""shiprag_p048_00058""]",0.85
+Component_斜剖面,斜剖面,Component,[],通常都位于中站面而倾斜于面,[63],"[""shiprag_p063_00077""]",0.7
+Component_斜底纵骨,斜底纵骨,Component,[],斜底板结构中的纵向支撑构件,[134],"[""shiprag_p134_00153""]",0.8
+Component_斜截线,斜截线,Component,[],,[77],"[""shiprag_p077_00093""]",0.825
+Component_斜肋骨框架,斜肋骨框架,Component,[],吊装到分段上定位的框架结构,[139],"[""shiprag_p139_00159""]",0.865
+Component_方圆过凌接头,方圆过凌接头,Component,[],方圆过凌接头的弯曲工艺,[86],"[""shiprag_p086_00102""]",0.9
+Component_旁板,旁板,Component,[],,[54],"[""shiprag_p054_00067""]",0.85
+Component_时板,时板,Component,[],,[135],"[""shiprag_p135_00154""]",0.9
+Component_曲面分段,曲面分段,Component,[],分段板材全部或部分为曲面，板边通常也是曲线的分段,[112],"[""shiprag_p112_00129""]",0.775
+Component_望远镜,望远镜,Component,[],,[8],"[""shiprag_p008_00008""]",0.97
+Component_木墩,木墩,Component,[],木质支承装置,[155],"[""shiprag_p155_00178""]",0.9
+Component_机舱分段,机舱分段,Component,[],总装时作为定位基准段先吊上船台的构件,[151],"[""shiprag_p151_00173""]",0.9
+Component_极帽,极帽,Component,[],球面分割后的顶部和底部区域,[81],"[""shiprag_p081_00097""]",0.8167
+Component_构架,构架,Component,[],构架构件,[146],"[""shiprag_p146_00168""]",0.8
+Component_枪杆,枪杆,Component,[],"枪杆上部用于装置信号设备,安装天线架,雷达架和了望台。",[104],"[""shiprag_p104_00120""]",0.85
+Component_柱包板,柱包板,Component,[],用于固定柱的钢板构件,[143],"[""shiprag_p143_00164""]",0.85
+Component_柱接头端面,柱接头端面,Component,[],,[96],"[""shiprag_p096_00112""]",0.9
+Component_样板,样板,Component,[],,[130],"[""shiprag_p130_00148""]",0.85
+Component_框架,框架,Component,[],,[128],"[""shiprag_p128_00146""]",0.6
+Component_梁拱,梁拱,Component,[],,[93],"[""shiprag_p093_00109""]",0.9
+Component_梁肘板,梁肘板,Component,[],船体结构中的连接肘板,[172],"[""shiprag_p172_00200""]",0.85
+Component_梳状马,梳状马,Component,[],用于外板接缝的梳状马,[189],"[""shiprag_p189_00226""]",0.8167
+Component_梳肩中心线,梳肩中心线,Component,[],,[106],"[""shiprag_p106_00122""]",0.85
+Component_槽形舱壁,槽形舱壁,Component,[],与甲板连接的构件,[91],"[""shiprag_p091_00107""]",0.7
+Component_横向框架,横向框架,Component,[],,[134],"[""shiprag_p134_00153""]",0.8
+Component_横向隔板,横向隔板,Component,[],船体分段中的横向构件,"[135, 136]","[""shiprag_p135_00154"", ""shiprag_p136_00155""]",0.87
+Component_横杆,横杆,Component,[],,[59],"[""shiprag_p059_00072""]",0.85
+Component_横舱壁,横舱壁,Component,[],船体构件,"[140, 177]","[""shiprag_p140_00160"", ""shiprag_p177_00207""]",0.87
+Component_横舱整分段,横舱整分段,Component,[],,[160],"[""shiprag_p160_00185""]",0.7
+Component_正切基面,正切基面,Component,[],,[124],"[""shiprag_p124_00142""]",0.85
+Component_水平桁材,水平桁材,Component,[],船体结构件,[106],"[""shiprag_p106_00123""]",0.9167
+Component_水平隔板,水平隔板,Component,[],舵叶内部的水平分隔结构,[110],"[""shiprag_p110_00127""]",0.815
+Component_水泥墩,水泥墩,Component,[],混凝土材质支承装置,[155],"[""shiprag_p155_00178""]",0.85
+Component_油水舱,油水舱,Component,[],修船中船上储存油水的舱室,"[181, 191]","[""shiprag_p181_00213"", ""shiprag_p191_00229""]",0.7625
+Component_波带片,波带片,Component,[],,[8],"[""shiprag_p008_00008""]",0.94
+Component_活络样板,活络样板,Component,[],两翼扇形梳状式活络样板,[59],"[""shiprag_p059_00072""]",0.8857
+Component_测量孔,测量孔,Component,[],用于测量的孔洞,[183],"[""shiprag_p183_00217""]",0.9
+Component_滚翻装置,滚翻装置,Component,[],用于落地滚翻的装置,[24],"[""shiprag_p024_00027""]",0.8833
+Component_烟窗百页窗,烟窗百页窗,Component,[],,[108],"[""shiprag_p108_00125""]",0.7
+Component_焊接T型材,焊接T型材,Component,[],,[18],"[""shiprag_p018_00019""]",0.9
+Component_焊缝,焊缝,Component,[],船体结构中的焊接部位,[185],"[""shiprag_p185_00219""]",0.85
+Component_焊缝坡口,焊缝坡口,Component,[],焊接前的沟槽加工,[27],"[""shiprag_p027_00031""]",0.875
+Component_甲板,甲板,Component,[],船体结构中的一种构件,"[33, 56, 57, 134, 136, 153, 161, 170, 177, 190]","[""shiprag_p033_00041"", ""shiprag_p056_00069"", ""shiprag_p057_00070"", ""shiprag_p134_00153"", ""shiprag_p136_00155"", ""shiprag_p153_00176"", ""shiprag_p161_00187"", ""shiprag_p170_00198"", ""shiprag_p177_00207"", ""shiprag_p190_00228""]",0.8559
+Component_甲板与舱壁,甲板与舱壁,Component,[],甲板和舱壁的连接部位,[172],"[""shiprag_p172_00200""]",0.85
+Component_甲板中线,甲板中线,Component,[],,[40],"[""shiprag_p040_00050""]",0.8
+Component_甲板室围壁,甲板室围壁,Component,[],包含外围璧和内固壁,[102],"[""shiprag_p102_00118""]",0.88
+Component_甲板纵骨,甲板纵骨,Component,[],甲板结构中的纵向支撑构件,[134],"[""shiprag_p134_00153""]",0.825
+Component_甲板线,甲板线,Component,[],,[38],"[""shiprag_p038_00047""]",0.85
+Component_甲板胎架,甲板胎架,Component,[],,[144],"[""shiprag_p144_00165""]",0.9
+Component_甲板边板,甲板边板,Component,[],船体构件,"[132, 171]","[""shiprag_p132_00150"", ""shiprag_p171_00199""]",0.86
+Component_甲板边线,甲板边线,Component,[],船体构件,"[11, 63, 70]","[""shiprag_p011_00012"", ""shiprag_p063_00077"", ""shiprag_p070_00085""]",0.85
+Component_甲板边线点,甲板边线点,Component,[],甲板边线的点,[40],"[""shiprag_p040_00050""]",0.875
+Component_百页窗,百页窗,Component,[],烟窗百页窗,[108],"[""shiprag_p108_00125""]",0.75
+Component_相对位置的编码符号,相对位置的编码符号,Component,[],用于区分零件位置的编码符号,[32],"[""shiprag_p032_00039""]",0.8
+Component_碳棒,碳棒,Component,[],碳弧气刨的主要消耗材料,[27],"[""shiprag_p027_00031""]",0.95
+Component_稳肩,稳肩,Component,[],与枪杆连接的部件,[106],"[""shiprag_p106_00122""]",0.9
+Component_立体框架,立体框架,Component,[],脚手架的支撑结构,[153],"[""shiprag_p153_00176""]",0.75
+Component_立杆,立杆,Component,[],,[59],"[""shiprag_p059_00072""]",0.85
+Component_站线,站线,Component,[],船舶分段装配中的构件,[43],"[""shiprag_p043_00053""]",0.8
+Component_等径直角弯头,等径直角弯头,Component,[],等径直角弯头的板厚处理,[86],"[""shiprag_p086_00102""]",0.9
+Component_管路,管路,Component,[],,[127],"[""shiprag_p127_00145""]",0.7
+Component_素线,素线,Component,[],支管表面的等分线,"[74, 77]","[""shiprag_p074_00090"", ""shiprag_p077_00093""]",0.85
+Component_紧固螺栓,紧固螺栓,Component,[],,[59],"[""shiprag_p059_00072""]",0.85
+Component_纵剂线,纵剂线,Component,[],,[36],"[""shiprag_p036_00045""]",0.85
+Component_纵削线,纵削线,Component,[],甲板边线的位置参考线,[40],"[""shiprag_p040_00050""]",0.8
+Component_纵向构件,纵向构件,Component,[],船体构件,"[33, 88, 165]","[""shiprag_p033_00041"", ""shiprag_p088_00104"", ""shiprag_p165_00191""]",0.85
+Component_纵桁,纵桁,Component,[],船体结构部件,"[57, 126]","[""shiprag_p057_00070"", ""shiprag_p126_00144""]",0.9
+Component_纵桁_LB1AI,纵桁(LB1AI,Component,[],船体纵向结构件,[136],"[""shiprag_p136_00155""]",0.8833
+Component_纵桁1段,纵桁1段,Component,[],,[141],"[""shiprag_p141_00161""]",0.8
+Component_纵桁2段,纵桁2段,Component,[],,[141],"[""shiprag_p141_00161""]",0.85
+Component_纵横舱壁,纵横舱壁,Component,[],,[144],"[""shiprag_p144_00165""]",0.75
+Component_纵横骨架,纵横骨架,Component,[],分段的骨架结构,[24],"[""shiprag_p024_00028""]",0.85
+Component_纵横骨架交叉处,纵横骨架交叉处,Component,[],,[24],"[""shiprag_p024_00028""]",0.85
+Component_纵舱壁,纵舱壁,Component,[],零号肋位处的纵向舱壁结构,"[139, 140, 171]","[""shiprag_p139_00159"", ""shiprag_p140_00160"", ""shiprag_p171_00199""]",0.8478
+Component_纵骨,纵骨,Component,[],纵向骨架构件,"[118, 172]","[""shiprag_p118_00136"", ""shiprag_p172_00200""]",0.8
+Component_线01_02和03,"线01,02和03",Component,[],船体结构中的参考线段,[70],"[""shiprag_p070_00085""]",0.825
+Component_线段AB,线段AB,Component,[],待求实长的线段,[66],"[""shiprag_p066_00080""]",0.9
+Component_组合件,组合件,Component,[],由若干个部件和零件经过两次或多次装配焊接，但未最后形成分段的结构单元,"[18, 22]","[""shiprag_p018_00019"", ""shiprag_p022_00025""]",0.8667
+Component_组合件_部件和零件,组合件、部件和零件,Component,[],,[18],"[""shiprag_p018_00020""]",0.9
+Component_组合件位置区分号,组合件位置区分号,Component,[],组合体位置标识,[22],"[""shiprag_p022_00025""]",0.85
+Component_组合件区分号,组合件区分号,Component,[],同一剖面组合体区分标识,[22],"[""shiprag_p022_00025""]",0.9
+Component_组合件类型区分号,组合件类型区分号,Component,[],组合体类型标识,[22],"[""shiprag_p022_00025""]",0.85
+Component_结构装配单元,结构装配单元,Component,[],部件、组合件,[116],"[""shiprag_p116_00134""]",0.85
+Component_肋位处,肋位处,Component,[],,[187],"[""shiprag_p187_00224""]",0.8
+Component_肋位点,肋位点,Component,[],,[46],"[""shiprag_p046_00056""]",0.8
+Component_肋板,肋板,Component,[],图5-14为双层底各部件的小组立图。同时给出肋板的质量和质心位置,"[119, 126, 133, 137, 140]","[""shiprag_p119_00137"", ""shiprag_p126_00144"", ""shiprag_p133_00151"", ""shiprag_p137_00157"", ""shiprag_p140_00160""]",0.8187
+Component_肋骨,肋骨,Component,[],肋骨,"[47, 53, 57, 90, 119, 141, 170, 188, 189]","[""shiprag_p047_00057"", ""shiprag_p053_00065"", ""shiprag_p057_00070"", ""shiprag_p090_00106"", ""shiprag_p119_00137"", ""shiprag_p141_00161"", ""shiprag_p170_00197"", ""shiprag_p188_00225"", ""shiprag_p189_00226""]",0.8267
+Component_肋骨和纵骨,肋骨和纵骨,Component,[],,[116],"[""shiprag_p116_00133""]",0.8
+Component_肋骨型线,肋骨型线,Component,[],实际肋位的横削面与船体型表面的交线,"[45, 48, 51, 60, 63]","[""shiprag_p045_00055"", ""shiprag_p048_00058"", ""shiprag_p048_00059"", ""shiprag_p051_00063"", ""shiprag_p060_00073"", ""shiprag_p063_00077""]",0.8414
+Component_肋骨型线图,肋骨型线图,Component,[],由助骨型线、甲板梁拱线和结构线组成,[45],"[""shiprag_p045_00055""]",0.85
+Component_肋骨平面,肋骨平面,Component,[],船体肋骨所在平面,[130],"[""shiprag_p130_00148""]",0.8
+Component_肋骨框架,肋骨框架,Component,[],预先装配成框架的结构部件,"[18, 139, 144]","[""shiprag_p018_00019"", ""shiprag_p139_00159"", ""shiprag_p144_00165""]",0.86
+Component_肋骨检验线,肋骨检验线,Component,[],分段装配定位标记线,"[12, 169, 174]","[""shiprag_p012_00013"", ""shiprag_p169_00196"", ""shiprag_p174_00202""]",0.8167
+Component_肋骨矫正样条,肋骨矫正样条,Component,[],用于矫正肋骨形状的工具,[188],"[""shiprag_p188_00225""]",0.825
+Component_肋骨线,肋骨线,Component,[],船体构件,"[11, 46, 50, 70, 171]","[""shiprag_p011_00012"", ""shiprag_p046_00056"", ""shiprag_p050_00061"", ""shiprag_p070_00085"", ""shiprag_p171_00199""]",0.8167
+Component_肋骨角钢,肋骨角钢,Component,[],船体构件,[132],"[""shiprag_p132_00150""]",0.825
+Component_肘板,肘板,Component,[],内膜,"[13, 108, 170]","[""shiprag_p013_00014"", ""shiprag_p108_00125"", ""shiprag_p170_00197""]",0.8556
+Component_胎板,胎板,Component,[],胎架的组成部分,"[107, 110]","[""shiprag_p107_00124"", ""shiprag_p110_00127""]",0.825
+Component_胎架,胎架,Component,[],支撑舵叶装配的框架结构,"[105, 110, 148]","[""shiprag_p105_00121"", ""shiprag_p110_00127"", ""shiprag_p148_00170""]",0.8675
+Component_胎架基面,胎架基面,Component,[],胎架的基础支撑面,"[124, 149]","[""shiprag_p124_00142"", ""shiprag_p149_00171""]",0.75
+Component_能杆中心线,能杆中心线,Component,[],船体结构中的中心定位线,[137],"[""shiprag_p137_00157""]",0.8833
+Component_能板外板,能板外板,Component,[],船体分段中的构件,[15],"[""shiprag_p015_00016""]",0.7667
+Component_脊弧,脊弧,Component,[],,[93],"[""shiprag_p093_00109""]",0.9
+Component_脚手架,脚手架,Component,[],固定于舱璧和甲板的内脚手架,[153],"[""shiprag_p153_00176""]",0.85
+Component_舰柱,舰柱,Component,[],主船体的尾端结构，是组成尾立体分段的重要部件,"[96, 98, 137]","[""shiprag_p096_00112"", ""shiprag_p098_00114"", ""shiprag_p137_00157""]",0.8857
+Component_舰柱接头端面,舰柱接头端面,Component,[],舰柱被划分为6段，每个段都有接头端面,[96],"[""shiprag_p096_00112""]",0.875
+Component_舰柱水线以上外板,舰柱水线以上外板,Component,[],,[98],"[""shiprag_p098_00114""]",0.9
+Component_舰柱水线以下部分,舰柱水线以下部分,Component,[],,[98],"[""shiprag_p098_00114""]",0.9
+Component_舰柱装配位置,舰柱装配位置,Component,[],,[98],"[""shiprag_p098_00114""]",0.85
+Component_舱侧纵桁,舱侧纵桁,Component,[],,[141],"[""shiprag_p141_00161""]",0.8
+Component_舱口纵桁,舱口纵桁,Component,[],舱口结构中的纵向桁材,[134],"[""shiprag_p134_00153""]",0.85
+Component_舱壁,舱壁,Component,[],船体结构部件,"[57, 161, 166, 170]","[""shiprag_p057_00070"", ""shiprag_p161_00187"", ""shiprag_p166_00193"", ""shiprag_p170_00198""]",0.8875
+Component_舱璧,舱璧,Component,[],船体内部结构,[153],"[""shiprag_p153_00176""]",0.9
+Component_舵叶中心线,舵叶中心线,Component,[],舵叶的中心基准线,[110],"[""shiprag_p110_00127""]",0.85
+Component_舵叶板,舵叶板,Component,[],水平履被、前端与弧形板连接,"[109, 110]","[""shiprag_p109_00126"", ""shiprag_p110_00127""]",0.79
+Component_舵机平台,舵机平台,Component,[],舵机安装基座,[174],"[""shiprag_p174_00203""]",0.8
+Component_舵杆,舵杆,Component,[],通过铸钢能杆套筒用螺幅连接,[109],"[""shiprag_p109_00126""]",0.75
+Component_舵杆中心线,舵杆中心线,Component,[],,"[110, 176]","[""shiprag_p110_00127"", ""shiprag_p176_00205""]",0.76
+Component_舵杆孔围板,舵杆孔围板,Component,[],船体构件,[140],"[""shiprag_p140_00160""]",0.775
+Component_船体外板,船体外板,Component,[],船体结构中的外层板材,"[182, 187]","[""shiprag_p182_00215"", ""shiprag_p187_00223""]",0.9125
+Component_船体平直部分,船体平直部分,Component,[],弯曲部分分开,[14],"[""shiprag_p014_00015""]",0.775
+Component_船体构件,船体构件,Component,[],,[181],"[""shiprag_p181_00214""]",0.8
+Component_船台中心线,船台中心线,Component,[],,[163],"[""shiprag_p163_00189""]",0.85
+Component_船底基准线,船底基准线,Component,[],由基线标杆确定的船体底部参考线,[158],"[""shiprag_p158_00182""]",0.85
+Component_船舶,船舶,Component,[],船体结构的最高级单元,[18],"[""shiprag_p018_00019""]",0.9
+Component_节管,节管,Component,[],弯头组成部分,[79],"[""shiprag_p079_00095""]",0.8667
+Component_补板,补板,Component,[],用于修复严重渗漏的附加板,[185],"[""shiprag_p185_00219""]",0.75
+Component_装肋骨,装肋骨,Component,[],3装肋骨上端的肘板,[135],"[""shiprag_p135_00154""]",0.9
+Component_装配阶段区分号,装配阶段区分号,Component,[],装配阶段数字标识,[22],"[""shiprag_p022_00025""]",0.8333
+Component_覆板,覆板,Component,[],用于加固或保护结构的附加板,[190],"[""shiprag_p190_00228""]",0.75
+Component_角部位,角部位,Component,[],船舶结构关键部位,[177],"[""shiprag_p177_00208""]",0.75
+Component_角铜吊装肋板组合件,角铜吊装肋板组合件,Component,[],,[138],"[""shiprag_p138_00158""]",0.7
+Component_轴包板,轴包板,Component,[],需要加工的船体结构部件,"[50, 138]","[""shiprag_p050_00061"", ""shiprag_p138_00158""]",0.7167
+Component_轴孔中心线,轴孔中心线,Component,[],,[176],"[""shiprag_p176_00205""]",0.6
+Component_轴心线,轴心线,Component,[],通过轴心的直线,[48],"[""shiprag_p048_00059""]",0.75
+Component_辅助投影点,辅助投影点,Component,[],,[41],"[""shiprag_p041_00051""]",0.75
+Component_逆直线,逆直线,Component,[],"面在平直型钢上的一条直线,弯曲加工后变为一条曲线",[63],"[""shiprag_p063_00077""]",0.9
+Component_部件,部件,Component,[],通常指由2个以上零件经过一次装配焊接而成的结构单元,"[18, 22]","[""shiprag_p018_00019"", ""shiprag_p022_00025""]",0.86
+Component_部件代码,部件代码,Component,[],部件的数字和字母组合标识,[22],"[""shiprag_p022_00025""]",0.9
+Component_部件位置区分号,部件位置区分号,Component,[],,[22],"[""shiprag_p022_00025""]",0.8
+Component_部件和零件,部件和零件,Component,[],,[18],"[""shiprag_p018_00020""]",0.85
+Component_部件类型区分号,部件类型区分号,Component,[],部件类型字母标识,[22],"[""shiprag_p022_00025""]",0.85
+Component_部构架,部构架,Component,[],船体结构部件,[187],"[""shiprag_p187_00224""]",0.9
+Component_金属墩,金属墩,Component,[],金属材质支承装置,[155],"[""shiprag_p155_00178""]",0.85
+Component_铸钢件,铸钢件,Component,[],舵叶装配中的金属铸造部件,[110],"[""shiprag_p110_00127""]",0.81
+Component_铸钢件接头,铸钢件接头,Component,[],铸钢件连接的部件,[99],"[""shiprag_p099_00115""]",0.775
+Component_铸锅锯柱,铸锅锯柱,Component,[],船体结构中的垂直支撑构件,[136],"[""shiprag_p136_00156""]",0.9
+Component_随半立体段外板,随半立体段外板,Component,[],船体分段中的构件,[15],"[""shiprag_p015_00016""]",0.7667
+Component_零件,零件,Component,[],船体结构的最基本单元，是指仅经号料、加工，面未经装配、焊接的已成形的钢板和型纲,"[18, 22, 32]","[""shiprag_p018_00019"", ""shiprag_p022_00025"", ""shiprag_p032_00039""]",0.85
+Component_零件序号,零件序号,Component,[],零件的三位数序号,[22],"[""shiprag_p022_00025""]",0.85
+Component_零号舱壁,零号舱壁,Component,[],船体分段中的前部舱壁结构,[141],"[""shiprag_p141_00161""]",0.9
+Component_靠板,靠板,Component,[],避开扶强材,[166],"[""shiprag_p166_00193""]",0.85
+Component_顶圈板,顶圈板,Component,[],安装顶圈板,[108],"[""shiprag_p108_00125""]",0.8
+Component_顶盖板,顶盖板,Component,[],船体结构件,[106],"[""shiprag_p106_00123""]",0.9
+Component_顶边舱,顶边舱,Component,[],边舱横向框架与甲板、外板等构件装配形成的舱室结构,[134],"[""shiprag_p134_00153""]",0.9
+Component_预边舱料,预边舱料,Component,[],船体分段中的构件,[15],"[""shiprag_p015_00016""]",0.8
+Component_领斜边板,领斜边板,Component,[],基准展开的参考板,[91],"[""shiprag_p091_00107""]",0.85
+Component_首尾轮席,首尾轮席,Component,[],,[38],"[""shiprag_p038_00047""]",0.9
+Component_驾驶甲板,驾驶甲板,Component,[],图中5A1为驾驶甲板,[21],"[""shiprag_p021_00024""]",0.85
+Component_骨架,骨架,Component,[],船体支撑结构,[165],"[""shiprag_p165_00191""]",0.9
+Component_高度型值样棒,高度型值样棒,Component,[],,[46],"[""shiprag_p046_00056""]",0.9
+Component_高度标杆,高度标杆,Component,[],用于标定分段高度的标杆，有塔式和杆式两种形式,[153],"[""shiprag_p153_00175""]",0.9
+Defect_V段IV段大合接头,V段IV段大合接头,Defect,[],舰柱装配中的接头类型,[98],"[""shiprag_p098_00114""]",0.85
+Defect_上翘变形,上翘变形,Defect,[],,[135],"[""shiprag_p135_00154""]",0.9
+Defect_共同凹陷变形,共同凹陷变形,Defect,[],,[182],"[""shiprag_p182_00215""]",0.8667
+Defect_分段横向的上趣变形,分段横向的上趣变形,Defect,[],,[146],"[""shiprag_p146_00168""]",0.8
+Defect_分段的下塌变形,分段的下塌变形,Defect,[],,[146],"[""shiprag_p146_00168""]",0.8
+Defect_夹渣_气孔_裂纹和未焊透等缺陷,夹渣、气孔、裂纹和未焊透等缺陷,Defect,[],,[185],"[""shiprag_p185_00219""]",0.85
+Defect_平面间夹角,平面间夹角,Defect,[],两个平面之间的角度,[66],"[""shiprag_p066_00080""]",0.75
+Defect_应力集中,应力集中,Defect,[],结构中的问题,[13],"[""shiprag_p013_00014""]",0.65
+Defect_弯曲变形,弯曲变形,Defect,[],,[187],"[""shiprag_p187_00224""]",0.9
+Defect_折弯管道,折弯管道,Defect,[],,[66],"[""shiprag_p066_00080""]",0.75
+Defect_板撕裂,板撕裂,Defect,[],,[183],"[""shiprag_p183_00216""]",0.7
+Defect_氧化皮,氧化皮,Defect,[],,[30],"[""shiprag_p030_00036""]",0.85
+Defect_涂装效率低下,涂装效率低下,Defect,[],,[29],"[""shiprag_p029_00034""]",0.9
+Defect_渗漏_裂缝_腐蚀或凹陷弯曲的构件,渗漏、裂缝、腐蚀或凹陷弯曲的构件,Defect,[],,[187],"[""shiprag_p187_00223""]",0.95
+Defect_焊接变形,焊接变形,Defect,[],分段装配焊接产生的变形问题,"[97, 99, 146, 152]","[""shiprag_p097_00113"", ""shiprag_p099_00115"", ""shiprag_p146_00167"", ""shiprag_p152_00174""]",0.7812
+Defect_相贯线投影重合,相贯线投影重合,Defect,[],,[74],"[""shiprag_p074_00090""]",0.75
+Defect_结构疲劳性损坏,结构疲劳性损坏,Defect,[],,[126],"[""shiprag_p126_00144""]",0.75
+Defect_结构突变,结构突变,Defect,[],,[13],"[""shiprag_p013_00014""]",0.7
+Defect_缺陷修理,缺陷修理,Defect,[],,[190],"[""shiprag_p190_00228""]",0.7
+Defect_船体凹陷变形,船体凹陷变形,Defect,[],,[183],"[""shiprag_p183_00216""]",0.7
+Defect_船体在长度方向容易产生首尾下垂的弯曲变形,船体在长度方向容易产生首尾下垂的弯曲变形,Defect,[],,[178],"[""shiprag_p178_00209""]",0.8
+Defect_船体渗漏,船体渗漏,Defect,[],船体焊缝处的渗漏问题,[185],"[""shiprag_p185_00219""]",0.85
+Defect_裂缝,裂缝,Defect,[],船体结构中的裂纹缺陷,[185],"[""shiprag_p185_00220""]",0.8125
+Defect_锈蚀,锈蚀,Defect,[],金属因化学和电化学作用而不断腐蚀,"[30, 180]","[""shiprag_p030_00036"", ""shiprag_p180_00211""]",0.8667
+Defect_震动,震动,Defect,[],,[185],"[""shiprag_p185_00220""]",0.7
+Defect_骨架折断,骨架折断,Defect,[],,[183],"[""shiprag_p183_00216""]",0.7
+Material_压缩空气,压缩空气,Material,[],碳弧气刨所需的介质,[28],"[""shiprag_p028_00033""]",0.825
+Material_板和面板,板和面板,Material,[],,[109],"[""shiprag_p109_00126""]",0.8
+Material_板和骨架,板和骨架,Material,[],,[116],"[""shiprag_p116_00133""]",0.9
+Material_溶剂,溶剂,Material,[],用于清洁船体表面的化学介质,[29],"[""shiprag_p029_00035""]",0.7
+Material_色漆,色漆,Material,[],,[157],"[""shiprag_p157_00181""]",0.7
+Material_钢板,钢板,Material,[],舰柱水线以上外板使用的材料,[98],"[""shiprag_p098_00114""]",0.9
+Material_铸钢件,铸钢件,Material,[],舰柱水线以下部分使用的材料,[98],"[""shiprag_p098_00114""]",0.8833
+Measurement_AC,AC,Measurement,[],实际高度计算值,[12],"[""shiprag_p012_00013""]",0.9
+Measurement_B点,B点,Measurement,[],基线升高值量取点,[12],"[""shiprag_p012_00013""]",0.9
+Measurement_D点,D点,Measurement,[],基线高度测量点,[12],"[""shiprag_p012_00013""]",0.9
+Measurement_中心线,中心线,Measurement,[],分级中线表度中心线,"[121, 170]","[""shiprag_p121_00139"", ""shiprag_p170_00198""]",0.8
+Measurement_中性层,中性层,Measurement,[],弯曲板材的展开长度依据,[84],"[""shiprag_p084_00100""]",0.8833
+Measurement_中水线,中水线,Measurement,[],船舶分段装配中的测量对象,[43],"[""shiprag_p043_00053""]",0.8
+Measurement_中间肋骨线,中间肋骨线,Measurement,[],分段肋骨位置的测量基准线,[129],"[""shiprag_p129_00147""]",0.775
+Measurement_互相垂直的十字线,互相垂直的十字线,Measurement,[],,[31],"[""shiprag_p031_00038""]",0.6
+Measurement_位置线,位置线,Measurement,[],用于定位的参考线,[126],"[""shiprag_p126_00144""]",0.85
+Measurement_偏差值,偏差值,Measurement,[],,[176],"[""shiprag_p176_00205""]",0.7
+Measurement_冲势,冲势,Measurement,[],展开图中横梁位置线对助骨线的偏离值,[92],"[""shiprag_p092_00108""]",0.89
+Measurement_分段中心线,分段中心线,Measurement,[],分段装配时的基准测量线,[129],"[""shiprag_p129_00147""]",0.825
+Measurement_分段对合线,分段对合线,Measurement,[],用于对接分段的对合标记线,[157],"[""shiprag_p157_00180""]",0.825
+Measurement_半宽水线图,半宽水线图,Measurement,[],船体测量基准线图,[44],"[""shiprag_p044_00054""]",0.7
+Measurement_半径线,半径线,Measurement,[],,[49],"[""shiprag_p049_00060""]",0.825
+Measurement_吊索夹角,吊索夹角,Measurement,[],两根吊索之间的夹角,[24],"[""shiprag_p024_00028""]",0.8
+Measurement_围壁割缝,围壁割缝,Measurement,[],,[189],"[""shiprag_p189_00227""]",0.85
+Measurement_围板接缝线,围板接缝线,Measurement,[],围板拼接时的测量线,[107],"[""shiprag_p107_00124""]",0.8
+Measurement_垂直度,垂直度,Measurement,[],,"[89, 131, 136, 139, 167, 174]","[""shiprag_p089_00105"", ""shiprag_p131_00149"", ""shiprag_p136_00155"", ""shiprag_p139_00159"", ""shiprag_p167_00194"", ""shiprag_p174_00202""]",0.8
+Measurement_基线,基线,Measurement,[],作格子线的基准，放样时量取高度、半宽值的依据,[35],"[""shiprag_p035_00043""]",0.925
+Measurement_实长,实长,Measurement,[],线段的实际长度,"[69, 77]","[""shiprag_p069_00084"", ""shiprag_p077_00093""]",0.8717
+Measurement_平面曲线,平面曲线,Measurement,[],几何体截切后所得的截面轮廓,[70],"[""shiprag_p070_00085""]",0.8
+Measurement_斜底平台,斜底平台,Measurement,[],,[134],"[""shiprag_p134_00153""]",0.75
+Measurement_最大允许挠度,最大允许挠度,Measurement,[],,[182],"[""shiprag_p182_00215""]",0.825
+Measurement_板厚,板厚,Measurement,[],钢板的厚度指标,[183],"[""shiprag_p183_00217""]",0.9167
+Measurement_板缝坡度,板缝坡度,Measurement,[],焊缝纵向坡度,[123],"[""shiprag_p123_00141""]",0.85
+Measurement_枪杆中心线,枪杆中心线,Measurement,[],,[106],"[""shiprag_p106_00122""]",0.85
+Measurement_格子线,格子线,Measurement,[],"中线、纵剖线、水线、横剖线(站线)和半宽线组成。在型线图中,这些线都是一些水平线和垂:直线,形成矩形方格。",[36],"[""shiprag_p036_00044""]",0.95
+Measurement_梁拱高度,梁拱高度,Measurement,[],各站的梁拱高度,[40],"[""shiprag_p040_00050""]",0.8833
+Measurement_横向反变形值,横向反变形值,Measurement,[],横向反变形测量指标,[146],"[""shiprag_p146_00168""]",0.7667
+Measurement_檐柱中心线,檐柱中心线,Measurement,[],测量对象,[106],"[""shiprag_p106_00122""]",0.8
+Measurement_水平度,水平度,Measurement,[],,[167],"[""shiprag_p167_00194""]",0.7
+Measurement_水平度误差,水平度误差,Measurement,[],胎架调整的精度指标,[125],"[""shiprag_p125_00143""]",0.875
+Measurement_水平检验线,水平检验线,Measurement,[],,[157],"[""shiprag_p157_00180""]",0.9
+Measurement_水平面,水平面,Measurement,[],,[8],"[""shiprag_p008_00008""]",0.955
+Measurement_水线,水线,Measurement,[],船舶分段装配中的测量对象,"[41, 43]","[""shiprag_p041_00051"", ""shiprag_p043_00053""]",0.8667
+Measurement_焊缝,焊缝,Measurement,[],,[14],"[""shiprag_p014_00015""]",0.75
+Measurement_甲板梁拱,甲板梁拱,Measurement,[],甲板横剖面的梁拱曲线值,[38],"[""shiprag_p038_00048""]",0.8333
+Measurement_相贯线,相贯线,Measurement,[],连接共有点形成的曲线或折线,"[72, 74]","[""shiprag_p072_00087"", ""shiprag_p074_00090""]",0.8667
+Measurement_积案线,积案线,Measurement,[],相贯体投影中的重合线,[74],"[""shiprag_p074_00090""]",0.8
+Measurement_空间曲线,空间曲线,Measurement,[],,[70],"[""shiprag_p070_00085""]",0.9
+Measurement_站线,站线,Measurement,[],"在已画好的基线上,先确定一点作为零号站线,即站垂线。用标准盘尺对准零号站线。按照理论型线图上规定的等分尺寸,自向鳍面到基线上。标上0,1,220等站号。",[36],"[""shiprag_p036_00044""]",0.8733
+Measurement_纵剖线,纵剖线,Measurement,[],船舶分段装配中的测量对象,[43],"[""shiprag_p043_00053""]",0.9
+Measurement_纵桁线,纵桁线,Measurement,[],,[141],"[""shiprag_p141_00161""]",0.85
+Measurement_线段实长,线段实长,Measurement,[],展开图中必须使用的实际长度线段,[68],"[""shiprag_p068_00083""]",0.9
+Measurement_结构水平度,结构水平度,Measurement,[],,[31],"[""shiprag_p031_00038""]",0.6
+Measurement_肋骨检验线,肋骨检验线,Measurement,[],用于检验肋骨位置的测量线,"[157, 164, 170]","[""shiprag_p157_00180"", ""shiprag_p164_00190"", ""shiprag_p170_00198""]",0.8563
+Measurement_肋骨间距,肋骨间距,Measurement,[],船台合扰时两分段接缝处的肋骨间距应取测量所得的值,[178],"[""shiprag_p178_00209""]",0.8
+Measurement_胎架支柱高度,胎架支柱高度,Measurement,[],胎架支柱高度5069,[121],"[""shiprag_p121_00139""]",0.65
+Measurement_舱壁位置线,舱壁位置线,Measurement,[],,"[157, 166]","[""shiprag_p157_00180"", ""shiprag_p166_00193""]",0.875
+Measurement_舱壁横向垂直度,舱壁横向垂直度,Measurement,[],,[168],"[""shiprag_p168_00195""]",0.7
+Measurement_船台中心线,船台中心线,Measurement,[],船体测量的基准线,[175],"[""shiprag_p175_00204""]",0.85
+Measurement_船舶总长,船舶总长,Measurement,[],,[32],"[""shiprag_p032_00039""]",0.8
+Measurement_设计水线,设计水线,Measurement,[],,[45],"[""shiprag_p045_00055""]",0.9
+Measurement_轮廊线,轮廊线,Measurement,[],胎架平台上的基准定位线,[97],"[""shiprag_p097_00113""]",0.75
+Measurement_轴心点0,轴心点0,Measurement,[],尺寸确定的中心基准点,[51],"[""shiprag_p051_00062""]",0.85
+Measurement_逆直线,逆直线,Measurement,[],,[60],"[""shiprag_p060_00073""]",0.875
+Measurement_铅垂面,铅垂面,Measurement,[],垂直方向的测量基准面,[8],"[""shiprag_p008_00008""]",0.955
+Measurement_零号肋位,零号肋位,Measurement,[],船体结构中的基准肋位,[137],"[""shiprag_p137_00157""]",0.9
+Measurement_高度,高度,Measurement,[],分段的高度,"[11, 169, 171, 173]","[""shiprag_p011_00012"", ""shiprag_p169_00196"", ""shiprag_p171_00199"", ""shiprag_p173_00201""]",0.88
+Measurement_高度值,高度值,Measurement,[],,[46],"[""shiprag_p046_00056""]",0.9
+Measurement_高度尺寸,高度尺寸,Measurement,[],,[53],"[""shiprag_p053_00065""]",0.8
+Measurement_高度线,高度线,Measurement,[],在高度标杆上绘制的船体总装基准线,[159],"[""shiprag_p159_00183""]",0.89
+Operation_A_B_0_5t,A+B+0.5t,Operation,[],,[85],"[""shiprag_p085_00101""]",0.85
+Operation_r_Kt,r+Kt,Operation,[],,[85],"[""shiprag_p085_00101""]",0.9
+Operation_三角形法,三角形法,Operation,[],展开方法,"[79, 82]","[""shiprag_p079_00095"", ""shiprag_p082_00098""]",0.82
+Operation_二次除锈,二次除锈,Operation,[],船体涂装前的表面处理工序,[29],"[""shiprag_p029_00034""]",0.875
+Operation_余量切割,余量切割,Operation,[],船体材料切割工艺,[177],"[""shiprag_p177_00207""]",0.8
+Operation_修理作业,修理作业,Operation,[],,[191],"[""shiprag_p191_00229""]",0.8
+Operation_光学投影号料,光学投影号料,Operation,[],与比例放样配套的操作,[34],"[""shiprag_p034_00042""]",0.825
+Operation_光电跟踪切割,光电跟踪切割,Operation,[],与比例放样配套的操作,[34],"[""shiprag_p034_00042""]",0.825
+Operation_光顺曲线,光顺曲线,Operation,[],曲线修整工艺,"[51, 76]","[""shiprag_p051_00062"", ""shiprag_p076_00092""]",0.7625
+Operation_光顺的曲线或直线,光顺的曲线或直线,Operation,[],,[187],"[""shiprag_p187_00223""]",0.8
+Operation_内底板及构架的焊接收缩,内底板及构架的焊接收缩,Operation,[],,[146],"[""shiprag_p146_00168""]",0.8
+Operation_冷压加工,冷压加工,Operation,[],手工操作工艺,[146],"[""shiprag_p146_00167""]",0.825
+Operation_准线,准线,Operation,[],用于求取实长的参考线,[93],"[""shiprag_p093_00109""]",0.8
+Operation_几何作图,几何作图,Operation,[],,[33],"[""shiprag_p033_00040""]",0.8
+Operation_分段铺板,分段铺板,Operation,[],,[60],"[""shiprag_p060_00074""]",0.85
+Operation_分段高度定位,分段高度定位,Operation,[],,[153],"[""shiprag_p153_00175""]",0.9
+Operation_切割,切割,Operation,[],,[181],"[""shiprag_p181_00213""]",0.85
+Operation_切割操作,切割操作,Operation,[],,[190],"[""shiprag_p190_00228""]",0.9
+Operation_切割线,切割线,Operation,[],切割材料时的参考线,[190],"[""shiprag_p190_00228""]",0.85
+Operation_切线,切线,Operation,[],,[49],"[""shiprag_p049_00060""]",0.875
+Operation_划线,划线,Operation,[],,[5],"[""shiprag_p005_00005""]",0.8
+Operation_制作外卡,制作外卡,Operation,[],,[187],"[""shiprag_p187_00224""]",0.75
+Operation_割操作,割操作,Operation,[],,[165],"[""shiprag_p165_00191""]",0.85
+Operation_叉口连接,叉口连接,Operation,[],连接方式,[132],"[""shiprag_p132_00150""]",0.825
+Operation_反变形,反变形,Operation,[],为防止焊接变形，接头间隙上口大于下口,[96],"[""shiprag_p096_00112""]",0.85
+Operation_反圆弧,反圆弧,Operation,[],助骨线上下反圆弧切于助骨线和正圆弧,[50],"[""shiprag_p050_00061""]",0.75
+Operation_可燃气体测爆检查,可燃气体测爆检查,Operation,[],,[181],"[""shiprag_p181_00213""]",0.775
+Operation_号料,号料,Operation,[],,"[30, 57]","[""shiprag_p030_00036"", ""shiprag_p057_00070""]",0.825
+Operation_号料草图,号料草图,Operation,[],零件标记方法,[57],"[""shiprag_p057_00070""]",0.925
+Operation_合拢,合拢,Operation,[],,[169],"[""shiprag_p169_00196""]",0.8
+Operation_四边接缝线,四边接缝线,Operation,[],,[187],"[""shiprag_p187_00223""]",0.9
+Operation_型线修改,型线修改,Operation,[],,[45],"[""shiprag_p045_00055""]",0.75
+Operation_外板对接缝内表面焊接,外板对接缝内表面焊接,Operation,[],,[189],"[""shiprag_p189_00226""]",0.9
+Operation_外板展开,外板展开,Operation,[],通过几何作图或数学方法展开外板、甲板和纵向构件的真实形状,[33],"[""shiprag_p033_00040""]",0.775
+Operation_外板焊接,外板焊接,Operation,[],外板焊接操作,[146],"[""shiprag_p146_00168""]",0.8
+Operation_定位焊,定位焊,Operation,[],甲板合拢前的临时焊接工艺,"[169, 170, 172, 173, 177]","[""shiprag_p169_00196"", ""shiprag_p170_00197"", ""shiprag_p172_00200"", ""shiprag_p173_00201"", ""shiprag_p177_00207""]",0.8187
+Operation_实长线,实长线,Operation,[],求出三角形展并图形的线段,[82],"[""shiprag_p082_00098""]",0.8
+Operation_对接工作量,对接工作量,Operation,[],,[133],"[""shiprag_p133_00152""]",0.7
+Operation_对角线,对角线,Operation,[],划分螺旋面的线条,[82],"[""shiprag_p082_00098""]",0.75
+Operation_平台准备,平台准备,Operation,[],,[116],"[""shiprag_p116_00133""]",0.85
+Operation_平行线法,平行线法,Operation,[],展开斜载圆柱面的一种方法,"[76, 78, 81]","[""shiprag_p076_00092"", ""shiprag_p078_00094"", ""shiprag_p081_00097""]",0.8167
+Operation_手工号料和平面分段流水线装配,手工号料和平面分段流水线装配,Operation,[],,[112],"[""shiprag_p112_00129""]",0.85
+Operation_打孔测量,打孔测量,Operation,[],,[183],"[""shiprag_p183_00217""]",0.9
+Operation_扶强材位置线,扶强材位置线,Operation,[],按图纸尺寸在板上画出的垂直扶强材位置线,[103],"[""shiprag_p103_00119""]",1.0
+Operation_折角线,折角线,Operation,[],,[49],"[""shiprag_p049_00060""]",0.875
+Operation_放射线法,放射线法,Operation,[],展开表面素线汇交于一点的各类正、斜维体的展开方法,"[76, 78, 81]","[""shiprag_p076_00092"", ""shiprag_p078_00094"", ""shiprag_p081_00097""]",0.8417
+Operation_数控切割和平台装配,数控切割和平台装配,Operation,[],,[112],"[""shiprag_p112_00129""]",0.8
+Operation_斜剖线检验,斜剖线检验,Operation,[],,[44],"[""shiprag_p044_00054""]",0.75
+Operation_方窗孔布置,方窗孔布置,Operation,[],,[103],"[""shiprag_p103_00119""]",0.8
+Operation_施工措施,施工措施,Operation,[],,[32],"[""shiprag_p032_00039""]",0.7
+Operation_旋转法,旋转法,Operation,[],将空间线段旋转为投影面平行线以测量实长的方法,[69],"[""shiprag_p069_00084""]",0.8767
+Operation_板定位焊,板定位焊,Operation,[],,[148],"[""shiprag_p148_00170""]",0.9
+Operation_标画中心线和肋骨位置线,标画中心线和肋骨位置线,Operation,[],,[153],"[""shiprag_p153_00175""]",0.95
+Operation_检查上下_首尾方向线型的光顺性,检查上下、首尾方向线型的光顺性,Operation,[],,[187],"[""shiprag_p187_00224""]",0.85
+Operation_横向反变形,横向反变形,Operation,[],防止横向变形的操作,[147],"[""shiprag_p147_00169""]",0.8
+Operation_横向构件间的距离,横向构件间的距离,Operation,[],,[62],"[""shiprag_p062_00076""]",0.8
+Operation_求取线段实长,求取线段实长,Operation,[],,[66],"[""shiprag_p066_00080""]",0.85
+Operation_火工矫正,火工矫正,Operation,[],船体变形修复工艺,"[133, 136]","[""shiprag_p133_00152"", ""shiprag_p136_00155""]",0.8167
+Operation_焊接,焊接,Operation,[],船体装配的基本操作,"[133, 141, 149, 181, 183]","[""shiprag_p133_00151"", ""shiprag_p141_00162"", ""shiprag_p149_00171"", ""shiprag_p181_00213"", ""shiprag_p183_00217""]",0.8357
+Operation_煤油试验,煤油试验,Operation,[],,[185],"[""shiprag_p185_00220""]",0.75
+Operation_画扶强材位置线,画扶强材位置线,Operation,[],,[103],"[""shiprag_p103_00119""]",0.9
+Operation_直流电机反接极,直流电机反接极,Operation,[],,[27],"[""shiprag_p027_00032""]",0.825
+Operation_直角边AC的长度等于线段的水平投影ab,直角边AC的长度等于线段的水平投影ab,Operation,[],,[68],"[""shiprag_p068_00083""]",0.85
+Operation_相贯线求出,相贯线求出,Operation,[],,[74],"[""shiprag_p074_00090""]",0.8
+Operation_码头勘验,码头勘验,Operation,[],对拟修船舶的损坏情况在码头进行的勘验,[191],"[""shiprag_p191_00229""]",0.75
+Operation_砂轮打磨,砂轮打磨,Operation,[],,[183],"[""shiprag_p183_00217""]",0.8
+Operation_确定分段基线高度,确定分段基线高度,Operation,[],,[153],"[""shiprag_p153_00175""]",0.95
+Operation_碳弧气刨,碳弧气刨,Operation,[],一种焊接修复工艺,[31],"[""shiprag_p031_00038""]",0.75
+Operation_碳弧气焊,碳弧气焊,Operation,[],用于去除焊缝缺陷的焊接工艺,[185],"[""shiprag_p185_00219""]",0.8
+Operation_窗口开孔中心线定位,窗口开孔中心线定位,Operation,[],,[103],"[""shiprag_p103_00119""]",0.85
+Operation_等分线,等分线,Operation,[],划分螺旋面的线条,[82],"[""shiprag_p082_00098""]",0.8
+Operation_级向反变形,级向反变形,Operation,[],防止纵向变形的操作,[147],"[""shiprag_p147_00169""]",0.8
+Operation_纵向倾斜,纵向倾斜,Operation,[],船台纵向的倾斜操作,[150],"[""shiprag_p150_00172""]",0.85
+Operation_结构线,结构线,Operation,[],,[51],"[""shiprag_p051_00063""]",0.75
+Operation_结构线放样,结构线放样,Operation,[],在肋骨型线图上投彩船体结构线以反映全部构件实形或投影,[33],"[""shiprag_p033_00040""]",0.85
+Operation_肋骨型线,肋骨型线,Operation,[],船体放样工序,[48],"[""shiprag_p048_00058""]",0.85
+Operation_肋骨型线放样,肋骨型线放样,Operation,[],在理论型线图上插入全船肋骨线并完成推进器轴出口等部位的放样,"[33, 34]","[""shiprag_p033_00040"", ""shiprag_p034_00042""]",0.83
+Operation_肋骨检验线,肋骨检验线,Operation,[],检验助骨检验线的操作,[175],"[""shiprag_p175_00204""]",0.85
+Operation_胎架上进行板的拼接和分段的装配,胎架上进行板的拼接和分段的装配,Operation,[],,[112],"[""shiprag_p112_00129""]",0.75
+Operation_胎架支柱高度调节,胎架支柱高度调节,Operation,[],,[122],"[""shiprag_p122_00140""]",0.9
+Operation_船厂中级船体装配工培训和自学,船厂中级船体装配工培训和自学,Operation,[],,[5],"[""shiprag_p005_00005""]",0.9
+Operation_船台二次除锈和涂装,船台二次除锈和涂装,Operation,[],,[29],"[""shiprag_p029_00034""]",0.9
+Operation_船台铺墩,船台铺墩,Operation,[],,[159],"[""shiprag_p159_00183""]",0.9
+Operation_荡线锤调整,荡线锤调整,Operation,[],,[168],"[""shiprag_p168_00195""]",0.6
+Operation_补板连接,补板连接,Operation,[],连接方式,[132],"[""shiprag_p132_00150""]",0.825
+Operation_触窗开孔画线,触窗开孔画线,Operation,[],以正足上缘向下量取开孔中心的尺寸,[103],"[""shiprag_p103_00119""]",0.9
+Operation_超声波测量,超声波测量,Operation,[],利用超声波测量板厚的工艺方法,[183],"[""shiprag_p183_00217""]",0.9
+Operation_软金属丝测厚,软金属丝测厚,Operation,[],,[184],"[""shiprag_p184_00218""]",0.7
+Operation_通风,通风,Operation,[],对油水舱进行空气流通的操作,[191],"[""shiprag_p191_00229""]",0.7
+Operation_部件组装,部件组装,Operation,[],,[146],"[""shiprag_p146_00167""]",0.75
+Operation_钻孔,钻孔,Operation,[],,[185],"[""shiprag_p185_00220""]",0.775
+Operation_铺板,铺板,Operation,[],立体框架装配后与铺进行合找,[100],"[""shiprag_p100_00116""]",0.775
+Operation_除锈,除锈,Operation,[],清除船舶表面的锈迹,[28],"[""shiprag_p028_00033""]",0.9
+Operation_随船勘验,随船勘验,Operation,[],对拟修船舶的损坏情况在船上进行的勘验,[191],"[""shiprag_p191_00229""]",0.75
+Parameter_150_200mm,150~200mm,Parameter,[],,[189],"[""shiprag_p189_00227""]",0.85
+Parameter_35,35%,Parameter,[],,[112],"[""shiprag_p112_00129""]",0.9
+Parameter_A_4能叶削面形状安承平衡能半悬挂半平衡,A-4能叶削面形状安承平衡能半悬挂半平衡,Parameter,[],,[108],"[""shiprag_p108_00125""]",0.6
+Parameter_B值,B值,Parameter,[],窗口中心线离上缘的距离计算公式,[103],"[""shiprag_p103_00119""]",0.9
+Parameter_FR322_17,FR322-17,Parameter,[],质量中心X坐标参数,[118],"[""shiprag_p118_00136""]",0.725
+Parameter_FR328_2,FR328-2,Parameter,[],,[118],"[""shiprag_p118_00136""]",0.7
+Parameter_y_2_1000_3_1000_B,y=(2/1000~3/1000)B,Parameter,[],,[146],"[""shiprag_p146_00168""]",0.9
+Parameter_2mm,±2mm,Parameter,[],,"[106, 126]","[""shiprag_p106_00123"", ""shiprag_p126_00144""]",0.925
+Parameter_中性层,中性层,Parameter,[],材料计算基准层,[87],"[""shiprag_p087_00103""]",0.8
+Parameter_中性层位置系数K,中性层位置系数K,Parameter,[],,[85],"[""shiprag_p085_00101""]",0.85
+Parameter_中性层半径R,中性层半径R,Parameter,[],,[85],"[""shiprag_p085_00101""]",0.9
+Parameter_中性层直径,中性层直径,Parameter,[],中性层直径d,[86],"[""shiprag_p086_00102""]",0.85
+Parameter_中性层间的垂直距离,中性层间的垂直距离,Parameter,[],高度h,[86],"[""shiprag_p086_00102""]",0.8
+Parameter_中线,中线,Parameter,[],,[45],"[""shiprag_p045_00055""]",0.9
+Parameter_中线面,中线面,Parameter,[],船体设计中的参考中线,[88],"[""shiprag_p088_00104""]",0.8
+Parameter_中间冲势值,中间冲势值,Parameter,[],距离中线适当半宽B处的冲势y值,[92],"[""shiprag_p092_00108""]",0.85
+Parameter_二次除锈率,二次除锈率,Parameter,[],,[29],"[""shiprag_p029_00035""]",0.9
+Parameter_五码位代码,五码位代码,Parameter,[],五码位代码中的横向位置码和上下层次码可以空缺,[21],"[""shiprag_p021_00024""]",0.74
+Parameter_余量值,余量值,Parameter,[],大接缝处的余量值,[173],"[""shiprag_p173_00201""]",0.85
+Parameter_分段基面,分段基面,Parameter,[],确定建造方式的条件,[116],"[""shiprag_p116_00134""]",0.725
+Parameter_切割余量,切割余量,Parameter,[],,[165],"[""shiprag_p165_00191""]",0.75
+Parameter_助距,助距,Parameter,[],分段对接缝处的实际间距平均值,[164],"[""shiprag_p164_00190""]",0.85
+Parameter_单位面积受压不超过50_10_5Pa,单位面积受压不超过50×10^5Pa,Parameter,[],,[155],"[""shiprag_p155_00178""]",0.9
+Parameter_反变形值,反变形值,Parameter,[],反变形的量化值,[147],"[""shiprag_p147_00169""]",0.875
+Parameter_反圆弧半径T,反圆弧半径T,Parameter,[],反圆弧半径参数,[51],"[""shiprag_p051_00062""]",0.8
+Parameter_吊索夹角,吊索夹角,Parameter,[],,[25],"[""shiprag_p025_00029""]",0.8
+Parameter_吊索长度,吊索长度,Parameter,[],吊索的长度参数,[24],"[""shiprag_p024_00028""]",0.8
+Parameter_固定点数量,固定点数量,Parameter,[],,[148],"[""shiprag_p148_00170""]",0.85
+Parameter_型值表,型值表,Parameter,[],存储船体型线参数的工艺数据表,[41],"[""shiprag_p041_00051""]",0.825
+Parameter_基准线,基准线,Parameter,[],分段装配的测量基准,[120],"[""shiprag_p120_00138""]",0.775
+Parameter_基准部的水准管轴,基准部的水准管轴,Parameter,[],LL为基准部的水准管轴,[10],"[""shiprag_p010_00011""]",0.8
+Parameter_基线升高值,基线升高值,Parameter,[],,[12],"[""shiprag_p012_00013""]",0.9
+Parameter_外力,外力,Parameter,[],水的静压力、重力分布的变化,[180],"[""shiprag_p180_00211""]",0.825
+Parameter_外径D1,外径D1,Parameter,[],,[85],"[""shiprag_p085_00101""]",0.75
+Parameter_实际受力,实际受力,Parameter,[],,[25],"[""shiprag_p025_00029""]",0.8
+Parameter_实际高度,实际高度,Parameter,[],,[12],"[""shiprag_p012_00013""]",0.9
+Parameter_尺寸补偿系统,尺寸补偿系统,Parameter,[],控制分段变形的工艺参数,[146],"[""shiprag_p146_00167""]",0.75
+Parameter_展开长度,展开长度,Parameter,[],,[84],"[""shiprag_p084_00100""]",0.88
+Parameter_弯曲半径r_t,弯曲半径r/t,Parameter,[],,[85],"[""shiprag_p085_00101""]",0.9
+Parameter_扶强材间距,扶强材间距,Parameter,[],方窗孔布置在扶强材之间时的间距,[103],"[""shiprag_p103_00119""]",0.85
+Parameter_投影面,投影面,Parameter,[],平行于投影面的线段在投影面上反映实长,"[68, 69]","[""shiprag_p068_00083"", ""shiprag_p069_00084""]",0.775
+Parameter_推进器中心线,推进器中心线,Parameter,[],定位基准线,[174],"[""shiprag_p174_00203""]",0.825
+Parameter_最大冲势值,最大冲势值,Parameter,[],甲板最宽处181号助位处的冲势y值,[92],"[""shiprag_p092_00108""]",0.875
+Parameter_梁拱值,梁拱值,Parameter,[],冲势计算中的参数K,[92],"[""shiprag_p092_00108""]",0.9
+Parameter_横截面积200mm_200mm或300mm_300mm,横截面积200mm×200mm或300mm×300mm,Parameter,[],,[155],"[""shiprag_p155_00178""]",0.9
+Parameter_横轴,横轴,Parameter,[],H-H为横轴,[10],"[""shiprag_p010_00011""]",0.8
+Parameter_水平折边宽度,水平折边宽度,Parameter,[],水平折边的宽度参数,[91],"[""shiprag_p091_00107""]",0.8
+Parameter_理论型线,理论型线,Parameter,[],船体设计基准线,[106],"[""shiprag_p106_00123""]",0.85
+Parameter_理论肋距,理论肋距,Parameter,[],使长助距,[89],"[""shiprag_p089_00105""]",0.85
+Parameter_相邻肋位,相邻肋位,Parameter,[],,[55],"[""shiprag_p055_00068""]",0.9
+Parameter_竖轴,竖轴,Parameter,[],V-V为竖轴,[10],"[""shiprag_p010_00011""]",0.8
+Parameter_站号,站号,Parameter,[],,[43],"[""shiprag_p043_00053""]",0.7
+Parameter_纵向15,纵向15°,Parameter,[],,[123],"[""shiprag_p123_00141""]",0.8
+Parameter_纵桁腹板宽度,纵桁腹板宽度,Parameter,[],I,[89],"[""shiprag_p089_00105""]",0.8
+Parameter_肋距,肋距,Parameter,[],相邻肋骨之间的距离,[130],"[""shiprag_p130_00148""]",0.8
+Parameter_肋骨间距,肋骨间距,Parameter,[],,[62],"[""shiprag_p062_00076""]",0.825
+Parameter_胎架支柱高度,胎架支柱高度,Parameter,[],分段装配胎架的调节参数,[120],"[""shiprag_p120_00138""]",0.725
+Parameter_船台中心线,船台中心线,Parameter,[],定位基准线,[174],"[""shiprag_p174_00203""]",0.825
+Parameter_船台坡度,船台坡度,Parameter,[],船台与水平面的倾斜度,[150],"[""shiprag_p150_00172""]",1.0
+Parameter_船底到甲板,船底到甲板,Parameter,[],,[151],"[""shiprag_p151_00173""]",0.85
+Parameter_船底基线,船底基线,Parameter,[],工艺基准,[11],"[""shiprag_p011_00012""]",0.85
+Parameter_裂缝深度,裂缝深度,Parameter,[],,[185],"[""shiprag_p185_00220""]",0.8
+Parameter_视准轴,视准轴,Parameter,[],"C-C为视准轴,即横轴望远镜望远镜轴心线",[10],"[""shiprag_p010_00011""]",0.8
+Parameter_轴壳半径R,轴壳半径R,Parameter,[],轴壳的半径参数,[48],"[""shiprag_p048_00059""]",0.675
+Parameter_轴系定位精度,轴系定位精度,Parameter,[],,[174],"[""shiprag_p174_00203""]",0.8
+Parameter_里皮尺寸,里皮尺寸,Parameter,[],里皮尺寸a,[86],"[""shiprag_p086_00102""]",0.85
+Parameter_钢材锈蚀等级,钢材锈蚀等级,Parameter,[],,[30],"[""shiprag_p030_00036""]",0.75
+Parameter_间距1_1_5m,间距1~1.5m,Parameter,[],,[155],"[""shiprag_p155_00178""]",0.9
+Parameter_韶体结构代码,韶体结构代码,Parameter,[],结构编码体系,[31],"[""shiprag_p031_00038""]",0.7
+Parameter_高度,高度,Parameter,[],,[176],"[""shiprag_p176_00205""]",0.6
+Parameter_高度1_1_8m,高度1~1.8m,Parameter,[],,[155],"[""shiprag_p155_00178""]",0.9
+Process_A_4辅助剖面,A-4辅助剖面,Process,[],,[51],"[""shiprag_p051_00062""]",0.85
+Process_A_A剖画线,A-A剖画线,Process,[],辅助剖面线用于测量,[51],"[""shiprag_p051_00062""]",0.8
+Process_一次除锈,一次除锈,Process,[],建造船舶的钢材在原材料阶段消除表面氧化皮、锈蚀及其他污物的工艺过程,[30],"[""shiprag_p030_00036""]",0.86
+Process_三角形展开法,三角形展开法,Process,[],用于展开曲线表面的方法,[188],"[""shiprag_p188_00225""]",0.8
+Process_中性轴肋骨助行型线逆直线,中性轴肋骨助行型线逆直线,Process,[],型材的逆直线弯曲工艺,[62],"[""shiprag_p062_00076""]",0.8
+Process_中桁材,中桁材,Process,[],船体装配工艺过程,[140],"[""shiprag_p140_00160""]",0.825
+Process_中桁材组立,中桁材组立,Process,[],分段装配过程中的工艺步骤,[120],"[""shiprag_p120_00138""]",0.825
+Process_临时加强材安装,临时加强材安装,Process,[],,[103],"[""shiprag_p103_00119""]",0.9
+Process_主视图,主视图,Process,[],用于投影前围壁展开图的参考视图,"[93, 94]","[""shiprag_p093_00109"", ""shiprag_p094_00110""]",0.85
+Process_二次除锈,二次除锈,Process,[],船舶涂装前的表面处理工艺,"[29, 30]","[""shiprag_p029_00035"", ""shiprag_p030_00036""]",0.925
+Process_五级编码,五级编码,Process,[],零件的编码方式,[32],"[""shiprag_p032_00039""]",0.8
+Process_作图法,作图法,Process,[],传统展开方法,[75],"[""shiprag_p075_00091""]",0.9
+Process_侧装装配,侧装装配,Process,[],,[114],"[""shiprag_p114_00131""]",0.875
+Process_修船作业,修船作业,Process,[],船上木质设施、机电设备等不完全拆除的情况下进行的切割、焊接等明火作业,[181],"[""shiprag_p181_00213""]",0.8375
+Process_俯视图,俯视图,Process,[],用于绘制前围壁上下口投影线的参考视图,[93],"[""shiprag_p093_00109""]",0.825
+Process_倾斜剖面,倾斜剖面,Process,[],通过轴心的倾斜剖面,[48],"[""shiprag_p048_00059""]",0.75
+Process_光顺半径曲线,光顺半径曲线,Process,[],在A-A剖面图中作光顺曲线相切于直线BB和曲线α2~α,[50],"[""shiprag_p050_00061""]",0.85
+Process_光顺曲线,光顺曲线,Process,[],连接各点的平滑曲线,[40],"[""shiprag_p040_00050""]",0.775
+Process_全宽甲板展开,全宽甲板展开,Process,[],甲板展开图中横梁位置线对助骨线的偏离值计算,[92],"[""shiprag_p092_00108""]",0.9
+Process_内底板高改线,内底板高改线,Process,[],内底板高改线,[53],"[""shiprag_p053_00065""]",0.85
+Process_冲势计算法,冲势计算法,Process,[],通过几何计算确定助骨位置的方法,[130],"[""shiprag_p130_00148""]",0.8
+Process_分段制造流水线,分段制造流水线,Process,[],焊缝处于平俯位置,[14],"[""shiprag_p014_00015""]",0.75
+Process_分段吊运,分段吊运,Process,[],,[25],"[""shiprag_p025_00029""]",0.9
+Process_分段总装,分段总装,Process,[],,[133],"[""shiprag_p133_00152""]",0.7
+Process_分段涂装,分段涂装,Process,[],,[29],"[""shiprag_p029_00034""]",0.9
+Process_分段装配,分段装配,Process,[],船体建道过程中的一个重要工序,"[23, 29, 112, 146]","[""shiprag_p023_00026"", ""shiprag_p029_00034"", ""shiprag_p112_00129"", ""shiprag_p146_00167""]",0.8778
+Process_分离式装配,分离式装配,Process,[],,[115],"[""shiprag_p115_00132""]",0.8
+Process_制作外板加工样板,制作外板加工样板,Process,[],,[187],"[""shiprag_p187_00224""]",0.8
+Process_助行线舱台中心线肋骨线,助行线舱台中心线肋骨线,Process,[],画船台助骨线直线，作为总装时确定分段基线高度和测量龙骨挠度的依据,[158],"[""shiprag_p158_00182""]",0.82
+Process_单轴出口型线放样,单轴出口型线放样,Process,[],船体放样步骤,[49],"[""shiprag_p049_00060""]",0.825
+Process_双U型剖口,双U型剖口,Process,[],焊接铸钢件的工艺方法,[99],"[""shiprag_p099_00115""]",0.8
+Process_反变形,反变形,Process,[],防止变形的工艺方法,[147],"[""shiprag_p147_00169""]",0.8375
+Process_反装装配,反装装配,Process,[],分段处于倒转位置的装配方式,[113],"[""shiprag_p113_00130""]",0.7875
+Process_号料,号料,Process,[],,[56],"[""shiprag_p056_00069""]",0.8
+Process_吊排,吊排,Process,[],用于吊运甲板分段,[25],"[""shiprag_p025_00029""]",0.825
+Process_后续工序,后续工序,Process,[],,[33],"[""shiprag_p033_00040""]",0.85
+Process_后装分段定位,后装分段定位,Process,[],,[164],"[""shiprag_p164_00190""]",0.775
+Process_四节等径直角弯头,四节等径直角弯头,Process,[],由多节斜截圆管组成的工艺对象,[78],"[""shiprag_p078_00094""]",0.8
+Process_围壁下部修理,围壁下部修理,Process,[],船体修理工艺过程,[189],"[""shiprag_p189_00227""]",0.79
+Process_坞内涂装,坞内涂装,Process,[],水线以下区域的完整性涂装,[29],"[""shiprag_p029_00034""]",0.875
+Process_型线修改,型线修改,Process,[],,[43],"[""shiprag_p043_00053""]",0.8
+Process_型线图,型线图,Process,[],"纵剖线图中的站线,在中站面即10号站线下方面出船中符号效。","[36, 38]","[""shiprag_p036_00044"", ""shiprag_p038_00047""]",0.88
+Process_型线放样,型线放样,Process,[],应满足势和性要求,[63],"[""shiprag_p063_00077""]",0.8
+Process_塔式建造,塔式建造,Process,[],大中型船舶最为常见的船台总装方式,[152],"[""shiprag_p152_00174""]",0.8333
+Process_外板加工样板,外板加工样板,Process,[],用于制作外板的工艺过程,[187],"[""shiprag_p187_00224""]",0.8
+Process_外板局部割换,外板局部割换,Process,[],外板的局部割换工艺,[189],"[""shiprag_p189_00226""]",0.8833
+Process_外板弯曲加工,外板弯曲加工,Process,[],,[58],"[""shiprag_p058_00071""]",0.85
+Process_外板放样,外板放样,Process,[],,[56],"[""shiprag_p056_00069""]",0.8
+Process_大修,大修,Process,[],对船体进行大范围修理，恢复船舶技术状态。,[179],"[""shiprag_p179_00210""]",0.885
+Process_子分段装焊,子分段装焊,Process,[],,[133],"[""shiprag_p133_00152""]",0.9
+Process_实尺放样,实尺放样,Process,[],以1:1比例进行的放样方法,[34],"[""shiprag_p034_00042""]",0.8
+Process_小修,小修,Process,[],按规定周期有计划地修理，消除正常磨损和蚀耗，保证下次计划修理前安全航行。,[179],"[""shiprag_p179_00210""]",0.91
+Process_展并图,展并图,Process,[],展示板材展开的工艺图,[187],"[""shiprag_p187_00223""]",0.825
+Process_展开图,展开图,Process,[],作图法或计算法获得,"[75, 87]","[""shiprag_p075_00091"", ""shiprag_p087_00103""]",0.8375
+Process_展开法,展开法,Process,[],用于求曲线实长的工艺方法,[71],"[""shiprag_p071_00086""]",0.9
+Process_弯曲板材,弯曲板材,Process,[],平直板材通过辊弯/压弯/折弯加工,[84],"[""shiprag_p084_00100""]",0.885
+Process_总合拢,总合拢,Process,[],,[163],"[""shiprag_p163_00189""]",0.9
+Process_悬线锤法,悬线锤法,Process,[],绘制基线的方法之一,[35],"[""shiprag_p035_00043""]",0.8167
+Process_扇形,扇形,Process,[],展开锥面时使用的几何形状工具,[77],"[""shiprag_p077_00093""]",0.775
+Process_扶强材装配,扶强材装配,Process,[],,[103],"[""shiprag_p103_00119""]",0.9
+Process_投影变换,投影变换,Process,[],换面法中的基本操作,[65],"[""shiprag_p065_00079""]",0.825
+Process_折角线,折角线,Process,[],连接折角点形成的光顺曲线,[50],"[""shiprag_p050_00061""]",0.8
+Process_挖补,挖补,Process,[],,[185],"[""shiprag_p185_00220""]",0.8
+Process_换面法,换面法,Process,[],"变换正投影中V,II两个投影面的任何一个,使所求的线或面由原来的一般位置,转变为新的两面体系中的特殊位置而使问题得到解决。","[64, 65, 66, 70, 71]","[""shiprag_p064_00078"", ""shiprag_p065_00079"", ""shiprag_p066_00080"", ""shiprag_p070_00085"", ""shiprag_p071_00086""]",0.8573
+Process_推进器轴出口处型线放样,推进器轴出口处型线放样,Process,[],,[48],"[""shiprag_p048_00058""]",0.85
+Process_插入式装配,插入式装配,Process,[],,[115],"[""shiprag_p115_00132""]",0.8
+Process_放样,放样,Process,[],为加工、装配等后续工序提供施工依据,"[35, 38, 56, 63]","[""shiprag_p035_00043"", ""shiprag_p038_00047"", ""shiprag_p056_00069"", ""shiprag_p063_00077""]",0.85
+Process_数学放样,数学放样,Process,[],替代手工放样的现代船体装配技术,"[34, 60]","[""shiprag_p034_00042"", ""shiprag_p060_00073"", ""shiprag_p060_00074""]",0.8643
+Process_数控切割图,数控切割图,Process,[],加工依据文件,[57],"[""shiprag_p057_00070""]",0.85
+Process_整张外板拆除换新,整张外板拆除换新,Process,[],,[187],"[""shiprag_p187_00223""]",0.85
+Process_斜剖面,斜剖面,Process,[],用于检验型线质量的作图方法,[45],"[""shiprag_p045_00055""]",0.825
+Process_斜底框架装配,斜底框架装配,Process,[],,[134],"[""shiprag_p134_00153""]",0.85
+Process_斜截四棱锥,斜截四棱锥,Process,[],用放射线法展开的工艺过程,[78],"[""shiprag_p078_00094""]",0.9
+Process_施工工艺,施工工艺,Process,[],施工工艺合理性和经济性,[14],"[""shiprag_p014_00015""]",0.75
+Process_板厚处理,板厚处理,Process,[],结构放样时考虑板材厚度影响的过程,"[84, 86]","[""shiprag_p084_00100"", ""shiprag_p086_00102""]",0.885
+Process_框架式装配,框架式装配,Process,[],,[128],"[""shiprag_p128_00146""]",0.7
+Process_梁拱曲线,梁拱曲线,Process,[],肋骨剖面与上甲板型表面的交线,"[38, 47]","[""shiprag_p038_00048"", ""shiprag_p047_00057""]",0.8125
+Process_槐杆总装,槐杆总装,Process,[],,[105],"[""shiprag_p105_00121""]",0.9
+Process_横剖线,横剖线,Process,[],船体分段装配中的工艺过程,"[41, 43]","[""shiprag_p041_00051"", ""shiprag_p043_00053""]",0.8429
+Process_横线,横线,Process,[],,[41],"[""shiprag_p041_00051""]",0.85
+Process_横骨架式结构,横骨架式结构,Process,[],船体结构的一种形式,[13],"[""shiprag_p013_00014""]",0.75
+Process_正装,正装,Process,[],按前者划分的一种分段装配方式,[112],"[""shiprag_p112_00129""]",0.9
+Process_正装装配,正装装配,Process,[],分段处于正立位置的装配方式,[113],"[""shiprag_p113_00130""]",0.8
+Process_比例放样,比例放样,Process,[],上世纪50年代开始采用的放样方法,[34],"[""shiprag_p034_00042""]",0.8333
+Process_水平船台,水平船台,Process,[],,[150],"[""shiprag_p150_00172""]",0.8
+Process_流线型舵,流线型舵,Process,[],船舶的操纵设备,[108],"[""shiprag_p108_00125""]",0.7333
+Process_涂装,涂装,Process,[],船体表面防护工艺,[29],"[""shiprag_p029_00034""]",0.9125
+Process_激光经纬仪法,激光经纬仪法,Process,[],绘制基线的方法之一,[35],"[""shiprag_p035_00043""]",0.85
+Process_球面的分带展开,球面的分带展开,Process,[],沿球的纬线方向将球面分割成若干圈带的工艺过程,[81],"[""shiprag_p081_00097""]",0.8167
+Process_球面的分瓣展开,球面的分瓣展开,Process,[],沿球的经线方向将球面分割为若干瓣的工艺过程,[81],"[""shiprag_p081_00097""]",0.8167
+Process_甲板半立体分段装配,甲板半立体分段装配,Process,[],,[135],"[""shiprag_p135_00154""]",0.95
+Process_甲板和横梁弯曲加工,甲板和横梁弯曲加工,Process,[],,[38],"[""shiprag_p038_00047""]",0.75
+Process_甲板展开图,甲板展开图,Process,[],甲板的近似展开图,[91],"[""shiprag_p091_00107""]",0.7
+Process_直角三角形,直角三角形,Process,[],用于求取线段实长的几何形状,[69],"[""shiprag_p069_00084""]",0.85
+Process_直角三角形法,直角三角形法,Process,[],通过直角三角形计算空间线段实长的几何方法,"[68, 70]","[""shiprag_p068_00083"", ""shiprag_p070_00085""]",0.8667
+Process_相贯线,相贯线,Process,[],辅助切平面法和平面球面法求得的曲线,[73],"[""shiprag_p073_00088""]",0.8433
+Process_碳弧气创,碳弧气创,Process,[],一种金属加工工艺,[27],"[""shiprag_p027_00031""]",0.9125
+Process_碳弧气刨,碳弧气刨,Process,[],利用碳棒与金属电弧熔化后吹除金属的加工工艺,"[26, 27, 28]","[""shiprag_p026_00030"", ""shiprag_p027_00032"", ""shiprag_p028_00033""]",0.8625
+Process_空中翻身,空中翻身,Process,[],分段翻身的一种方式,[23],"[""shiprag_p023_00026""]",0.8667
+Process_空间一般位置直线的实长计算,空间一般位置直线的实长计算,Process,[],,[68],"[""shiprag_p068_00083""]",0.8
+Process_立体框架,立体框架,Process,[],预先装配成立体框架，再和铺进行合找,[100],"[""shiprag_p100_00116""]",0.8167
+Process_素线法,素线法,Process,[],,[74],"[""shiprag_p074_00090""]",0.8
+Process_纵剖线,纵剖线,Process,[],船体分段装配中的工艺过程,[41],"[""shiprag_p041_00051""]",0.85
+Process_纵剖线图,纵剖线图,Process,[],,"[38, 44]","[""shiprag_p038_00047"", ""shiprag_p044_00054""]",0.775
+Process_纵桁和肋板,纵桁和肋板,Process,[],,[126],"[""shiprag_p126_00144""]",0.85
+Process_纵骨架式结构,纵骨架式结构,Process,[],船体结构的一种形式,[13],"[""shiprag_p013_00014""]",0.75
+Process_组立树,组立树,Process,[],,[116],"[""shiprag_p116_00134""]",0.8
+Process_绘制基线,绘制基线,Process,[],,[35],"[""shiprag_p035_00043""]",0.8
+Process_肋骨型值样棒,肋骨型值样棒,Process,[],分别按纵剖线、水线、甲板边线、般墙顶线以及底平线和侧平线，制作各自的高度型值样梯和半宽型值样棒，注明助位号和样棒名称。,[46],"[""shiprag_p046_00056""]",0.8667
+Process_肋骨型值表,肋骨型值表,Process,[],在纵线图和半宽水线图中，用标准钢盘尺量取每号肋骨线与各纵剖线、各水域、甲板边线、眩墙项线交点的高度值和半宽值，分别以表格形式予以记录。,[46],"[""shiprag_p046_00056""]",0.9
+Process_肋骨型线,肋骨型线,Process,[],理论型线图的站线之间插入肋位线求得,[47],"[""shiprag_p047_00057""]",0.825
+Process_肋骨型线图,肋骨型线图,Process,[],船体放样工艺过程,"[33, 46, 51, 88]","[""shiprag_p033_00041"", ""shiprag_p046_00056"", ""shiprag_p051_00063"", ""shiprag_p088_00104""]",0.7944
+Process_肋骨检验线,肋骨检验线,Process,[],在船台中心线上划出的检验肋骨位置的线,[157],"[""shiprag_p157_00181""]",0.82
+Process_胎架,胎架,Process,[],,[107],"[""shiprag_p107_00124""]",0.825
+Process_胎架画线,胎架画线,Process,[],装配基准线,[33],"[""shiprag_p033_00041""]",0.7
+Process_航修,航修,Process,[],利用船舶在港停泊时间进行的一般性修理工程和故障排除，不影响船舶正常营运。,[179],"[""shiprag_p179_00210""]",0.9167
+Process_舰部测量,舰部测量,Process,[],,[12],"[""shiprag_p012_00013""]",0.85
+Process_船体二次除锈,船体二次除锈,Process,[],,[29],"[""shiprag_p029_00035""]",0.825
+Process_船体修理,船体修理,Process,[],消除由海洋环境、外力作用及意外事件造成的船体缺陷，恢复船舶技术状态。,"[179, 187]","[""shiprag_p179_00210"", ""shiprag_p187_00223""]",0.9
+Process_船体分段,船体分段,Process,[],第五章船体分段的装配,[16],"[""shiprag_p016_00017""]",0.625
+Process_船体建造,船体建造,Process,[],船舶制造过程中的分段装配阶段,"[8, 32]","[""shiprag_p008_00008"", ""shiprag_p032_00039""]",0.9267
+Process_船体建道,船体建道,Process,[],,[23],"[""shiprag_p023_00026""]",0.85
+Process_船体总装配,船体总装配,Process,[],船体建造过程中陆上作业的最后阶段,"[150, 165]","[""shiprag_p150_00172"", ""shiprag_p165_00191""]",0.9667
+Process_船体放样,船体放样,Process,[],为后续工序提供各种施工依据,"[5, 33]","[""shiprag_p005_00005"", ""shiprag_p033_00040""]",0.8875
+Process_船体构件凹陷变形,船体构件凹陷变形,Process,[],船舶发生碰撞等意外事故时，船体构件因外力作用而变形,[182],"[""shiprag_p182_00215""]",0.9
+Process_船体装配,船体装配,Process,[],结构的定位、划线和测量都和放样信息密切相关,[5],"[""shiprag_p005_00005""]",0.8167
+Process_船台中心线,船台中心线,Process,[],槽钢上画出的直线，用于确定船舶中心位置,[157],"[""shiprag_p157_00181""]",0.85
+Process_船台中心线图,船台中心线图,Process,[],,[164],"[""shiprag_p164_00190""]",0.75
+Process_船台半宽线,船台半宽线,Process,[],为方便总装时对宽度的测量绘制的线,[157],"[""shiprag_p157_00181""]",0.85
+Process_船台合扰,船台合扰,Process,[],,[178],"[""shiprag_p178_00209""]",0.775
+Process_船台合拢,船台合拢,Process,[],"船台合拢后,船体在长度方向容易产生首尾下垂的弯曲变形",[178],"[""shiprag_p178_00209""]",0.8
+Process_船台合拢工艺,船台合拢工艺,Process,[],,[174],"[""shiprag_p174_00203""]",0.85
+Process_船台定位,船台定位,Process,[],,[174],"[""shiprag_p174_00203""]",0.8
+Process_船台涂装,船台涂装,Process,[],船舶总装结束至下水前的涂装工艺,[29],"[""shiprag_p029_00034""]",0.9
+Process_船舶涂装,船舶涂装,Process,[],在船舶表面上均匀成膜的工艺过程,[28],"[""shiprag_p028_00033""]",0.925
+Process_船舶航修,船舶航修,Process,[],船舶在海上航行时进行的修理作业,[191],"[""shiprag_p191_00229""]",0.8
+Process_落地滚翻,落地滚翻,Process,[],分段翻身的另一种方式,"[23, 24]","[""shiprag_p023_00026"", ""shiprag_p024_00027""]",0.8375
+Process_表面展开,表面展开,Process,[],将几何体表面摊平的操作,[74],"[""shiprag_p074_00090""]",0.8833
+Process_装配过程,装配过程,Process,[],,[141],"[""shiprag_p141_00162""]",0.8
+Process_角尺法,角尺法,Process,[],绘制基线的方法之一,[35],"[""shiprag_p035_00043""]",0.8167
+Process_计算法,计算法,Process,[],计算机辅助展开方法,[75],"[""shiprag_p075_00091""]",0.9
+Process_贴补,贴补,Process,[],,[185],"[""shiprag_p185_00220""]",0.85
+Process_辅助切平面法,辅助切平面法,Process,[],通过设辅助平面求相贯线的方法,[73],"[""shiprag_p073_00088""]",0.875
+Process_辅助平面法,辅助平面法,Process,[],求相贯线的方法,[72],"[""shiprag_p072_00087""]",0.7825
+Process_辅助球面法,辅助球面法,Process,[],通过设辅助球面求相贯线的方法,[73],"[""shiprag_p073_00088""]",0.89
+Process_近似展开,近似展开,Process,[],将不可展曲面近似转化为可展曲面展开的方法,[80],"[""shiprag_p080_00096""]",0.9
+Process_长助距,长助距,Process,[],,[89],"[""shiprag_p089_00105""]",0.9
+Process_集装箱船,集装箱船,Process,[],TE二甲板和FR175所属的船舶类型,[17],"[""shiprag_p017_00018""]",0.7667
+Process_顶边舱装配,顶边舱装配,Process,[],,[134],"[""shiprag_p134_00153""]",0.825
+Process_预处理流水线,预处理流水线,Process,[],钢材预处理流水线,[30],"[""shiprag_p030_00037""]",0.85
+ProcessObject_202_402半立体分段,202~402半立体分段,ProcessObject,[],半立体结构分段,[161],"[""shiprag_p161_00186""]",0.85
+ProcessObject_206侧分段,206侧分段,ProcessObject,[],船体侧分段,[161],"[""shiprag_p161_00186""]",0.8625
+ProcessObject_406甲板分段,406甲板分段,ProcessObject,[],甲板分段,[161],"[""shiprag_p161_00186""]",0.9
+ProcessObject_D型分段,D型分段,ProcessObject,[],船体分段中的工艺对象,[15],"[""shiprag_p015_00016""]",0.85
+ProcessObject_FR175,FR175,ProcessObject,[],某多用途集装箱船的分段代码,[17],"[""shiprag_p017_00018""]",0.8333
+ProcessObject_F型分段,F型分段,ProcessObject,[],船体分段中的工艺对象,[15],"[""shiprag_p015_00016""]",0.85
+ProcessObject_H面,H面,ProcessObject,[],,[64],"[""shiprag_p064_00078""]",0.65
+ProcessObject_N型分段,N型分段,ProcessObject,[],船体分段中的工艺对象,[15],"[""shiprag_p015_00016""]",0.85
+ProcessObject_P型分段,P型分段,ProcessObject,[],船体分段中的工艺对象,[15],"[""shiprag_p015_00016""]",0.8
+ProcessObject_TE二甲板16918,TE二甲板16918,ProcessObject,[],某多用途集装箱船的分段代码,[17],"[""shiprag_p017_00018""]",0.8333
+ProcessObject_V面,V面,ProcessObject,[],,[64],"[""shiprag_p064_00078""]",0.65
+ProcessObject_一般位置平面,一般位置平面,ProcessObject,[],空间平面,[66],"[""shiprag_p066_00080""]",0.8
+ProcessObject_上层建筑分段,上层建筑分段,ProcessObject,[],"上层建筑分段的船台合找,除满足一般的结构装配要求外,应格外注意外壁线型的平整光顺和整体外形的美观",[178],"[""shiprag_p178_00209""]",0.9
+ProcessObject_上层建筑段代码,上层建筑段代码,ProcessObject,[],图1-11中的分上层建筑段代码即为五码位分段代码,[21],"[""shiprag_p021_00024""]",0.7
+ProcessObject_上甲板甲板外板,上甲板甲板外板,ProcessObject,[],船体分段中的工艺对象,[15],"[""shiprag_p015_00016""]",0.85
+ProcessObject_下甲板,下甲板,ProcessObject,[],船体分段中的工艺对象,"[15, 170, 171]","[""shiprag_p015_00016"", ""shiprag_p170_00197"", ""shiprag_p171_00199""]",0.81
+ProcessObject_与船体型表面的交线,与船体型表面的交线,ProcessObject,[],,[63],"[""shiprag_p063_00077""]",0.9
+ProcessObject_中小型船舶,中小型船舶,ProcessObject,[],,[151],"[""shiprag_p151_00173""]",0.95
+ProcessObject_中段,中段,ProcessObject,[],船体中段结构,[99],"[""shiprag_p099_00115""]",0.85
+ProcessObject_中级船体装配工工艺学,中级船体装配工工艺学,ProcessObject,[],主要供船厂中级船体装配工培训和自学使用,[5],"[""shiprag_p005_00005""]",0.9
+ProcessObject_中级装配工,中级装配工,ProcessObject,[],,[33],"[""shiprag_p033_00041""]",0.9
+ProcessObject_为加工_装配等后续工序提供施工依据,为加工、装配等后续工序提供施工依据,ProcessObject,[],,[63],"[""shiprag_p063_00077""]",0.85
+ProcessObject_主甲板分段,主甲板分段,ProcessObject,[],船体分段装配的工艺对象,[160],"[""shiprag_p160_00185""]",0.6833
+ProcessObject_主视图,主视图,ProcessObject,[],,[94],"[""shiprag_p094_00110""]",0.7
+ProcessObject_侧分段,侧分段,ProcessObject,[],主船体划分的一种结构单元,"[13, 170]","[""shiprag_p013_00014"", ""shiprag_p170_00197""]",0.8417
+ProcessObject_倾斜前围壁,倾斜前围壁,ProcessObject,[],船体结构部件,[94],"[""shiprag_p094_00110""]",0.85
+ProcessObject_倾斜船台,倾斜船台,ProcessObject,[],用于测量船舶总长的船台,[32],"[""shiprag_p032_00039""]",0.8
+ProcessObject_假舱壁,假舱壁,ProcessObject,[],用于总装时临时加强分段的结构,[157],"[""shiprag_p157_00180""]",0.75
+ProcessObject_偏心方圆接头,偏心方圆接头,ProcessObject,[],过渡接头的一种类型,[79],"[""shiprag_p079_00095""]",0.7833
+ProcessObject_内底板,内底板,ProcessObject,[],"长的80%以上。内底板纵向成水平布置,只在靠近两端时有时呈纵向升高,其横向则有水平、下倾、上倾和折曲等多种。",[90],"[""shiprag_p090_00106""]",0.79
+ProcessObject_几何体和船体构件展开图,几何体和船体构件展开图,ProcessObject,[],,[68],"[""shiprag_p068_00083""]",0.9
+ProcessObject_分段,分段,ProcessObject,[],"船体分段划分图所确定的结构单元,也是船体分段工作图(组立图)中的最后建造单元","[18, 24, 31, 123, 146, 149]","[""shiprag_p018_00020"", ""shiprag_p024_00027"", ""shiprag_p024_00028"", ""shiprag_p031_00038"", ""shiprag_p123_00141"", ""shiprag_p146_00168"", ""shiprag_p149_00171""]",0.8676
+ProcessObject_分段代码,分段代码,ProcessObject,[],表示船体分段名称的符号,[18],"[""shiprag_p018_00019""]",0.9
+ProcessObject_分段变形,分段变形,ProcessObject,[],,[146],"[""shiprag_p146_00168""]",0.7
+ProcessObject_分段平台,分段平台,ProcessObject,[],用于装配柱包板的船体分段基础平台,[143],"[""shiprag_p143_00164""]",0.9
+ProcessObject_分段重心,分段重心,ProcessObject,[],分段的重心位置,[24],"[""shiprag_p024_00028""]",0.85
+ProcessObject_半宽水线图,半宽水线图,ProcessObject,[],用于绘制船体半宽水线的工艺对象,[41],"[""shiprag_p041_00051""]",0.8667
+ProcessObject_双层底分段,双层底分段,ProcessObject,[],以内底板为基面反装的特殊分段,"[113, 116, 120, 147]","[""shiprag_p113_00130"", ""shiprag_p116_00133"", ""shiprag_p116_00134"", ""shiprag_p120_00138"", ""shiprag_p147_00169""]",0.8324
+ProcessObject_双层底子分段,双层底子分段,ProcessObject,[],图5-15为双层底子分段的中组立图,[119],"[""shiprag_p119_00137""]",0.7833
+ProcessObject_双层底框架,双层底框架,ProcessObject,[],尺寸较大的纵横骨架预先装配成立体框架,[100],"[""shiprag_p100_00116""]",0.825
+ProcessObject_双层庭分段,双层庭分段,ProcessObject,[],船舶分段结构,[156],"[""shiprag_p156_00179""]",0.7
+ProcessObject_双斜切支柱式胎架,双斜切支柱式胎架,ProcessObject,[],通过角度调整与第二基面垂直的胎架结构,[125],"[""shiprag_p125_00143""]",0.85
+ProcessObject_双斜切胎架,双斜切胎架,ProcessObject,[],用于船体装配的专用支架,[130],"[""shiprag_p130_00148""]",0.85
+ProcessObject_可展表面,可展表面,ProcessObject,[],可平整摊平时的表面,[75],"[""shiprag_p075_00091""]",0.8
+ProcessObject_可平整摊平,可平整摊平,ProcessObject,[],,[75],"[""shiprag_p075_00091""]",0.8
+ProcessObject_号料依据,号料依据,ProcessObject,[],,[56],"[""shiprag_p056_00069""]",0.8
+ProcessObject_号料草图,号料草图,ProcessObject,[],船体零件号料的依据,[56],"[""shiprag_p056_00069""]",0.6
+ProcessObject_吊排变形分段,吊排变形分段,ProcessObject,[],需通过吊排系统处理的变形分段结构,[26],"[""shiprag_p026_00030""]",0.8
+ProcessObject_四棱锥主视图,四棱锥主视图,ProcessObject,[],,[78],"[""shiprag_p078_00094""]",0.8
+ProcessObject_四节等径直角弯头,四节等径直角弯头,ProcessObject,[],,[78],"[""shiprag_p078_00094""]",0.825
+ProcessObject_圆柱螺旋面,圆柱螺旋面,ProcessObject,[],圆柱面与螺旋线形成的复合曲面,[80],"[""shiprag_p080_00096""]",0.9
+ProcessObject_型值表,型值表,ProcessObject,[],提供站线与各水线、各甲板边线、外板顶线及增项线交点的半宽值和高度值的工艺对象,[38],"[""shiprag_p038_00047""]",0.8667
+ProcessObject_域中底部,域中底部,ProcessObject,[],船体分段装配的起始构件,[161],"[""shiprag_p161_00187""]",0.85
+ProcessObject_基准分段,基准分段,ProcessObject,[],用于吊装顺序的参考分段,"[160, 162]","[""shiprag_p160_00185"", ""shiprag_p162_00188""]",0.7333
+ProcessObject_基准段,基准段,ProcessObject,[],靠近机舱的106舱,[159],"[""shiprag_p159_00184""]",0.9
+ProcessObject_外板子分段,外板子分段,ProcessObject,[],由外板、外板纵骨、横向隔板和时板组成的外板子分段,[135],"[""shiprag_p135_00154""]",0.8875
+ProcessObject_大型和超大型船舶,大型和超大型船舶,ProcessObject,[],,[151],"[""shiprag_p151_00173""]",0.95
+ProcessObject_完工的分段,完工的分段,ProcessObject,[],"需吊出平台或胎架,吊上船台",[23],"[""shiprag_p023_00026""]",0.825
+ProcessObject_干货船,干货船,ProcessObject,[],运输类船舶的一种,[181],"[""shiprag_p181_00214""]",0.8
+ProcessObject_平台或胎架,平台或胎架,ProcessObject,[],,[23],"[""shiprag_p023_00026""]",0.8
+ProcessObject_平台板,平台板,ProcessObject,[],已拼接的板材，铺在胎架上进行定位,[139],"[""shiprag_p139_00159""]",0.8833
+ProcessObject_应满足势和性要求,应满足势和性要求,ProcessObject,[],,[63],"[""shiprag_p063_00077""]",0.8
+ProcessObject_底边舱分段,底边舱分段,ProcessObject,[],船体分段,[132],"[""shiprag_p132_00150""]",0.7833
+ProcessObject_底部分段,底部分段,ProcessObject,[],底部分段距基线高度的测量,"[10, 12, 13, 157, 159, 165, 170, 174]","[""shiprag_p010_00011"", ""shiprag_p012_00013"", ""shiprag_p013_00014"", ""shiprag_p157_00180"", ""shiprag_p159_00184"", ""shiprag_p165_00191"", ""shiprag_p170_00197"", ""shiprag_p174_00202""]",0.8848
+ProcessObject_弯头,弯头,ProcessObject,[],管路连接部件,[79],"[""shiprag_p079_00095""]",0.8833
+ProcessObject_总段,总段,ProcessObject,[],具有完整横剖面的环形封闭分段,[18],"[""shiprag_p018_00020""]",0.9
+ProcessObject_总段基线,总段基线,ProcessObject,[],总段装配时的基准线,[173],"[""shiprag_p173_00201""]",0.88
+ProcessObject_总装场所,总装场所,ProcessObject,[],,[153],"[""shiprag_p153_00175""]",0.9
+ProcessObject_折角线,折角线,ProcessObject,[],,[91],"[""shiprag_p091_00107""]",0.8
+ProcessObject_挖补,挖补,ProcessObject,[],,[185],"[""shiprag_p185_00220""]",0.85
+ProcessObject_斜截圆柱上口半圆周实长,斜截圆柱上口半圆周实长,ProcessObject,[],,[71],"[""shiprag_p071_00086""]",0.9
+ProcessObject_斜截圆柱面,斜截圆柱面,ProcessObject,[],需要展开的圆柱面,[76],"[""shiprag_p076_00092""]",0.875
+ProcessObject_斜截圆锥,斜截圆锥,ProcessObject,[],工艺对象，指需要展开的锥形结构,[77],"[""shiprag_p077_00093""]",0.85
+ProcessObject_斜截圆锥面,斜截圆锥面,ProcessObject,[],需要展开的圆锥面,[76],"[""shiprag_p076_00092""]",0.875
+ProcessObject_斜截线,斜截线,ProcessObject,[],,[77],"[""shiprag_p077_00093""]",0.8
+ProcessObject_新投影面,新投影面,ProcessObject,[],换面法中设立的投影面,[65],"[""shiprag_p065_00079""]",0.85
+ProcessObject_曲纹表面,曲纹表面,ProcessObject,[],由曲线母线形成,[75],"[""shiprag_p075_00091""]",0.85
+ProcessObject_曲线实长,曲线实长,ProcessObject,[],,[71],"[""shiprag_p071_00086""]",0.9
+ProcessObject_曲线母线,曲线母线,ProcessObject,[],,[75],"[""shiprag_p075_00091""]",0.85
+ProcessObject_机整底分段,机整底分段,ProcessObject,[],机整底分段,[16],"[""shiprag_p016_00017""]",0.65
+ProcessObject_机舱匙例分段,机舱匙例分段,ProcessObject,[],机舱匙例分段,[16],"[""shiprag_p016_00017""]",0.65
+ProcessObject_机舱半立体分段,机舱半立体分段,ProcessObject,[],机舱区的半立体结构分段,[161],"[""shiprag_p161_00186""]",0.8667
+ProcessObject_板在胎上定位,板在胎上定位,ProcessObject,[],,[122],"[""shiprag_p122_00140""]",0.9
+ProcessObject_构架,构架,ProcessObject,[],船体分段装配的基础结构,[133],"[""shiprag_p133_00151""]",0.7833
+ProcessObject_枪杆,枪杆,ProcessObject,[],装配工艺对象,[106],"[""shiprag_p106_00122""]",0.9
+ProcessObject_梁横曲线,梁横曲线,ProcessObject,[],,[51],"[""shiprag_p051_00063""]",0.85
+ProcessObject_模板式胎架,模板式胎架,ProcessObject,[],,[60],"[""shiprag_p060_00074""]",0.875
+ProcessObject_横舱壁分段,横舱壁分段,ProcessObject,[],508~515各横舱壁分段,[159],"[""shiprag_p159_00184""]",0.85
+ProcessObject_横舱整分段,横舱整分段,ProcessObject,[],,[160],"[""shiprag_p160_00185""]",0.6
+ProcessObject_正螺旋叶片,正螺旋叶片,ProcessObject,[],圆柱螺旋输送机的主要部件,[82],"[""shiprag_p082_00098""]",0.8333
+ProcessObject_水平船台,水平船台,ProcessObject,[],适用于建造5000吨以下的中小型船舶的工艺对象,[151],"[""shiprag_p151_00173""]",0.95
+ProcessObject_油船,油船,ProcessObject,[],运输类船舶的一种,[181],"[""shiprag_p181_00214""]",0.8
+ProcessObject_活络样板,活络样板,ProcessObject,[],用于调制弹簧钢带的船体装配工具,[60],"[""shiprag_p060_00073""]",0.8833
+ProcessObject_流线型能能叶,流线型能能叶,ProcessObject,[],舵杆中心线示的结构,[109],"[""shiprag_p109_00126""]",0.7833
+ProcessObject_烟窗,烟窗,ProcessObject,[],船舶上层建筑部件,"[106, 107]","[""shiprag_p106_00122"", ""shiprag_p107_00124""]",0.88
+ProcessObject_烟窗下端,烟窗下端,ProcessObject,[],,[107],"[""shiprag_p107_00124""]",0.775
+ProcessObject_煤油试验,煤油试验,ProcessObject,[],,[185],"[""shiprag_p185_00220""]",0.8
+ProcessObject_球面,球面,ProcessObject,[],三维几何体表面,[80],"[""shiprag_p080_00096""]",0.9
+ProcessObject_理论横剖线图,理论横剖线图,ProcessObject,[],,[45],"[""shiprag_p045_00055""]",0.8
+ProcessObject_甲板,甲板,ProcessObject,[],船体构件,"[33, 170]","[""shiprag_p033_00041"", ""shiprag_p170_00198""]",0.85
+ProcessObject_甲板一子分段,甲板一子分段,ProcessObject,[],船体分段中的工艺对象,[15],"[""shiprag_p015_00016""]",0.8
+ProcessObject_甲板分段,甲板分段,ProcessObject,[],主船体划分的一种结构单元,"[13, 25, 157]","[""shiprag_p013_00014"", ""shiprag_p025_00029"", ""shiprag_p157_00180""]",0.87
+ProcessObject_甲板半立体分段,甲板半立体分段,ProcessObject,[],某集装箱船货舱区域第四甲板和内底板之间的甲板半立体分段,[135],"[""shiprag_p135_00154""]",0.95
+ProcessObject_甲板平台,甲板平台,ProcessObject,[],,[134],"[""shiprag_p134_00153""]",0.8
+ProcessObject_直流电机反接极,直流电机反接极,ProcessObject,[],,[27],"[""shiprag_p027_00032""]",0.85
+ProcessObject_直纹表面,直纹表面,ProcessObject,[],由直线母线形成,[75],"[""shiprag_p075_00091""]",0.85
+ProcessObject_直线母线,直线母线,ProcessObject,[],,[75],"[""shiprag_p075_00091""]",0.85
+ProcessObject_相贯体,相贯体,ProcessObject,[],相交几何体的装配体,[74],"[""shiprag_p074_00090""]",0.95
+ProcessObject_相贯线,相贯线,ProcessObject,[],,[71],"[""shiprag_p071_00086""]",0.85
+ProcessObject_空间几何问题,空间几何问题,ProcessObject,[],,[64],"[""shiprag_p064_00078""]",0.9
+ProcessObject_立体分段,立体分段,ProcessObject,[],封闭或半封闭的分段，由舱壁等子分段组成,[113],"[""shiprag_p113_00130""]",0.875
+ProcessObject_等半径圆弧倾斜前围壁,等半径圆弧倾斜前围壁,ProcessObject,[],上下方甲板有相同的脊弧和梁拱的船体结构,[93],"[""shiprag_p093_00109""]",0.9
+ProcessObject_组合件,组合件,ProcessObject,[],"由若干个部件和零件经过两次或多次装配焊接,但未最后形成分段的结构单元",[18],"[""shiprag_p018_00020""]",0.875
+ProcessObject_组立树,组立树,ProcessObject,[],结构装配单元划分和从属关系的工具,[116],"[""shiprag_p116_00134""]",0.85
+ProcessObject_肋骨型线图,肋骨型线图,ProcessObject,[],肋骨型线图的投影点,"[91, 187]","[""shiprag_p091_00107"", ""shiprag_p187_00223""]",0.7833
+ProcessObject_肋骨型线图样,肋骨型线图样,ProcessObject,[],船体放样后提供的施工依据,[56],"[""shiprag_p056_00069""]",0.7
+ProcessObject_肘板,肘板,ProcessObject,[],,[13],"[""shiprag_p013_00014""]",0.8
+ProcessObject_胎板,胎板,ProcessObject,[],用于装配船体结构的平台,"[99, 136]","[""shiprag_p099_00115"", ""shiprag_p136_00156""]",0.87
+ProcessObject_胎架,胎架,ProcessObject,[],用于船体装配的支撑平台,"[99, 102, 106, 107, 129, 136, 149]","[""shiprag_p099_00115"", ""shiprag_p102_00118"", ""shiprag_p106_00122"", ""shiprag_p107_00124"", ""shiprag_p129_00147"", ""shiprag_p136_00156"", ""shiprag_p149_00171""]",0.825
+ProcessObject_胎架基面,胎架基面,ProcessObject,[],舰柱装配时的支撑结构,"[98, 123]","[""shiprag_p098_00114"", ""shiprag_p123_00141""]",0.85
+ProcessObject_自行式作业车,自行式作业车,ProcessObject,[],可移动作业平台,[155],"[""shiprag_p155_00178""]",0.8
+ProcessObject_航侧级桁,航侧级桁,ProcessObject,[],展开的垂线,[89],"[""shiprag_p089_00105""]",0.85
+ProcessObject_舰侧分段,舰侧分段,ProcessObject,[],206般侧分段,[159],"[""shiprag_p159_00184""]",0.825
+ProcessObject_舰柱分段,舰柱分段,ProcessObject,[],图4-3所示的I、II、III段和V、И段作为部件先行装配的舰柱部件,[97],"[""shiprag_p097_00113""]",0.8667
+ProcessObject_舰段,舰段,ProcessObject,[],船舶分段结构,[174],"[""shiprag_p174_00203""]",0.8333
+ProcessObject_舰部中段,舰部中段,ProcessObject,[],,[139],"[""shiprag_p139_00159""]",0.8
+ProcessObject_舱壁分段,舱壁分段,ProcessObject,[],主船体划分的一种结构单元,[13],"[""shiprag_p013_00014""]",0.9
+ProcessObject_舵叶,舵叶,ProcessObject,[],,[109],"[""shiprag_p109_00126""]",0.75
+ProcessObject_舷侧分段,舷侧分段,ProcessObject,[],船体侧部分段结构,"[157, 169, 170]","[""shiprag_p157_00180"", ""shiprag_p169_00196"", ""shiprag_p170_00198""]",0.8071
+ProcessObject_船中处,船中处,ProcessObject,[],船舶中部区域,[38],"[""shiprag_p038_00048""]",0.8
+ProcessObject_船体,船体,ProcessObject,[],船舶的主要结构部分,"[29, 180]","[""shiprag_p029_00034"", ""shiprag_p029_00035"", ""shiprag_p180_00211""]",0.85
+ProcessObject_船体分段,船体分段,ProcessObject,[],,[136],"[""shiprag_p136_00155""]",0.75
+ProcessObject_船体结构,船体结构,ProcessObject,[],船体结构受到弯曲、扭转和惯性力的作用,[180],"[""shiprag_p180_00211""]",0.8
+ProcessObject_船体结构代码,船体结构代码,ProcessObject,[],表示船体零件名称、属性、特征和工艺流程的符号,[18],"[""shiprag_p018_00019""]",0.82
+ProcessObject_船厂,船厂,ProcessObject,[],,[32],"[""shiprag_p032_00039""]",0.7
+ProcessObject_船台中心线图,船台中心线图,ProcessObject,[],,[164],"[""shiprag_p164_00190""]",0.85
+ProcessObject_船楼甲板分段,船楼甲板分段,ProcessObject,[],船楼甲板分段,[16],"[""shiprag_p016_00017""]",0.65
+ProcessObject_船舶,船舶,ProcessObject,[],,[156],"[""shiprag_p156_00179""]",0.8
+ProcessObject_表面相交线,表面相交线,ProcessObject,[],,[71],"[""shiprag_p071_00086""]",0.85
+ProcessObject_货慰航测立体分段,货慰航测立体分段,ProcessObject,[],货慰航测立体分段,[16],"[""shiprag_p016_00017""]",0.65
+ProcessObject_货舱甲板分段,货舱甲板分段,ProcessObject,[],货舱甲板分段,[16],"[""shiprag_p016_00017""]",0.65
+ProcessObject_货舱边底分段,货舱边底分段,ProcessObject,[],货舱边底分段,[16],"[""shiprag_p016_00017""]",0.65
+ProcessObject_货舱边庭分段,货舱边庭分段,ProcessObject,[],货舱边庭分段,[16],"[""shiprag_p016_00017""]",0.65
+ProcessObject_贴补,贴补,ProcessObject,[],,[185],"[""shiprag_p185_00220""]",0.9
+ProcessObject_过渡接头,过渡接头,ProcessObject,[],管路变口或变径处的过渡连接部件,[79],"[""shiprag_p079_00095""]",0.8667
+ProcessObject_运输类船舶,运输类船舶,ProcessObject,[],,[181],"[""shiprag_p181_00214""]",0.8
+ProcessObject_逆直线,逆直线,ProcessObject,[],,[60],"[""shiprag_p060_00073""]",0.95
+ProcessObject_通用支柱式胎架,通用支柱式胎架,ProcessObject,[],船厂广泛使用的胎架类型,"[60, 125]","[""shiprag_p060_00074"", ""shiprag_p125_00143""]",0.88
+ProcessObject_造船坞,造船坞,ProcessObject,[],"通常为浅均,适用于大型和超大型船舶建造的工艺对象",[151],"[""shiprag_p151_00173""]",0.95
+ProcessObject_钢材,钢材,ProcessObject,[],,[30],"[""shiprag_p030_00036""]",0.9
+ProcessObject_钢材预处理流水线,钢材预处理流水线,ProcessObject,[],,[30],"[""shiprag_p030_00036""]",0.9
+ProcessObject_钻孔,钻孔,ProcessObject,[],,[185],"[""shiprag_p185_00220""]",0.85
+ProcessObject_面在平直型钢上的一条直线,面在平直型钢上的一条直线,ProcessObject,[],,[63],"[""shiprag_p063_00077""]",0.9
+ProcessObject_驾驶甲板机舱棚顶,驾驶甲板机舱棚顶,ProcessObject,[],,[106],"[""shiprag_p106_00122""]",0.85
+ProcessObject_高度标杆,高度标杆,ProcessObject,[],船台两侧设置的用于画高度线的基准结构,[159],"[""shiprag_p159_00183""]",0.894
+ProcessObject_龙骨墩,龙骨墩,ProcessObject,[],总装阶段船体和分段的支承装置,[155],"[""shiprag_p155_00178""]",0.91
+QualityRequirement_1_2板厚处,1/2板厚处,QualityRequirement,[],,[85],"[""shiprag_p085_00101""]",0.95
+QualityRequirement_II类航区,II类航区,QualityRequirement,[],船体构件厚度允许蚀耗的最大极限,[181],"[""shiprag_p181_00214""]",0.8
+QualityRequirement_I类航区,I类航区,QualityRequirement,[],船体构件厚度允许蚀耗的极限最小,[181],"[""shiprag_p181_00214""]",0.8
+QualityRequirement_中性层位置,中性层位置,QualityRequirement,[],弯曲板材的中性层位置与其相对弯曲半径r/t有关,[85],"[""shiprag_p085_00101""]",0.925
+QualityRequirement_二次除锈率,二次除锈率,QualityRequirement,[],分段二次除锈的工作量,[30],"[""shiprag_p030_00036"", ""shiprag_p030_00037""]",0.7875
+QualityRequirement_交船,交船,QualityRequirement,[],,[29],"[""shiprag_p029_00034""]",0.85
+QualityRequirement_仪器水平度校准,仪器水平度校准,QualityRequirement,[],,[8],"[""shiprag_p008_00008""]",0.97
+QualityRequirement_保证船舶安全航行,保证船舶安全航行,QualityRequirement,[],,[179],"[""shiprag_p179_00210""]",0.9
+QualityRequirement_光顺过渡,光顺过渡,QualityRequirement,[],,[177],"[""shiprag_p177_00208""]",0.75
+QualityRequirement_加工依据,加工依据,QualityRequirement,[],,[57],"[""shiprag_p057_00070""]",0.85
+QualityRequirement_加强分段的刚性,加强分段的刚性,QualityRequirement,[],,[26],"[""shiprag_p026_00030""]",0.9
+QualityRequirement_国内沿海航区,国内沿海航区,QualityRequirement,[],90°以东及南纬10°以北的我国近海海域,[181],"[""shiprag_p181_00214""]",0.8
+QualityRequirement_型线改动需求,型线改动需求,QualityRequirement,[],,[44],"[""shiprag_p044_00054""]",0.85
+QualityRequirement_基线高度,基线高度,QualityRequirement,[],,[12],"[""shiprag_p012_00013""]",0.9
+QualityRequirement_实形,实形,QualityRequirement,[],物体的实际形状,[66],"[""shiprag_p066_00080""]",0.8
+QualityRequirement_展开图,展开图,QualityRequirement,[],,[74],"[""shiprag_p074_00090""]",0.9
+QualityRequirement_崩部,崩部,QualityRequirement,[],"51,52***59为崩部,由第一货舱前舱壁向首排序",[21],"[""shiprag_p021_00024""]",0.675
+QualityRequirement_平整光滑的表面,平整光滑的表面,QualityRequirement,[],,[62],"[""shiprag_p062_00076""]",0.75
+QualityRequirement_弯曲板材的中性层位置,弯曲板材的中性层位置,QualityRequirement,[],,[85],"[""shiprag_p085_00101""]",0.9
+QualityRequirement_折角弯板的展开长度,折角弯板的展开长度,QualityRequirement,[],,[85],"[""shiprag_p085_00101""]",0.85
+QualityRequirement_损坏情况评估,损坏情况评估,QualityRequirement,[],,[191],"[""shiprag_p191_00229""]",0.7
+QualityRequirement_控制焊接变形,控制焊接变形,QualityRequirement,[],,[165],"[""shiprag_p165_00191""]",0.8
+QualityRequirement_推行壳销涂一体化,推行壳销涂一体化,QualityRequirement,[],,[18],"[""shiprag_p018_00019""]",0.8
+QualityRequirement_提高设计效率,提高设计效率,QualityRequirement,[],,[18],"[""shiprag_p018_00019""]",0.8
+QualityRequirement_机舱区,机舱区,QualityRequirement,[],"31,32-39为机舱区,由机舱前舱壁向尾排序",[21],"[""shiprag_p021_00024""]",0.775
+QualityRequirement_测量孔周围的毛刺,测量孔周围的毛刺,QualityRequirement,[],测量前需清除的缺陷,[183],"[""shiprag_p183_00217""]",0.825
+QualityRequirement_涂装工作量,涂装工作量,QualityRequirement,[],,[29],"[""shiprag_p029_00035""]",0.9
+QualityRequirement_涂装成本,涂装成本,QualityRequirement,[],,[29],"[""shiprag_p029_00034""]",0.9
+QualityRequirement_漆膜保护,漆膜保护,QualityRequirement,[],施工中保护漆膜的措施,[32],"[""shiprag_p032_00039""]",0.7
+QualityRequirement_相贯线,相贯线,QualityRequirement,[],两个几何形体相交时形成的表面相交线,[71],"[""shiprag_p071_00086""]",0.85
+QualityRequirement_简化图面,简化图面,QualityRequirement,[],,[18],"[""shiprag_p018_00019""]",0.8
+QualityRequirement_管路变口或变径处,管路变口或变径处,QualityRequirement,[],,[79],"[""shiprag_p079_00095""]",0.9
+QualityRequirement_纵横构件垂直于基面,纵横构件垂直于基面,QualityRequirement,[],,[122],"[""shiprag_p122_00140""]",0.85
+QualityRequirement_组织造船生产,组织造船生产,QualityRequirement,[],,[18],"[""shiprag_p018_00019""]",0.8
+QualityRequirement_维持船舶安全正常航行,维持船舶安全正常航行,QualityRequirement,[],,[179],"[""shiprag_p179_00210""]",0.9
+QualityRequirement_自动焊缝质量,自动焊缝质量,QualityRequirement,[],,[123],"[""shiprag_p123_00141""]",0.75
+QualityRequirement_舰柱强度要求,舰柱强度要求,QualityRequirement,[],,[98],"[""shiprag_p098_00114""]",0.85
+QualityRequirement_舰部,舰部,QualityRequirement,[],"41,42-49为舰部,由机舱后舱壁向尾排序",[21],"[""shiprag_p021_00024""]",0.725
+QualityRequirement_船体分段工作图,船体分段工作图,QualityRequirement,[],,[18],"[""shiprag_p018_00020""]",0.8
+QualityRequirement_船台反变形,船台反变形,QualityRequirement,[],,[152],"[""shiprag_p152_00174""]",0.8
+QualityRequirement_船舶批部外侧,船舶批部外侧,QualityRequirement,[],,[53],"[""shiprag_p053_00065""]",0.9
+QualityRequirement_装焊质量,装焊质量,QualityRequirement,[],,[14],"[""shiprag_p014_00015""]",0.8
+QualityRequirement_货舱区,货舱区,QualityRequirement,[],"1,2-29为货舱区域,由机舱前舱壁向首排序",[21],"[""shiprag_p021_00024""]",0.825
+QualityRequirement_钢材锈蚀等级,钢材锈蚀等级,QualityRequirement,[],"钢材锈蚀按其由轻到重分A,B,C三级",[30],"[""shiprag_p030_00037""]",0.85
+QualityRequirement_铅垂状态,铅垂状态,QualityRequirement,[],高度标杆为便于测量需保持的垂直状态,[159],"[""shiprag_p159_00183""]",0.86
+QualityRequirement_间隙大小,间隙大小,QualityRequirement,[],,[165],"[""shiprag_p165_00191""]",0.75
+QualityRequirement_零件标记,零件标记,QualityRequirement,[],,[57],"[""shiprag_p057_00070""]",0.9
+QualityRequirement_预处理质量,预处理质量,QualityRequirement,[],,[30],"[""shiprag_p030_00036""]",0.8
+StandardSafety_H面,H面,StandardSafety,[],投影面之一,[66],"[""shiprag_p066_00080""]",0.875
+StandardSafety_V面,V面,StandardSafety,[],投影面之一,[66],"[""shiprag_p066_00080""]",0.875
+StandardSafety_正切胎架,正切胎架,StandardSafety,[],,[122],"[""shiprag_p122_00140""]",0.85
+StandardSafety_海洋工业大气环境,海洋工业大气环境,StandardSafety,[],船厂所处的大气环境类型,[30],"[""shiprag_p030_00037""]",0.775
+StandardSafety_第二胎架基面,第二胎架基面,StandardSafety,[],,[131],"[""shiprag_p131_00149""]",0.7
+StandardSafety_表列标准,表列标准,StandardSafety,[],,[183],"[""shiprag_p183_00216""]",0.7
+ToolEquipment_下水装置,下水装置,ToolEquipment,[],用于船舶下水的设备,[156],"[""shiprag_p156_00179""]",0.8
+ToolEquipment_专用器厚工具,专用器厚工具,ToolEquipment,[],,[184],"[""shiprag_p184_00218""]",0.7
+ToolEquipment_临时支撑,临时支撑,ToolEquipment,[],装配时使用的临时固定装置,[141],"[""shiprag_p141_00161""]",0.7
+ToolEquipment_光学对点,光学对点,ToolEquipment,[],用于对准基准点的设备,[8],"[""shiprag_p008_00009""]",0.775
+ToolEquipment_制动扳手,制动扳手,ToolEquipment,[],"制动扳手和微动螺旋用于固定仪器和望远镜或对其进行微调,控制其在水平和竖直面内的转动",[9],"[""shiprag_p009_00010""]",0.8
+ToolEquipment_半宽和高度样棒,半宽和高度样棒,ToolEquipment,[],,[38],"[""shiprag_p038_00047""]",0.8
+ToolEquipment_卷尺,卷尺,ToolEquipment,[],测量工具,[11],"[""shiprag_p011_00012""]",0.85
+ToolEquipment_压条,压条,ToolEquipment,[],,[43],"[""shiprag_p043_00053""]",0.8
+ToolEquipment_压缩空气,压缩空气,ToolEquipment,[],碳弧气刨使用的工具设备,[27],"[""shiprag_p027_00031""]",0.9
+ToolEquipment_双角度水准尺,双角度水准尺,ToolEquipment,[],,[131],"[""shiprag_p131_00149""]",0.9
+ToolEquipment_反光镜,反光镜,ToolEquipment,[],反光镜能将光线反射进仪器内以照亮水平度盘,[10],"[""shiprag_p010_00011""]",0.9
+ToolEquipment_反变形胎板,反变形胎板,ToolEquipment,[],用于控制焊接变形的型钢连接装置,[97],"[""shiprag_p097_00113""]",0.775
+ToolEquipment_可调支柱,可调支柱,ToolEquipment,[],用于调整胎架高度的装置,[125],"[""shiprag_p125_00143""]",0.8
+ToolEquipment_吊索,吊索,ToolEquipment,[],用于吊运分段的绳索,"[24, 25]","[""shiprag_p024_00028"", ""shiprag_p025_00029""]",0.875
+ToolEquipment_吊车,吊车,ToolEquipment,[],用于分段吊运的工具设备,[24],"[""shiprag_p024_00027""]",0.9
+ToolEquipment_圆水准器,圆水准器,ToolEquipment,[],用于判断仪器是否放平的设备,[8],"[""shiprag_p008_00009""]",0.85
+ToolEquipment_平台,平台,ToolEquipment,[],子分段装配的支撑结构,[116],"[""shiprag_p116_00133""]",0.85
+ToolEquipment_平台或胎架,平台或胎架,ToolEquipment,[],,[116],"[""shiprag_p116_00133""]",0.9
+ToolEquipment_底板胎架,底板胎架,ToolEquipment,[],分段是在底板胎架上正装的,[119],"[""shiprag_p119_00137""]",0.75
+ToolEquipment_微光经纬仪,微光经纬仪,ToolEquipment,[],在斜船台上用微光经纬仪测量底部分段距基线高度的操作见图1-4,"[10, 158]","[""shiprag_p010_00011"", ""shiprag_p158_00182""]",0.8
+ToolEquipment_微动螺旋,微动螺旋,ToolEquipment,[],"制动扳手和微动螺旋用于固定仪器和望远镜或对其进行微调,控制其在水平和竖直面内的转动",[9],"[""shiprag_p009_00010""]",0.8
+ToolEquipment_抛丸,抛丸,ToolEquipment,[],,[30],"[""shiprag_p030_00036""]",0.8
+ToolEquipment_望远镜,望远镜,ToolEquipment,[],用于观察目标的工具,"[8, 9]","[""shiprag_p008_00009"", ""shiprag_p009_00010""]",0.8329
+ToolEquipment_木质三角样板,木质三角样板,ToolEquipment,[],传统外板弯曲加工工具,[58],"[""shiprag_p058_00071""]",0.9
+ToolEquipment_木质样条,木质样条,ToolEquipment,[],用于绘制曲线的工具,[187],"[""shiprag_p187_00223""]",0.775
+ToolEquipment_松紧螺,松紧螺,ToolEquipment,[],用于固定舱壁与底部分段,[166],"[""shiprag_p166_00193""]",0.85
+ToolEquipment_松紧螺丝,松紧螺丝,ToolEquipment,[],用于调整甲板位置的工具,"[137, 168, 171, 172]","[""shiprag_p137_00157"", ""shiprag_p168_00195"", ""shiprag_p171_00199"", ""shiprag_p172_00200""]",0.7812
+ToolEquipment_样条,样条,ToolEquipment,[],用于检查线型的工具,[187],"[""shiprag_p187_00224""]",0.85
+ToolEquipment_样棒,样棒,ToolEquipment,[],,[47],"[""shiprag_p047_00057""]",0.7333
+ToolEquipment_样棒A,样棒A,ToolEquipment,[],,[51],"[""shiprag_p051_00062""]",0.8
+ToolEquipment_桑拱样板,桑拱样板,ToolEquipment,[],测量工具,[57],"[""shiprag_p057_00070""]",0.8
+ToolEquipment_梁拱样板,梁拱样板,ToolEquipment,[],,"[38, 48]","[""shiprag_p038_00047"", ""shiprag_p048_00058""]",0.78
+ToolEquipment_梳状马板,梳状马板,ToolEquipment,[],控制焊接变形的辅助工具,[165],"[""shiprag_p165_00191""]",0.825
+ToolEquipment_水平,水平,ToolEquipment,[],测量工具,[11],"[""shiprag_p011_00012""]",0.8
+ToolEquipment_水平和竖直度盘,水平和竖直度盘,ToolEquipment,[],水平和竖直度盘用于测量和反映视准轴的水平角和竖直角,[9],"[""shiprag_p009_00010""]",0.8
+ToolEquipment_水平软管,水平软管,ToolEquipment,[],用于在胎板上画出水平线的工具,"[11, 136, 158, 169, 174]","[""shiprag_p011_00012"", ""shiprag_p136_00156"", ""shiprag_p158_00182"", ""shiprag_p169_00196"", ""shiprag_p174_00202""]",0.8444
+ToolEquipment_水平软管本尺,水平软管本尺,ToolEquipment,[],用于测量的工具,[175],"[""shiprag_p175_00204""]",0.8
+ToolEquipment_活络支柱胎架,活络支柱胎架,ToolEquipment,[],用于甲板半立体分段装配的胎架,[135],"[""shiprag_p135_00154""]",0.925
+ToolEquipment_活络样板,活络样板,ToolEquipment,[],手工放样时用于外板弯曲加工的木质三角样板现已被铝质活络样板所取代,[58],"[""shiprag_p058_00071""]",0.8167
+ToolEquipment_激光束,激光束,ToolEquipment,[],由激光器射出的光束,[8],"[""shiprag_p008_00009""]",0.8
+ToolEquipment_激光经纬仪,激光经纬仪,ToolEquipment,[],精密光学测量仪器,"[8, 9, 12, 35, 36, 134, 136, 157, 159, 167, 173, 174]","[""shiprag_p008_00008"", ""shiprag_p009_00010"", ""shiprag_p012_00013"", ""shiprag_p035_00043"", ""shiprag_p036_00044"", ""shiprag_p134_00153"", ""shiprag_p136_00156"", ""shiprag_p157_00181"", ""shiprag_p159_00183"", ""shiprag_p167_00194"", ""shiprag_p173_00201"", ""shiprag_p174_00202"", ""shiprag_p174_00203""]",0.8733
+ToolEquipment_电焊,电焊,ToolEquipment,[],,[183],"[""shiprag_p183_00217""]",0.85
+ToolEquipment_直流焊机,直流焊机,ToolEquipment,[],,[26],"[""shiprag_p026_00030""]",0.8
+ToolEquipment_短样棒,短样棒,ToolEquipment,[],用于录取各站梁拱高度的工具,[40],"[""shiprag_p040_00050""]",0.825
+ToolEquipment_碳弧气刨,碳弧气刨,ToolEquipment,[],船体建造中用于切割或修复的工具,[32],"[""shiprag_p032_00039""]",0.8
+ToolEquipment_碳强气刨,碳强气刨,ToolEquipment,[],,[31],"[""shiprag_p031_00038""]",0.7
+ToolEquipment_碳棒,碳棒,ToolEquipment,[],碳弧气刨工具,"[27, 28]","[""shiprag_p027_00032"", ""shiprag_p028_00033""]",0.8625
+ToolEquipment_移船设备,移船设备,ToolEquipment,[],用于移动船舶的设备,[156],"[""shiprag_p156_00179""]",0.8
+ToolEquipment_线锤,线锤,ToolEquipment,[],测量工具,"[11, 35, 97, 133]","[""shiprag_p011_00012"", ""shiprag_p035_00043"", ""shiprag_p097_00113"", ""shiprag_p133_00151""]",0.8071
+ToolEquipment_经纬仪,经纬仪,ToolEquipment,[],经纬仪是精密的光学仪器,"[10, 31]","[""shiprag_p010_00011"", ""shiprag_p031_00038""]",0.7778
+ToolEquipment_肋骨型线台,肋骨型线台,ToolEquipment,[],配合活络样板使用的1:1比例工具,[58],"[""shiprag_p058_00071""]",0.75
+ToolEquipment_肋骨样条,肋骨样条,ToolEquipment,[],用于制作外板加工样板的工具,[187],"[""shiprag_p187_00224""]",0.8
+ToolEquipment_胎架,胎架,ToolEquipment,[],胎架,"[53, 96, 97, 102, 104, 113, 116, 147]","[""shiprag_p053_00065"", ""shiprag_p096_00112"", ""shiprag_p097_00113"", ""shiprag_p102_00118"", ""shiprag_p104_00120"", ""shiprag_p113_00130"", ""shiprag_p116_00133"", ""shiprag_p147_00169""]",0.8263
+ToolEquipment_脚螺旋,脚螺旋,ToolEquipment,[],用于调整仪器基面水平的工具,[8],"[""shiprag_p008_00009""]",0.875
+ToolEquipment_荡线锤,荡线锤,ToolEquipment,[],,"[167, 168]","[""shiprag_p167_00194"", ""shiprag_p168_00195""]",0.7
+ToolEquipment_葫芦,葫芦,ToolEquipment,[],,[138],"[""shiprag_p138_00158""]",0.6
+ToolEquipment_角尺,角尺,ToolEquipment,[],角尺法中用于投点的工具,[35],"[""shiprag_p035_00043""]",0.8
+ToolEquipment_读数显微镜,读数显微镜,ToolEquipment,[],"转动读数显微镜的目镜,以使刻线尽量清晰",[10],"[""shiprag_p010_00011""]",0.9
+ToolEquipment_起重机,起重机,ToolEquipment,[],船厂用于吊装的设备,[32],"[""shiprag_p032_00039""]",0.7
+ToolEquipment_辅助平面,辅助平面,ToolEquipment,[],用于求相贯线的平面,[72],"[""shiprag_p072_00087""]",0.8
+ToolEquipment_酸洗,酸洗,ToolEquipment,[],,[30],"[""shiprag_p030_00036""]",0.8
+ToolEquipment_钢丝,钢丝,ToolEquipment,[],,[129],"[""shiprag_p129_00147""]",0.7
+ToolEquipment_钢卷尺,钢卷尺,ToolEquipment,[],,[38],"[""shiprag_p038_00047""]",0.85
+ToolEquipment_钢盘尺,钢盘尺,ToolEquipment,[],,[46],"[""shiprag_p046_00056""]",0.9
+ToolEquipment_钢索,钢索,ToolEquipment,[],分段吊运的重要属具,[25],"[""shiprag_p025_00029""]",0.9
+ToolEquipment_铝质活络样板,铝质活络样板,ToolEquipment,[],取代木质样板的铝制工具,[58],"[""shiprag_p058_00071""]",0.9
+ToolEquipment_防倾马板,防倾马板,ToolEquipment,[],用于防止构件倾覆的工具,[126],"[""shiprag_p126_00144""]",0.8
+ToolEquipment_高压水,高压水,ToolEquipment,[],用于清除船体表面杂质的设备,[29],"[""shiprag_p029_00035""]",0.775
+ToolEquipment_高度标杆,高度标杆,ToolEquipment,[],测量分段高度的辅助工具,[169],"[""shiprag_p169_00196""]",0.75
+ToolEquipment_龙骨墩止滑器,龙骨墩止滑器,ToolEquipment,[],用于防止船舶移动的设备,[156],"[""shiprag_p156_00179""]",0.7

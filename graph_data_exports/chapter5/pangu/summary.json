@@ -1,0 +1,97 @@
+{
+  "raw_rows": 31,
+  "entities": 205,
+  "relations": 257,
+  "isolated_entities": 27,
+  "entity_type_counts": {
+    "Chapter": 33,
+    "Component": 29,
+    "Defect": 8,
+    "Measurement": 2,
+    "Operation": 22,
+    "Parameter": 10,
+    "Process": 26,
+    "ProcessObject": 52,
+    "QualityRequirement": 7,
+    "StandardSafety": 1,
+    "ToolEquipment": 15
+  },
+  "relation_type_counts": {
+    "assembled_with": 12,
+    "belongs_to": 5,
+    "causes": 3,
+    "checks": 1,
+    "composed_of": 4,
+    "contains": 182,
+    "controls": 3,
+    "located_at": 5,
+    "measures": 2,
+    "operates_on": 4,
+    "precedes": 12,
+    "provides_basis_for": 2,
+    "used_for": 5,
+    "uses_tool": 17
+  },
+  "top_connected_entities": [
+    {
+      "id": "Chapter_第五章船体分段的装配",
+      "degree": 25
+    },
+    {
+      "id": "Chapter_4_装配方式按构架装配顺序或结构单元分类",
+      "degree": 24
+    },
+    {
+      "id": "Process_分段装配",
+      "degree": 10
+    },
+    {
+      "id": "Chapter_1_分段工作图",
+      "degree": 10
+    },
+    {
+      "id": "ProcessObject_双层底分段",
+      "degree": 9
+    },
+    {
+      "id": "Defect_焊接变形",
+      "degree": 9
+    },
+    {
+      "id": "Chapter_3_分段装配相关数据",
+      "degree": 9
+    },
+    {
+      "id": "Chapter_3_装配方式按分段位置状态分类",
+      "degree": 9
+    },
+    {
+      "id": "Chapter_4_装纵桁和肋板",
+      "degree": 9
+    },
+    {
+      "id": "Chapter_表5_2分段局部变形精度标准",
+      "degree": 8
+    },
+    {
+      "id": "Component_肋板",
+      "degree": 7
+    },
+    {
+      "id": "ToolEquipment_胎架",
+      "degree": 7
+    },
+    {
+      "id": "Chapter_第五节舷侧分段的装配",
+      "degree": 7
+    },
+    {
+      "id": "ProcessObject_分段",
+      "degree": 6
+    },
+    {
+      "id": "Process_子分段装配",
+      "degree": 6
+    }
+  ]
+}

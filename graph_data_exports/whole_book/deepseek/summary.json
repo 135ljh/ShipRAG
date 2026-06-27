@@ -1,0 +1,120 @@
+{
+  "raw_rows": 569,
+  "entities": 830,
+  "relations": 1450,
+  "isolated_entities": 0,
+  "top_connected_entities": [
+    {
+      "id": "Chapter_第五章",
+      "degree": 181
+    },
+    {
+      "id": "Chapter_第二章舟",
+      "degree": 169
+    },
+    {
+      "id": "Chapter_第六章",
+      "degree": 164
+    },
+    {
+      "id": "Chapter_第五章船体分段的装配",
+      "degree": 133
+    },
+    {
+      "id": "Chapter_第七章船体修理",
+      "degree": 103
+    },
+    {
+      "id": "Chapter_第三章",
+      "degree": 102
+    },
+    {
+      "id": "Chapter_第四章",
+      "degree": 78
+    },
+    {
+      "id": "ProcessObject_分段",
+      "degree": 32
+    },
+    {
+      "id": "ToolEquipment_激光经纬仪",
+      "degree": 22
+    },
+    {
+      "id": "ToolEquipment_胎架",
+      "degree": 16
+    },
+    {
+      "id": "Component_外板",
+      "degree": 16
+    },
+    {
+      "id": "ProcessObject_底部分段",
+      "degree": 13
+    },
+    {
+      "id": "Component_甲板",
+      "degree": 13
+    },
+    {
+      "id": "Operation_定位焊",
+      "degree": 11
+    },
+    {
+      "id": "ToolEquipment_线锤",
+      "degree": 11
+    },
+    {
+      "id": "Process_碳弧气刨",
+      "degree": 11
+    },
+    {
+      "id": "ProcessObject_侧分段",
+      "degree": 10
+    },
+    {
+      "id": "Component_内底板",
+      "degree": 10
+    },
+    {
+      "id": "ToolEquipment_松紧螺丝",
+      "degree": 10
+    },
+    {
+      "id": "Component_肋板",
+      "degree": 9
+    }
+  ],
+  "relation_type_counts": {
+    "assembled_with": 27,
+    "belongs_to": 36,
+    "causes": 15,
+    "checks": 3,
+    "composed_of": 50,
+    "contains": 973,
+    "controls": 22,
+    "follows": 1,
+    "located_at": 31,
+    "measures": 12,
+    "operates_on": 62,
+    "precedes": 15,
+    "provides_basis_for": 22,
+    "repairs": 4,
+    "used_for": 105,
+    "uses_tool": 72
+  },
+  "entity_type_counts": {
+    "Chapter": 9,
+    "Component": 149,
+    "Defect": 29,
+    "Material": 5,
+    "Measurement": 109,
+    "Operation": 125,
+    "Parameter": 42,
+    "Process": 108,
+    "ProcessObject": 143,
+    "QualityRequirement": 10,
+    "StandardSafety": 2,
+    "ToolEquipment": 99
+  }
+}
